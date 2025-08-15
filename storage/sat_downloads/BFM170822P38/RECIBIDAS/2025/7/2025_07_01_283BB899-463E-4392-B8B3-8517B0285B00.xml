@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Exportacion="01" Fecha="2025-07-01T12:58:49" Folio="436" FormaPago="04" LugarExpedicion="06600" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000511598661" Sello="CqNQAdYLZftmKuX0OlWWBvlnNnACxf0fYeTO++h5S3y5HqkPJtBrJJt8aFwutSWJL9N8V9ZP6UdJ89nyt2ovgrlD9VBGrsELXsU4zEf19EEeLjRcHyFJtN9CHN0zYBlRiXRXHxf6LvQBGX5Aoa5SSpPpGk5EA8Z+r+4iA5zNfY3NhlYaAz/u9AhqbVhm94+cJdpVTthB+84bJnATznzWo1cCrw1cV174uEUI9l+Dts+7aF2c8TwdSX2r6c6z6hHSbwQWvKMuAFeOO0c7jzKNDa/tCz1wjm/RhgBeot22tGUjv1E6KjK/JcnZbNbPAbf7bCfHJu8d/uP8bZ4cFee4VQ==" Serie="BFBF" SubTotal="5920.22" TipoDeComprobante="I" Total="6763.13" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd">
+  <cfdi:Emisor Nombre="OPERADORA PRISSA" RegimenFiscal="601" Rfc="OPR920708QQ8" />
+  <cfdi:Receptor DomicilioFiscalReceptor="06600" Nombre="BOT FINANCE MEXICO" RegimenFiscalReceptor="601" Rfc="BFM170822P38" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="13.00" ClaveProdServ="01010101" ClaveUnidad="H87" Descripcion="COMENSAL" Importe="0.112068" ObjetoImp="02" Unidad="UNI" ValorUnitario="0.008621">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="0.112068" Importe="0.01793" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="VTN 3 V CASA MADERO 750 ML T2, T3" Importe="430.172414" ObjetoImp="02" Unidad="BOT" ValorUnitario="430.172414">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="430.172414" Importe="68.827586" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="VBE NANIT ORANGE ORGANIC 750 ML" Importe="327.586207" ObjetoImp="02" Unidad="BOT" ValorUnitario="327.586207">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="327.586207" Importe="52.413793" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="VTE CAP DE PERA TINTO 750 ML T2 Y T3" Importe="337.931034" ObjetoImp="02" Unidad="BOT" ValorUnitario="337.931034">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="337.931034" Importe="54.068965" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="VBN MONTE XANIC CHARDONNAY 750 ML B3" Importe="525.862069" ObjetoImp="02" Unidad="BOT" ValorUnitario="525.862069">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="525.862069" Importe="84.137931" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="VTN CASA MADERO SHIRAZ 750 ML T2, T3" Importe="430.172414" ObjetoImp="02" Unidad="BOT" ValorUnitario="430.172414">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="430.172414" Importe="68.827586" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="BAR AGUA CIEL 600 ML" Importe="60.344828" ObjetoImp="02" Unidad="PZA" ValorUnitario="30.172414">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="60.344828" Importe="9.655172" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="BAR REFRESCO" Importe="38.793103" ObjetoImp="02" Unidad="PZA" ValorUnitario="38.793103">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="38.793103" Importe="6.206896" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="BAR LIMONADA O NARANJADA 300 ML" Importe="68.965517" ObjetoImp="02" Unidad="PZA" ValorUnitario="34.482759">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="68.965517" Importe="11.034482" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="BAR CASA DEL AGUA MINERAL 355 ML" Importe="60.344828" ObjetoImp="02" Unidad="PZA" ValorUnitario="60.344828">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="60.344828" Importe="9.655172" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="BAR COPA TEQ DON JULIO REPOSADO" Importe="120.689655" ObjetoImp="02" Unidad="PZA" ValorUnitario="120.689655">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="120.689655" Importe="19.310344" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="BAR CERVEZA MODELO ESPECIAL 355 ML" Importe="112.068966" ObjetoImp="02" Unidad="PZA" ValorUnitario="56.034483">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="112.068966" Importe="17.931034" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="BAR CERVEZA NEGRA MODELO 355 ML" Importe="60.344828" ObjetoImp="02" Unidad="PZA" ValorUnitario="60.344828">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="60.344828" Importe="9.655172" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="3.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="BAR CERVEZA NEGRA MODELO 355 ML" Importe="181.034483" ObjetoImp="02" Unidad="PZA" ValorUnitario="60.344828">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="181.034483" Importe="28.965517" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="6.00" ClaveProdServ="50202200" ClaveUnidad="H87" Descripcion="BAR CARAJILLO 45 ML" Importe="620.689655" ObjetoImp="02" Unidad="PZA" ValorUnitario="103.448276">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="620.689655" Importe="99.310344" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50192700" ClaveUnidad="H87" Descripcion="COM TABLA DE PINCHOS 8 PZ" Importe="620.689655" ObjetoImp="02" Unidad="PZA" ValorUnitario="310.344828">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="620.689655" Importe="99.310344" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50192700" ClaveUnidad="H87" Descripcion="COM PAPAS BRAVAS 310 GR" Importe="155.172414" ObjetoImp="02" Unidad="PZA" ValorUnitario="77.586207">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="155.172414" Importe="24.827586" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50192700" ClaveUnidad="H87" Descripcion="COM CROQUETAS J. SERRANO 8 PZ" Importe="222.413793" ObjetoImp="02" Unidad="PZA" ValorUnitario="111.206897">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="222.413793" Importe="35.586206" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50192700" ClaveUnidad="H87" Descripcion="COM ENSALADA DEL BOSQUE" Importe="222.413793" ObjetoImp="02" Unidad="PZA" ValorUnitario="111.206897">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="222.413793" Importe="35.586206" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50192700" ClaveUnidad="H87" Descripcion="COM TACOS DE RIB EYE 3 PZAS 200 GR" Importe="310.344828" ObjetoImp="02" Unidad="PZA" ValorUnitario="155.172414">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="310.344828" Importe="49.655172" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50192700" ClaveUnidad="H87" Descripcion="COM TACOS DE ARRACHERA ORD. 3 PZ 200 GR" Importe="362.068966" ObjetoImp="02" Unidad="PZA" ValorUnitario="181.034483">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="362.068966" Importe="57.931034" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="50192700" ClaveUnidad="H87" Descripcion="COM GAONERAS 3 PZAS 150 GR" Importe="340.000000" ObjetoImp="02" Unidad="PZA" ValorUnitario="170.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="340.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="6.00" ClaveProdServ="50192700" ClaveUnidad="H87" Descripcion="COM PINCHO DE JAMON SERRANO 1 PZ" Importe="312.000000" ObjetoImp="02" Unidad="PZA" ValorUnitario="52.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="312.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="842.91">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="652.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa" />
+      <cfdi:Traslado Base="5268.22" Importe="842.91" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2025-07-02T11:58:51" NoCertificadoSAT="00001000000712418445" RfcProvCertif="CCC1007293K0" SelloCFD="CqNQAdYLZftmKuX0OlWWBvlnNnACxf0fYeTO++h5S3y5HqkPJtBrJJt8aFwutSWJL9N8V9ZP6UdJ89nyt2ovgrlD9VBGrsELXsU4zEf19EEeLjRcHyFJtN9CHN0zYBlRiXRXHxf6LvQBGX5Aoa5SSpPpGk5EA8Z+r+4iA5zNfY3NhlYaAz/u9AhqbVhm94+cJdpVTthB+84bJnATznzWo1cCrw1cV174uEUI9l+Dts+7aF2c8TwdSX2r6c6z6hHSbwQWvKMuAFeOO0c7jzKNDa/tCz1wjm/RhgBeot22tGUjv1E6KjK/JcnZbNbPAbf7bCfHJu8d/uP8bZ4cFee4VQ==" SelloSAT="dR4GAI1OTDX5KvJnOB1UHnUO/U2j4/E6KXu++U/uMse+tn7gRL0rvt6HXfRFS7ACH+qzWIjwBiZYNc5c3lvKmvKM3DB00Ogps5B2rhgdV++AU7mcdRKcLnVsL2t6WjyxvNNy6HkrFnKddiYXe030FWTzTk4NUo6x5qYqVzyOXymt373c2pLAQne6z4wdk+5a1eEfi+s/Y8C3xxFTN47Bt9QuSMfCIsBPAEIb/nOwQR5UCwCSo4Dr4djVR6nlAVx35X8G2WUs3Nt6azuzJKGay7K4oN3oip4IuFkkXDYQwTJZYnoLNRJeOer6MXvJmgUCvVBW7MiDD8rQsO9znWkeBQ==" UUID="283bb899-463e-4392-b8b3-8517b0285b00" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" /></cfdi:Complemento></cfdi:Comprobante>

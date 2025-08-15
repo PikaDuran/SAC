@@ -1,0 +1,440 @@
+.sidebar .sidebar-nav a > i.fa-solid,
+.sidebar .sidebar-nav i.fa-solid {
+    margin-right: 16px !important;
+    min-width: 18px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    font-size: 1.15em !important;
+    display: inline-block !important;
+}
+.sidebar .sidebar-nav a > i.fa-solid,
+.sidebar .sidebar-nav i.fa-solid {
+    margin-right: 16px !important;
+    min-width: 18px;
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 1.15em;
+    display: inline-block !important;
+}
+.sidebar .sidebar-nav a > i.fa-solid,
+.sidebar .sidebar-nav i.fa-solid {
+    margin-right: 16px !important;
+    min-width: 18px;
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 1.15em;
+    display: inline-block;
+}
+/* Espaciado entre iconos y texto en el sidebar */
+.sidebar-nav i.fa-solid {
+    margin-right: 16px;
+    min-width: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+/* ESTILOS GLOBALES PARA MÓDULOS SAC */
+
+/* CONTENEDORES DE MÓDULOS */
+.module-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #d0d7de;
+    max-width: none;
+    margin-bottom: 20px;
+}
+
+/* TOOLBAR COMPACTO */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d0d7de;
+}
+
+.toolbar h2 {
+    color: #24292f;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.toolbar-actions {
+    display: flex;
+    gap: 8px;
+}
+
+/* BOTONES COMPACTOS */
+.btn-primary {
+    background: #0969da;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-primary:hover {
+    background: #0550ae;
+}
+
+.btn-secondary {
+    background: #ffffff;
+    color: #24292f;
+    padding: 8px 16px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.btn-secondary:hover {
+    background: #f6f8fa;
+    border-color: #8c959f;
+}
+
+.btn-danger {
+    background: #d73a49;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.btn-danger:hover {
+    background: #b31d28;
+}
+
+/* GRUPOS DE INPUT COMPACTOS */
+.input-group {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #24292f;
+    font-size: 14px;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #ffffff;
+    transition: all 0.15s ease;
+    font-family: inherit;
+}
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #0969da;
+    box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.12);
+}
+
+.input-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* FILTROS COMPACTOS */
+.filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filters input,
+.filters select {
+    min-width: 160px;
+    padding: 6px 12px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.filters input::placeholder {
+    color: #656d76;
+}
+
+/* TABLAS COMPACTAS */
+.table-container {
+    overflow-x: auto;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    background: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+table thead {
+    background: #f6f8fa;
+}
+
+table th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    color: #24292f;
+    border-bottom: 1px solid #d0d7de;
+    white-space: nowrap;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #f6f8fa;
+    color: #24292f;
+}
+
+table tbody tr {
+    transition: all 0.15s ease;
+}
+
+table tbody tr:hover {
+    background: #f6f8fa;
+}
+
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* BADGES Y ESTADOS */
+.badge {
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-active {
+    background: #d1f7d1;
+    color: #0f5132;
+}
+
+.badge-inactive {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.badge-pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.badge-approved {
+    background: #d1f7d1;
+    color: #0f5132;
+}
+
+.badge-rejected {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* MODALES COMPACTOS */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 4, 9, 0.8);
+}
+
+.modal.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: modalFadeIn 0.2s ease-out;
+}
+
+.modal-content {
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #d0d7de;
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: modalSlideIn 0.2s ease-out;
+}
+
+.modal-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid #d0d7de;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f6f8fa;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: #24292f;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #656d76;
+    padding: 4px;
+    transition: all 0.15s ease;
+}
+
+.close:hover {
+    color: #24292f;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-actions {
+    padding: 16px 20px;
+    border-top: 1px solid #d0d7de;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    background: #f6f8fa;
+}
+
+/* GRID DE FORMULARIOS */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+/* LOADING Y ESTADOS */
+.loading-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0969da;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: #656d76;
+}
+
+.empty-state-icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+    opacity: 0.6;
+}
+
+.empty-state h3 {
+    margin-bottom: 6px;
+    color: #24292f;
+    font-size: 16px;
+}
+
+/* ANIMACIONES */
+@keyframes modalFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .toolbar {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+    }
+    
+    .filters {
+        flex-direction: column;
+    }
+    
+    .filters input,
+    .filters select {
+        min-width: auto;
+    }
+    
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 20px;
+    }
+    
+    .modal-header,
+    .modal-body,
+    .modal-actions {
+        padding: 16px;
+    }
+    
+    table {
+        font-size: 12px;
+    }
+    
+    table th,
+    table td {
+        padding: 8px 6px;
+    }
+}

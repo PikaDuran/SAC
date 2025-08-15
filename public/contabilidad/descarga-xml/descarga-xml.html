@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Descarga XML SAT</title>
+    <link rel="stylesheet" href="descarga-xml.css">
+    <script defer src="descarga-xml.js"></script>
+    <style>
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h1>Solicitudes de Descarga SAT</h1>
+    <table id="tabla-solicitudes">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>RFC</th>
+                <th>Status</th>
+                <th>Estatus Solicitud</th>
+                <th>Mensaje Verificación</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Ejemplo de fila, reemplazar por render dinámico si se requiere -->
+            <tr id="solicitud-row-1">
+                <td>1</td>
+                <td>AAA010101AAA</td>
+                <td class="celda-status">-</td>
+                <td class="celda-estatus">-</td>
+                <td class="celda-mensaje">-</td>
+                <td><button class="btn-verificar-sat" data-id="1">Verificar SAT</button></td>
+            </tr>
+            <!-- Más filas aquí -->
+        </tbody>
+    </table>
+</body>
+</html>

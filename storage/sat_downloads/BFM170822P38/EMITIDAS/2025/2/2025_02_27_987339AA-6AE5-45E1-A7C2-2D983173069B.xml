@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="F" Folio="42304" Fecha="2025-02-27T11:23:17" Sello="RxLqT5sTlMhpl3ByXm0QvQUhUp9ZbSpTIlzcItzagU+QcVxIj0KxV7YFfnxjGCGigpIlD7LXxem4oWBmTmbG9v/ZeCefFfumNjEGLisWZQ8TTfStJvNwNbupjoVo0l+PcF65Wzo4dDUqIKRKpccK7vrJI6ZKY2PNwCiSm+6IWUpXDJGtfVm+W9MmiLwEBeQfIZ1hGkRTumZhnTXa0LLQmBkllTcr9DM1wr64wV8w51SA0lUGPUft/MTPjUskLZwSXKgvz2ibj89r9+UxlOCOC+0q2r3Vs1SHcA6n04dcb96Jc0wmcettBOYPElPJutHR6jDK7ALyW8L3S2et1n0lIA==" FormaPago="99" NoCertificado="00001000000514824895" Certificado="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" SubTotal="3853378.88" Moneda="USD" TipoCambio="20.4683" Total="4469919.50" TipoDeComprobante="I" Exportacion="01" MetodoPago="PPD" LugarExpedicion="06600" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor Rfc="BFM170822P38" Nombre="BOT FINANCE MEXICO" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="SGM120703Q44" Nombre="SANKO GOSEI MEXICO" DomicilioFiscalReceptor="38150" RegimenFiscalReceptor="601" UsoCFDI="I08" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="23151500" NoIdentificacion="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 F10097 DJK MAQUINA DE INYECCION DE PLASTICO Y ACCESORIOS PARA SU BUEN FUNCIONAMIENTO Y MONTAJE UBE MODELO M3500 EM2-470 SISTEMA DE TORNILLO 150 TENSION DE ALIMENTACION DE LA UNIDAD PRINCIPAL 440V/60 HZ NUMERO DE SERIE: 2EM3547225 PEDIMENTO 24 81 3503 4006354 CON ENTRADA AL PAIS EL 18/04/2024" ValorUnitario="1998001" Importe="1998001.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1998001.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="319680.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24101700" NoIdentificacion="24101700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24101700 F10158 DJK ROBOT DE MANIPULACION CON SUS PARTES Y ACCESORIOS PARA UN BUEN FUNCIONAMIENTO GXW-2000VIP PARA IMM 3500TON NUMERO DE SERIE: GX20VIP-0019 PEDIMENTO 24 81 3503 4006348 CON ENTRADA AL PAIS EL 02/05/2024" ValorUnitario="173000" Importe="173000.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="173000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="27680.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" NoIdentificacion="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 F10158 DJK COSTO DE INSTALACION DE MAQUINA M3500 TON" ValorUnitario="9001" Importe="9001.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9001.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1440.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23201200" NoIdentificacion="23201200" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23201200 F10100 DJK ADB-800B-KS (S) SECADOR DE AIRE CALIENTE NUMERO DE SERIE: DA23090082" ValorUnitario="25350" Importe="25350.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="25350.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4056.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24111800" NoIdentificacion="24111800" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24111800 F10100 DJK H-200KS (S) DEPOSITO DE MATERIAL PARA GRANULO NUMERO DE SERIE: HT23090154" ValorUnitario="1690" Importe="1690.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1690.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="270.40" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24111800" NoIdentificacion="24111800" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24111800 F10100 DJK H-50-KS (S) TANQUE DE MATERIAL PARA DESCARGA DEL DETECTOR DE METALES NUMERO DE SERIE: HT23090155" ValorUnitario="910" Importe="910.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="910.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="145.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24101700" NoIdentificacion="24101700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24101700 F10100 DJK AAL-07/15-35C-KS (S) AUTOCARGADOR TANQUE DEL CLIENTE A ADB-800 B NUMERO DE SERIE: LT23090028" ValorUnitario="3900" Importe="3900.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3900.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="624.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24101700" NoIdentificacion="24101700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24101700 F10100 DJK AAL-15/15-35C-KS (S) CARGADOR AUTOMATICO (TRITURADORA A H-200/ADB-800B Y H-200 A SL-48) NUMERO DE SERIE: LT23090027" ValorUnitario="5200" Importe="5200.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5200.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="832.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24101700" NoIdentificacion="24101700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24101700 F10100 DJK SL-48 SELECTOR AUTOMATICO NUMERO DE SERIE: SL23090055" ValorUnitario="1040" Importe="1040.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1040.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="166.40" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23153100" NoIdentificacion="23153100" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23153100 F10100 DJK RC-50 DETECTOR DE METALES NUMERO DE SERIE: 10063074" ValorUnitario="14560" Importe="14560.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14560.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2329.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="41111900" NoIdentificacion="41111900" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="41111900 F10100 DJK KCW-40HL2 UNIDAD DE ENFRIAMIENTO Y CALENTAMIENTO DE MOLDE: NUMERO DE SERIE: SKN7529260" ValorUnitario="123435" Importe="123435.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="123435.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="19749.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="81101600" NoIdentificacion="81101600" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="81101600 F10100 DJK INGENIERIA" ValorUnitario="975" Importe="975.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="975.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="156.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" NoIdentificacion="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 F10100 DJK CARGO DE IMPORTACION" ValorUnitario="40000" Importe="40000.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="40000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="6400.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" NoIdentificacion="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 F10100 DJK INSTACION Y PUESTA EN MARCHA SIN INSTALACION DE ENFRIADORA" ValorUnitario="6001" Importe="6001.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="6001.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="960.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24101700" NoIdentificacion="24101700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24101700 F10098 DJK CARGADOR AUTOMATICO AS-07-KS (S) PARA TRANSPORTE PRIMARIO NUMERO DE SERIE: LM23100006" ValorUnitario="9000" Importe="9000.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1440.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23191000" NoIdentificacion="23191000" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23191000 F10098 DJK WAC-300-KS S MEZCLADORA GRAVIMETRICA WAC-1 NUMERO DE SERIE: BW23100015" ValorUnitario="35630" Importe="35630.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="35630.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5700.80" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="41111900" NoIdentificacion="41111900" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="41111900 F10098 DJK CONTROLADOR DE TEMPERATURA DEL MOLDE TWK-H160 KS S NUMERO DE SERIE: TW23102052" ValorUnitario="10381" Importe="10381.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="10381.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1660.96" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" NoIdentificacion="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 F10105 DJK TRANSPORTE DE MAQUINA DE INYECCION UBE 3500 TON CARGA NACIONAL DE JAPON FLETE MARITIMO" ValorUnitario="175714" Importe="175714.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="175714.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="28114.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" NoIdentificacion="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 F10105 DJK TRANSPORTE PARA MAQUINA DE INYECTORA UBE 3500 TON CARGO NACIONAL DE MEXICO" ValorUnitario="123287" Importe="123287.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="123287.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="19725.92" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" NoIdentificacion="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 F10159 DJK TRANSPORTE INTERNACIONAL" ValorUnitario="97001" Importe="97001.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="97001.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="15520.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24101700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24101700 F10107 DJK MAQUINA MOLDEO UBE 3500 TON TON DESCARGA DESEMBALAJE MONTAJE SEGUN INSTRUCCIONES DEL SUPERVISOR DE UBE" ValorUnitario="133001" Importe="133001.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="133001.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="21280.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" NoIdentificacion="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 F10104 DJK TRANSPORTE PARA STAR SEIKI TAKE OUT ROBOT CARGO NACIONAL DE JAPON FLETE MARITIMO 1 CONTENEDOR" ValorUnitario="7400" Importe="7400.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="7400.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1184.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" NoIdentificacion="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 F10104 DJK TRANSPORTE PARA STAR SEIKI TAKE OUT ROBOT CARGO NACIONAL DE MEXICO" ValorUnitario="8143" Importe="8143.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8143.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1302.88" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="81101600" NoIdentificacion="81101600" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="81101600 F10102 DJK TRABAJOS PRE-ELECTRONICOS TRABAJOS PRE-AGUA TRABAJOS ELECTRICOS TRABAJOS POSTERIORES A AGUA Y TRABAJOS POSTERIORES A AIRE" ValorUnitario="245055.88" Importe="245055.88" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="245055.88" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="39208.94" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24101700" NoIdentificacion="24101700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24101700 F10101 DJK FOSO MAQUINA DE MOLDEO UBE 3500 TON VERTIDO DE LECHADA" ValorUnitario="32501" Importe="32501.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="32501.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5200.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24101700" NoIdentificacion="24101700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24101700 F10121 DJK FOSO PARA CONSTRUCCION DEL ORIFICIO DE ANCLAJE DE LA MAQUINA DE MOLDEO UBE DE 3500 TON" ValorUnitario="219801" Importe="219801.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="219801.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="35168.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="22101800" NoIdentificacion="22101800" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="22101800 F5772 NH INABATA 30TON GRUA VIAJERA 30/15 TON NHG-860" ValorUnitario="309001" Importe="309001.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="309001.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="49440.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="22101800" NoIdentificacion="22101800" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="22101800 F5772 NH INABATA LONG TRAVEL WIRING NH DUCT 4P100A X 137M X 1 SET NHG - 860" ValorUnitario="35700" Importe="35700.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="35700.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5712.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="22101800" NoIdentificacion="22101800" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="22101800 F5772 NH INABATA RUNWAY BEAM INSPECTION X 1 NHG - 860" ValorUnitario="8700" Importe="8700.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8700.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1392.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="616540.62">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="3853378.88" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="616540.62" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="987339AA-6AE5-45E1-A7C2-2D983173069B" FechaTimbrado="2025-02-28T11:23:27" RfcProvCertif="SAT970701NN3" SelloCFD="RxLqT5sTlMhpl3ByXm0QvQUhUp9ZbSpTIlzcItzagU+QcVxIj0KxV7YFfnxjGCGigpIlD7LXxem4oWBmTmbG9v/ZeCefFfumNjEGLisWZQ8TTfStJvNwNbupjoVo0l+PcF65Wzo4dDUqIKRKpccK7vrJI6ZKY2PNwCiSm+6IWUpXDJGtfVm+W9MmiLwEBeQfIZ1hGkRTumZhnTXa0LLQmBkllTcr9DM1wr64wV8w51SA0lUGPUft/MTPjUskLZwSXKgvz2ibj89r9+UxlOCOC+0q2r3Vs1SHcA6n04dcb96Jc0wmcettBOYPElPJutHR6jDK7ALyW8L3S2et1n0lIA==" NoCertificadoSAT="00001000000705250068" SelloSAT="TeLEQSGspXIWII6eezbd23eFRWl9zRfK6+IrSKVDUvw9UT0D7Iw/jQ2XZCnq5BWNg9kDAuIbL7ky5QMS7y4Fwasjjx6lc+9JhB/gYb/k0MhwxPql1mypgTUEKv5ppkFdlgBu3qOIcSBrKBKZZuWKSKppF+8g1Pq9/05varCAYV4Or/879rREkZNNeHtMD79EnaJEY3GO112spt+yyQY6aAnOeiHNFIz9TaGiDRL3+PVqfnsAKmASG5CAZ0yk7DKuzdzrKlrfQGCiwbamyWCLoT93UySZOC8toEme3uzUSXCbwKNalvcGkABrbkUB1nCDpM+PrwqxOKLq+MzNANg7pQ==" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

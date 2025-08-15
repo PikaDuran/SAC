@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGtzCCBJ+gAwIBAgIUMDAwMDEwMDAwMDA3MDg0NDQzMDUwDQYJKoZIhvcNAQELBQAwggGVMTUwMwYDVQQDDCxBQyBERUwgU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxMjAwBgkqhkiG9w0BCQEWI3NlcnZpY2lvc2FsY29udHJpYnV5ZW50ZUBzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMQ0wCwYDVQQIDARDRE1YMRMwEQYDVQQHDApDVUFVSFRFTU9DMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxXDBaBgkqhkiG9w0BCQITTXJlc3BvbnNhYmxlOiBBRE1JTklTVFJBQ0lPTiBDRU5UUkFMIERFIFNFUlZJQ0lPUyBUUklCVVRBUklPUyBBTCBDT05UUklCVVlFTlRFMB4XDTI0MDcwNDIwMDAxNFoXDTI4MDcwNDIwMDAxNFowggFzMUkwRwYDVQQDE0BNVUZHIEJBTksgTUVYSUNPIFNPQ0lFREFEIEFOT05JTUEgSU5TVElUVUNJT04gREUgQkFOQ0EgTVVMVElQTEUgMU8wTQYDVQQpE0ZNVUZHIEJBTksgTUVYSUNPIFNPQ0lFREFEIEFOT05JTUEgSU5TVElUVUNJT04gREUgQkFOQ0EgTVVMVElQTEUgRklMSUFMMUkwRwYDVQQKE0BNVUZHIEJBTksgTUVYSUNPIFNPQ0lFREFEIEFOT05JTUEgSU5TVElUVUNJT04gREUgQkFOQ0EgTVVMVElQTEUgMSUwIwYDVQQtExxCVE05NjA0MDFEVjcgLyBBQVJKNzYwODA5VFYzMR4wHAYDVQQFExUgLyBBQVJKNzYwODA5SE1DTE1OMDgxQzBBBgNVBAsTOk1VRkcgQkFOSyBNRVhJQ08gUy5BLiBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRSBGSUxJQUwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdCbj02JDN81rWT55Ch+jzj76pyYjcjwdOBfdmfiLlxOBObXyRWA3rS3ZKKI2YoFTl2k93DbFkvuS9rgZC8ssWPPQt7giUBEd5nop+qqr8rNT2auYPNE1U+TVoaNlnMT4aEeunCN8Nfx9N9jFt6b6TwjnTGVacITEiyXcxiBHa7Xtkyuo4PZ8ZGwYtaaG3QIX2wXUPx9uTPuYTFbgyQNjeZCVpgBcxGPdtuBptu/x7suX+1RxeL6iRaq92s2UwyT+awbV3wSevz+GUrRg8K55PjxfQGjH1zbPsHANwtVSrqyZf/m3a4gBJFDw7CzB2PloIl7MAl+At8wro1FffJS+FAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBCwUAA4ICAQC7qbfputA40h4NYNX81Csr31ZDFnbVUDaW8lmIr8ka+nkrw8fPGuBuMoDETMSC9Z5KxG39LJk2miIf8FhWZHQx9qLx7Qxci04iTCNG4bYg4ma0ZOYEL0qOKOI0E/PcW9ghLM5Vi9CWoKIEK+3epeF8HDbBFS6a5PjOrTMBJSOSoqj3Ibd1atIrbrt+tC/7OnbFKFQe4F7h7QzjKXTM47+ztbR9NhIiVHVkftZHI9ekEBCNsmkZ8cQnTBWhg5alsQvZqmjrB1CQ7vz0xXf97FXNoj3PAuE+vsdWFUt/UIsQNKaHG389G/Vx5X4ATbAdWL9VHxHKXow3QbVj+WI1tYE0LmmSwru99kUzThw8FPKJf1aL8c3CBCUBl2XVQYdyeoQHGe1foNiafn61IuY0n7zDGN+y20IBpnG3MSjHEzw/F+Ve1gj+dw1v/yflOeUcdG9SC0f+BPma4WK3XbpgyaNwRF2F98IYW/6H6uhL1rr38c66oRchkGvnd+RH8W79YbGRLso0HQA4eqA4ug4uCm4LJG2CTM1S7LpBuER45n3tw7j1OQHxmTV+fpP73YcCMDfBdlLES6XKE2P/GM8s9b0rF0uqkIuNndw69mBXKFO3PyA5k+s6swIj4He3gC7+GPMW1jqMQGcSFGgM0msaKnqmJUDn97GwZ0Wra/TqdJKZxA==" Descuento="0.05" Exportacion="01" Fecha="2025-02-04T11:23:42" Folio="515636320250148401" FormaPago="03" LugarExpedicion="06600" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000708444305" Sello="t461ZJtuGmUY1LPPA8ahPg67lPBSmUAZQeHklaiNIKXOQZifRsJE3+2gy0TbRj32kyZt/FokqeIo320EpwGCMKyT6CFjcvHl0D6VM+Tqlfzv7UcnBIn9O1lYU0RXhbEF4ZmXciW7pNpgHIuEtt7jRf1h7G6vnFGcr/aKXpj6lyvQDV2NqOIJempo3j6/Vj7Nhdzj5bFbfoANbYfHtEcklvIfnXVsotqCK8me2Wf2nnPhS9KRIlqf6U30Po0UJCx6ovfzTDDElq6NZPeZu08npKRD7LPKrbq2M+GktUPHZvX7gKsH/+iRGKR0UIG1ujdkjst9ezC/vcgkvz+sFfybOw==" Serie="A" SubTotal="0.05" TipoCambio="1" TipoDeComprobante="I" Total="0.00" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd">
+    <cfdi:Emisor Nombre="MUFG BANK MEXICO SOCIEDAD ANONIMA INSTITUCION DE BANCA MULTIPLE FILIAL" RegimenFiscal="601" Rfc="BTM960401DV7" />
+    <cfdi:Receptor DomicilioFiscalReceptor="06600" Nombre="BOT LEASE MEXICO" RegimenFiscalReceptor="601" Rfc="BLM1706026AA" UsoCFDI="G03" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="INTERESES DEVENGADOS DEAL LD2436196902" Descuento="0.01" Importe="0.01" ObjetoImp="02" Unidad="UNIDAD DE SERVICIO" ValorUnitario="0.01">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="0.01" Impuesto="002" TipoFactor="Exento" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="INTERESES DEVENGADOS DEAL LD2500226920" Descuento="0.01" Importe="0.01" ObjetoImp="02" Unidad="UNIDAD DE SERVICIO" ValorUnitario="0.01">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="0.01" Impuesto="002" TipoFactor="Exento" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="INTERESES DEVENGADOS DEAL LD2500930216" Descuento="0.01" Importe="0.01" ObjetoImp="02" Unidad="UNIDAD DE SERVICIO" ValorUnitario="0.01">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="0.01" Impuesto="002" TipoFactor="Exento" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="INTERESES DEVENGADOS DEAL LD2501672040" Descuento="0.01" Importe="0.01" ObjetoImp="02" Unidad="UNIDAD DE SERVICIO" ValorUnitario="0.01">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="0.01" Impuesto="002" TipoFactor="Exento" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="INTERESES DEVENGADOS DEAL LD2502315421" Descuento="0.01" Importe="0.01" ObjetoImp="02" Unidad="UNIDAD DE SERVICIO" ValorUnitario="0.01">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="0.01" Impuesto="002" TipoFactor="Exento" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos>
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="0.05" Impuesto="002" TipoFactor="Exento" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="387ABF93-6D2B-43A1-BDC5-C871818F6CCF" SelloCFD="t461ZJtuGmUY1LPPA8ahPg67lPBSmUAZQeHklaiNIKXOQZifRsJE3+2gy0TbRj32kyZt/FokqeIo320EpwGCMKyT6CFjcvHl0D6VM+Tqlfzv7UcnBIn9O1lYU0RXhbEF4ZmXciW7pNpgHIuEtt7jRf1h7G6vnFGcr/aKXpj6lyvQDV2NqOIJempo3j6/Vj7Nhdzj5bFbfoANbYfHtEcklvIfnXVsotqCK8me2Wf2nnPhS9KRIlqf6U30Po0UJCx6ovfzTDDElq6NZPeZu08npKRD7LPKrbq2M+GktUPHZvX7gKsH/+iRGKR0UIG1ujdkjst9ezC/vcgkvz+sFfybOw==" NoCertificadoSAT="00001000000508768672" FechaTimbrado="2025-02-04T11:23:46" SelloSAT="ZudQC6zKJu3rcYUnY24KVHkaBK2MD02ibGiuu29k1HwH4i0thKT4aI734uxVw2Z2k0rxliwATVyI/CguQU4QsOSlXjXlj+ACFNXVH9Y5MujypSEFnUK4dA8H+CZZsXXuY1+txo8XNEatqJrjHCPkFX0bylJ46X4A23d/tBEpsYofEs5bw22mA/C6nGxaGJvFHUEe0ZQrck/3YEW7y2Oh6ZWi/TZdStoxAl8PlI5tbnZfCNM6OmlzdIpNBBZfakzllHo9uBICSTpqdU7LdG3s7K5SOAKVKFjAFQzIHVZmNkKw47cKJYdqPfTK79vH2SDX3/Udd/XtNBe0NttqYmcQcg==" RfcProvCertif="SIF0403229F9" /></cfdi:Complemento>
+</cfdi:Comprobante>

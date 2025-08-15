@@ -1,0 +1,79 @@
+{
+    "name": "phpcfdi/sat-ws-descarga-masiva",
+    "description": "Librería para usar el servicio web del SAT de Descarga Masiva",
+    "keywords": ["sat", "cfdi", "download", "descarga", "webservice"],
+    "homepage": "https://github.com/phpcfdi/sat-ws-descarga-masiva",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cesar Aguilera",
+            "email": "cesargnu29@gmail.com"
+        },
+        {
+            "name": "Carlos C Soto",
+            "email": "eclipxe13@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/phpcfdi/sat-ws-descarga-masiva",
+        "issues": "https://github.com/phpcfdi/sat-ws-descarga-masiva/issues",
+        "chat": "https://discord.gg/aFGYXvX"
+    },
+    "require": {
+        "php": ">=7.3",
+        "ext-openssl": "*",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-zip": "*",
+        "ext-mbstring": "*",
+        "ext-libxml": "*",
+        "phpcfdi/credentials": "^1.1",
+        "phpcfdi/rfc": "^1.1",
+        "eclipxe/enum": "^0.2.0",
+        "eclipxe/micro-catalog": "^0.1.2"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.2.0",
+        "robrichards/xmlseclibs": "^3.1.0",
+        "phpunit/phpunit": "^9.3.5"
+    },
+    "suggest": {
+        "guzzlehttp/guzzle": "To use GuzzleWebClient implementation"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpCfdi\\SatWsDescargaMasiva\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpCfdi\\SatWsDescargaMasiva\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "dev:build": ["@dev:fix-style", "@dev:test"],
+        "dev:check-style": [
+            "@php tools/php-cs-fixer fix --dry-run --verbose",
+            "@php tools/phpcs --colors -sp"
+        ],
+        "dev:fix-style": [
+            "@php tools/php-cs-fixer fix --verbose",
+            "@php tools/phpcbf --colors -sp"
+        ],
+        "dev:test": [
+            "@dev:check-style",
+            "@php vendor/bin/phpunit --testdox --verbose --stop-on-failure",
+            "@php tools/phpstan analyse --no-interaction --no-progress"
+        ],
+        "dev:coverage": [
+            "@php -dzend_extension=xdebug.so -dxdebug.mode=coverage vendor/bin/phpunit --coverage-html build/coverage/html/"
+        ]
+    },
+    "scripts-descriptions": {
+        "dev:build": "DEV: run dev:fix-style and dev:tests, run before pull request",
+        "dev:check-style": "DEV: search for code style errors using php-cs-fixer and phpcs",
+        "dev:fix-style": "DEV: fix code style errors using php-cs-fixer and phpcbf",
+        "dev:test": "DEV: run dev:check-style, phpunit and phpstan",
+        "dev:coverage": "DEV: run phpunit with xdebug and storage coverage in build/coverage/html/"
+    }
+}
