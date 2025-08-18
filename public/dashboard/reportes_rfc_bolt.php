@@ -1,4 +1,9 @@
 <?php
+// Importar clases de PhpSpreadsheet al inicio
+require_once '../../vendor/autoload.php';
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Style\Fill;
 // --- BACKEND AJAX JSON ---
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && !empty($_GET) && !isset($_GET['export'])) {
     // Desactivar warnings y errores para evitar salida accidental
@@ -518,6 +523,111 @@ include '../../src/views/header.php';
     </main>
     <?php
     // --- BACKEND ---
+if (isset($_GET['export_excel'])) {
+    require_once '../../vendor/autoload.php';
+    require_once '../../src/config/database.php';
+    $spreadsheet = new PhpOffice\PhpSpreadsheet\Spreadsheet();
+    $sheet = $spreadsheet->getActiveSheet();
+    $headerStyle = [
+        'font' => [
+            'bold' => true,
+            'color' => ['rgb' => 'FFFFFF']
+        ],
+        'fill' => [
+            'fillType' => PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID,
+            'startColor' => ['rgb' => '0070C0'] // azul Excel
+        ],
+        'alignment' => [
+            'horizontal' => 'center',
+            'vertical' => 'center'
+        ]
+    ];
+    $writer = new PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
+    $rfc = isset($_GET['rfc']) ? $_GET['rfc'] : '';
+    $fecha_inicial = isset($_GET['fecha_inicial']) ? $_GET['fecha_inicial'] : '';
+    $fecha_final = isset($_GET['fecha_final']) ? $_GET['fecha_final'] : '';
+    if ($fecha_inicial) {
+        $fecha_inicial = date('Y-m-d', strtotime($fecha_inicial)) . ' 00:00:00';
+    }
+    if ($fecha_final) {
+        $fecha_final = date('Y-m-d', strtotime($fecha_final)) . ' 23:59:59';
+    }
+    $tipo = isset($_GET['tipo']) ? $_GET['tipo'] : '';
+    $tipo_comprobante = isset($_GET['tipo_comprobante']) ? $_GET['tipo_comprobante'] : '';
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    $sql = "SELECT * FROM cfdi WHERE 1=1";
+    $params = [];
+    if ($rfc) {
+        if ($tipo === 'emitidas') {
+            $sql .= " AND rfc_emisor = ?";
+            $params[] = $rfc;
+        } elseif ($tipo === 'recibidas') {
+            $sql .= " AND rfc_emisor != ?";
+            $params[] = $rfc;
+        }
+    }
+    if ($fecha_inicial) {
+        $sql .= " AND fecha >= ?";
+        $params[] = $fecha_inicial;
+    }
+    if ($fecha_final) {
+        $sql .= " AND fecha <= ?";
+        $params[] = $fecha_final;
+    }
+    if ($tipo_comprobante) {
+        $sql .= " AND tipo = ?";
+        $params[] = $tipo_comprobante;
+    }
+    $stmt = $conn->prepare($sql);
+    if ($params) {
+        $types = str_repeat('s', count($params));
+        $stmt->bind_param($types, ...$params);
+    }
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $rows = [];
+    $headers = [];
+    while ($row = $result->fetch_assoc()) {
+        unset($row['id']); // Eliminar columna ID
+        $rows[] = $row;
+    }
+    if (count($rows) > 0) {
+        $headers = array_keys($rows[0]);
+    }
+    $spreadsheet = new PhpOffice\PhpSpreadsheet\Spreadsheet();
+    $sheet = $spreadsheet->getActiveSheet();
+    foreach ($headers as $i => $header) {
+        $sheet->setCellValueByColumnAndRow($i + 1, 1, $header);
+        $cell = PhpOffice\PhpSpreadsheet\Cell\Coordinate::stringFromColumnIndex($i + 1) . '1';
+        $sheet->getStyle($cell)->applyFromArray([
+            'font' => [
+                'bold' => true,
+                'color' => ['argb' => 'FF000000'] // negro
+            ],
+            'fill' => [
+                'fillType' => PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID,
+                'startColor' => ['argb' => 'FF0070C0'] // azul Excel
+            ],
+            'alignment' => [
+                'horizontal' => PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER,
+                'vertical' => PhpOffice\PhpSpreadsheet\Style\Alignment::VERTICAL_CENTER
+            ]
+        ]);
+    }
+    // Datos
+    foreach ($rows as $r => $row) {
+        foreach ($headers as $c => $header) {
+            $sheet->setCellValueByColumnAndRow($c + 1, $r + 2, $row[$header]);
+        }
+    }
+    $now = date('YmdHi');
+    $filename = "Reporte_CFDI_{$now}.xlsx";
+    header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+    header("Content-Disposition: attachment; filename={$filename}");
+    $writer = new PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
+    $writer->save('php://output');
+    exit;
+}
     if (isset($_GET['export'])) {
         // Exportar CSV
         require_once '../../src/config/database.php';
