@@ -613,6 +613,24 @@ class SatDescargaMasivaService
     }
 
     /**
+     * Obtener ruta de descarga con estructura completa: RFC/EMITIDAS O RECIBIDAS/anio/mes/
+     * 
+     * @param string $rfc RFC del contribuyente
+     * @param string $tipoDocumento 'Emitidas' o 'Recibidas'
+     * @param string|null $year Año (opcional, usa año actual si no se especifica)
+     * @param string|null $month Mes (opcional, usa mes actual si no se especifica)
+     * @return string Ruta completa del directorio
+     */
+    public function obtenerRutaDescargaCompleta(string $rfc, string $tipoDocumento, ?string $year = null, ?string $month = null): string
+    {
+        $baseDir = dirname(__DIR__, 2) . DIRECTORY_SEPARATOR . 'storage' . DIRECTORY_SEPARATOR . 'sat_downloads';
+        $year = $year ?? date('Y');
+        $month = $month ?? date('m');
+        
+        return $baseDir . DIRECTORY_SEPARATOR . $rfc . DIRECTORY_SEPARATOR . $tipoDocumento . DIRECTORY_SEPARATOR . $year . DIRECTORY_SEPARATOR . $month;
+    }
+
+    /**
      * Obtener información del FIEL usado
      */
     public function obtenerInfoFiel(): array

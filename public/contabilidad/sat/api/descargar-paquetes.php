@@ -50,8 +50,11 @@ try {
 
     $paquetes = json_decode($solicitud['paquetes'], true);
 
-    // Crear directorio de descarga si no existe
-    $download_dir = '../../../../storage/sat_downloads/' . $solicitud['rfc'] . '/' . date('Y/m/');
+    // Crear directorio de descarga con estructura: RFC/EMITIDAS O RECIBIDAS/anio/mes/
+    $tipo_documento = $solicitud['tipo_documento'] ?? 'Emitidas'; // Default fallback
+    $year = date('Y');
+    $month = date('m');
+    $download_dir = '../../../../storage/sat_downloads/' . $solicitud['rfc'] . '/' . $tipo_documento . '/' . $year . '/' . $month . '/';
     if (!is_dir($download_dir)) {
         mkdir($download_dir, 0755, true);
     }
