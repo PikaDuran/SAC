@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="F" Folio="36596" Fecha="2024-02-28T11:13:24" Sello="Uupvg5132BlmSj5mwNlyYi+d4rxyRmFpDtgpSkcB+TzGmMWnII+e241NgiWNI5xlCm11Saf+xU9MFXxgU+ZpJdGe7clJMyLZrrDI6KCpuV2JfEGtjNMJMfCdTy5KjTqbVQD4dAiedpUuFJIblmRV+ZBHj1HMCWiEJ9pQUhJU0QkOMCl6PCwUOqxbu56H6tRsRqmSwxEqG08AMZ8uCodfdwASBo9deyadsGNo8Pes2s/VHi3CYJ4PCF9W4Rvb1bBQ2gSxVaPIczC/U2/s8JG4xCfSwxOW29pjzgLsrYu1NtSRH8k7o3Imthj+yNi4r+PmpH+PdO9ozuP+SontaCXOSA==" FormaPago="99" NoCertificado="00001000000514824895" Certificado="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" SubTotal="2072762.80" Moneda="USD" TipoCambio="17.1260" Total="2404404.85" TipoDeComprobante="I" Exportacion="01" MetodoPago="PPD" LugarExpedicion="06600" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cartaporte30="http://www.sat.gob.mx/CartaPorte30">
+  <cfdi:Emisor Rfc="BFM170822P38" Nombre="BOT FINANCE MEXICO" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="SGM120703Q44" Nombre="SANKO GOSEI MEXICO" DomicilioFiscalReceptor="38150" RegimenFiscalReceptor="601" UsoCFDI="I08" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="40151600" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="40151600 FOLIO 9091 DJK Compresor de aire de tornillo inundado de aceite Hitachi 37kW Modelo: OSP-37M6ARN2 Método de control de capacidad Control de velocidad fija Presión nominal de descarga 085 MPa (G) Presión de trabajo 085 075 MPa (G) Capacidad de descarga al nivel del mar 60 m3/min Capacidad de Descarga a 1750m 4.9 m3/min Voltaje / Frecuencia: 480V / 3 Ph / 60 Hz Secador de aire refrigerado incorporado Tasa de flujo de aire: 60 m3/min Punto de rocío 10 grados C Condición P.D.P se mide a 30 grados C de la temperatura ambiente Salida" ValorUnitario="30991" Importe="30991.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="30991.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4958.56" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="40161500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="40161500 FOLIO 9091 DJK Prefiltro Hitachi (filtro de aire) Modelo: HF0325PC Capacidad nominal: 92 m3/min (325cfm) Filtración 10 micras" ValorUnitario="675" Importe="675.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="675.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="108.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="40161500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="40161500 FOLIO 9091 DJK Filtro posterior Hitachi (filtro de neblina de aceite Modelo: HF0325FC Capacidad nominal: 92 m3/min (325cfm) Filtración: 001 micras Remanente de aceite: 001 ppm" ValorUnitario="675" Importe="675.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="675.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="108.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="24111800" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="24111800 FOLIO 9091 DJK Dépósito receptor para aire comprimido Modelo: SAT-10010-E 1 Capacidad: 960 litros Presión máxima de diseño: 103 MPa(G) Exterior: Pintura base antioxidante (Azulado) Interior: Sin recubrimiento Incluye válvula de seguridad con certificado de calibración. Incluir manómetro Incluya material de tubería de montaje para unir las piezas anteriores. Incluir documentos de diseño de Manufactura para su presentación a la STPS Las válvulas de entrada y salida del aire comprimido no estan incluidas." ValorUnitario="5443" Importe="5443.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5443.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="870.88" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23153100" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23153100 FOLIO 9091 DJK Separador de agua y aceite Modelo: Hi-Sep360ST 1 Capacidad nominal: 101 m3/min Ciclo de mantenimiento estimado: 5000 horas Remanante de aceite al final de la vida útil: 20 ppmv" ValorUnitario="899" Importe="899.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="899.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="143.84" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23153100" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23153100 FOLIO 9091 DJK Temporizador de drenaje Modelo adicional SAT10010-E Capacidad 960 Litros Presión máxima de diseño 1.03 MPa G Exterior Recubrimiento de pintura antioxidante Interior Sin recubrimiento Incluye válvula de seguridad con certificado de calibración Incluye manómetro Incluye material de tubería de conexión para unir las piezas anterior Incluir documentos de diseño de fabricación para presentar ante la STPS No se incluye válvulas de entrada y salida de aire comprimido" ValorUnitario="140" Importe="140.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="140.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="22.40" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 8912 DJK Equipos y herramientas de instalación del compresor" ValorUnitario="826" Importe="826.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="826.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="132.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="721554500 FOLIO 8912 DJK Compresor instalación eléctrica y de tuberías de aire equipos de trabajo y herramientas" ValorUnitario="15199.80" Importe="15199.80" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="15199.80" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2431.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 8912 DJK supervisor de configuración" ValorUnitario="1215.50" Importe="1215.50" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1215.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="194.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 8912 DJK Tarifa de ingeniería" ValorUnitario="3604.70" Importe="3604.70" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3604.70" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="576.75" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="32151700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="32151700 FOLIO 79 SEIKI CONTROLLER Temperature Controller WMC4VP4JJDWG:WMC G011 POWER:220V(R.S.T*E) ENTRY UNIT: WMC EU01CABLE:JC E90171JC E70168WMC J005TIMING SIGNAL CABLE; AXC SC01(2PCS) PO:004709 No Pedimento: 2316 3835 3000208" ValorUnitario="7838.23" Importe="7838.23" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="7838.23" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1254.12" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="81141601" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="81141601 FOLIO 79 SEIKI LOGISTICAS S H" ValorUnitario="3500" Importe="3500.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3500.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="560.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="81141600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="81141600 FOLIO 3371 OKAYA TARIFA DE TRANSPORTE PARA NEWMABLASTER" ValorUnitario="19501" Importe="19501.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="19501.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3120.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23281703" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23281703 FOLIO 3370 OKAYA Máquina de arena (sand blast) NEWMANBLASTER SG-4GTJ-RK304K" ValorUnitario="79848" Importe="79848.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="79848.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="12775.68" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23153100" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23153100 FOLIO 3370 OKAYA Componente y accesorios de maquinaria industrial CUOTA DE ESPECIFICACIONES EN EL EXTRANJERO" ValorUnitario="14490" Importe="14490.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14490.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2318.40" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="40161503" Cantidad="6.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="40161503 FOLIO 3370 OKAYA Recolectores de polvo" ValorUnitario="660" Importe="3960.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3960.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="633.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23153145" Cantidad="4.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23153145 FOLIO 3370 OKAYA Pistola de rociado" ValorUnitario="3070" Importe="12280.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12280.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1964.80" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23153100" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23153100 FOLIO 3370 OKAYA CAJA DE SOPLADO DE AIRE" ValorUnitario="3070" Importe="3070.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3070.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="491.20" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="41103512" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="41103512 FOLIO 3370 OKAYA SOPLETEADOR DE ELIMINACIÓN DE ESTATICA" ValorUnitario="4875" Importe="4875.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4875.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="780.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="13102011" Cantidad="60.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="13102011 FOLIO 3370 OKAYA Nylons poloamida pa FNM-800S (20KG LOT)" ValorUnitario="27.80" Importe="1668.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1668.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="266.88" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23153100" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23153100 FOLIO 3370 OKAYA BOQUILLA DE SOPLADO DE AIRE (6=8PCS)" ValorUnitario="310" Importe="310.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="310.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="49.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="41112400" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="41112400 FOLIO 3370 OKAYA PRESIÓN DE MECANIZADO MANÓMETRO TIPO DIGITAL" ValorUnitario="520" Importe="520.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="520.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="83.20" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23153100" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23153100 FOLIO 3368 OKAYA NEWMA BLASTER - PREVENTA PARA AQUIPOS ELÉCTRICOS" ValorUnitario="14461" Importe="14461.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14461.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2313.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9092 DJK MODELO OBJETIVO: MJ3-150A MÁQUINA DE MOLDEO TOLVA APH6 OBTURADOR MANUAL Y SALIDA DE MATERIALES RESIDUALES APH-6 TEMPORIZADOR DE SECADO TEMPORIZADOR DE SECADO BOQUILLA GAYLOAD LUZ DE ALARMA Y ZUMBADOR" ValorUnitario="2332" Importe="2332.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2332.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="373.12" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9092 DJK MODELO DEL CONTROLADOR DE TEMPERATURA DEL MOLDE: MC5-G1-100HH160 RANGO DE TEMPERATURA DE AJUSTE: TEMPERATURA DEL SUMINISTRO DE AGUA TASA DE FLUJO MÁXIMO DE LA BOMBA; 85 L (MM) PEDIMENTO 2316 3752 3003096" ValorUnitario="18468" Importe="18468.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="18468.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2954.88" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9092 DJK INSTALACIÓN INSTALACIÓN DE MTC NUEVA Y MODIFICACIÓN DE LA SECADORA EXISTENTE COSTO DE TRABAJO" ValorUnitario="1000" Importe="1000.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="160.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9092 DJK COSTO EXTRA POR DIFERENCIA" ValorUnitario="180" Importe="180.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="180.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="28.80" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9085 DJK DISPOSITIVO DE INSERCIÓN CON CARGADOR PARA SHI 350 TON IMM PEDIMENTO 2381 3503 30005783" ValorUnitario="162616" Importe="162616.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="162616.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="26018.56" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="2315150 FOLIO 9058 DJK GXW-800SVI TRANSVERSAR PARALELO PARA SHI 350 TON IMM PEDIMENTO 238135033005783" ValorUnitario="89689" Importe="89689.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="89689.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="14350.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9058 DJK INSTALACIÓN" ValorUnitario="3500" Importe="3500.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3500.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="560.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="2.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9063 DJK GRANULADOR MODELO: SMGL -300 POTENCIA DEL MOTOR 2.2 KW PEDIMENTO 2316 3752 3003477" ValorUnitario="9879" Importe="19758.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="19758.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3161.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="2.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9063 DJK Válvula selectora de chorro" ValorUnitario="999" Importe="1998.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1998.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="319.68" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="14121800" Cantidad="1.00" ClaveUnidad="XRO" Unidad="Rollo" Descripcion="14121800 FOLIO 9063 DJK Costo del trabajo de instalación." ValorUnitario="1001" Importe="1001.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1001.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="160.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9086 DJK GX-1200 STOVIA PARALELO TRANSVERSAL PARA UBE 450 TON PEDIMENTO: 23 81 3503 3005783" ValorUnitario="125041" Importe="125041.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="125041.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="20006.56" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9086 DJK TARIFA DE INSTALACIÓN" ValorUnitario="3500" Importe="3500.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3500.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="560.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9090 DJK UBE 450 T PEDIMENTO 2381 3503 3005676" ValorUnitario="312399" Importe="312399.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="312399.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="49983.84" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9087 DJK GX-1200 STOVIA PARALELO TRANSVERSAL PARA UBE 650 TON IMM PEDIMENTO: 2381 3503 3005783" ValorUnitario="127441" Importe="127441.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="127441.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="20390.56" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9087 DJK TARIFA DE INSTALACIÓN" ValorUnitario="3500" Importe="3500.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3500.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="560.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9088 DJK UBE 650 T PEDIMENTO: 2381 3503 3005682" ValorUnitario="441149" Importe="441149.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="441149.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="70583.84" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9047 DJK CHINA CARGA DOMESTICA" ValorUnitario="673.94" Importe="673.94" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="673.94" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="107.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9047 DJK CARGA MARITIMA" ValorUnitario="654.39" Importe="654.39" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="654.39" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="104.70" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9047 DJK CARGA INTERNA MEXICO" ValorUnitario="1083.50" Importe="1083.50" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1083.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="173.36" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9048 DJK TARIFA POR TRANSPORTACION PARA MAQUINAS MATSUI" ValorUnitario="4493.75" Importe="4493.75" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4493.75" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="719.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9044 DJK CARGA MARITIMA" ValorUnitario="12268.60" Importe="12268.60" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12268.60" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1962.98" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9044 DJK MEXICO CARGA DOMESTICA 2 CONTENEDORES EQUIPO PESADO HORQUILLA DE 15000 LBS HORQUILLA DE 10000 LBS 5 TRABAJADORES X 1 DIA" ValorUnitario="16251.58" Importe="16251.58" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="16251.58" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2600.25" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9043 DJK COSTO DOMESTICO DE JAPON" ValorUnitario="495.81" Importe="495.81" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="495.81" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="79.33" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9043 DJK COSTO MARITIMO" ValorUnitario="6411.25" Importe="6411.25" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="6411.25" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1025.80" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9043 DJK CARGO MEXICANO DOMESTICO" ValorUnitario="13472.75" Importe="13472.75" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="13472.75" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2155.64" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9042 DJK TARIFA DE ENTREGA" ValorUnitario="3064" Importe="3064.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3064.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="490.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9042 DJK INSTALACIÓN" ValorUnitario="32500" Importe="32500.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="32500.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5200.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9042 DJK GASTOS" ValorUnitario="232" Importe="232.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="232.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="37.12" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9042 DJK UNIDAD DE PINZA DE DESCONSOLIDACIÓN DE 650 TONELADAS" ValorUnitario="2750" Importe="2750.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2750.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="440.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9042 DJK DISCONSOLIDACION OTRAS" ValorUnitario="938" Importe="938.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="938.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="150.08" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9042 DJK DETENCIÓN DEL CONTENEDOR FECHA DE DEVOLUCIÓN DEL CONTENEDOR 6/9 40 FR 20 FR/DÍA" ValorUnitario="3750" Importe="3750.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3750.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="600.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9042 DJK CONTENEDOR DETENCIÓN CONTENEDOR FECHA DEVOLUCIÓN 6/12 40 HC/DÍA" ValorUnitario="1313" Importe="1313.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1313.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="210.08" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9042 DJK CUOTA DE SEGURO 650 TON" ValorUnitario="1725" Importe="1725.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1725.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="276.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9042 DJK CUOTA DE SEGURO 450 TON" ValorUnitario="1294" Importe="1294.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1294.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="207.04" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9042 DJK TARIFA DE ENTREGA UNIDAD DE ABRAZADERA" ValorUnitario="5500" Importe="5500.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5500.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="880.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78121600" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="78121600 FOLIO 9042 DJK TARIFA ENTREGA PESADA" ValorUnitario="3625" Importe="3625.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3625.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="580.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9046 DJK CONEXIÓN PARA GRANULADOR INCLUYE EL CONTENIDO A CONTINUACIÓN BRAKER 1 UNIDAD CABLE DE CONEXIÓN TRABAJO DE CONEXIÓN" ValorUnitario="3201" Importe="3201.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3201.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="512.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK TRABAJO DE AIRE PARA BLASTER" ValorUnitario="1151" Importe="1151.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1151.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="184.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK TRABAJO DE DUCTOS PARA BLASTER" ValorUnitario="4370" Importe="4370.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4370.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="699.20" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK COSTO POR RACK PARA TIBERÍA AIRE AGU" ValorUnitario="24150" Importe="24150.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="24150.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3864.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="39131700" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="39131700 FOLIO 9041 DJK PORTACABLES" ValorUnitario="2875" Importe="2875.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2875.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="460.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9041 DJK TRANSFORMADOR PARA MAQUINA DE INYECCIÓN 440-220V" ValorUnitario="28175" Importe="28175.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="28175.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4508.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK OBRA ELECTRICA PARA 350 TON INCLUYE INTERRUPTOR" ValorUnitario="12075" Importe="12075.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12075.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1932.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK OBRA ELECTRICA PARA 450 TON INCLUYE INTERRUPTOR" ValorUnitario="12075" Importe="12075.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12075.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1932.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK OBRA ELECTRICA PARA 650TON INCLUYE INTERRUPTOR" ValorUnitario="12075" Importe="12075.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12075.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1932.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK TUBERÍA DE AGUA" ValorUnitario="15525" Importe="15525.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="15525.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2484.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK TUBERÍA DE AIRE" ValorUnitario="5175" Importe="5175.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5175.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="828.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK OBRA ELÉCTRICA PARA MATSUI" ValorUnitario="20231" Importe="20231.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20231.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3236.96" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK TIBERÍA DE AGUA PARA MATSUI" ValorUnitario="27600" Importe="27600.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="27600.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4416.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="72154500" Cantidad="1.00" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="72154500 FOLIO 9041 DJK TRABAJO ELECTRICO PARA BLASTER" ValorUnitario="4025" Importe="4025.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4025.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="644.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="23151500" Cantidad="1.00" ClaveUnidad="H87" Unidad="Pieza" Descripcion="23151500 FOLIO 9057 DJK SHI 350 TON PEDIMENTO: 2381 3503 3005675" ValorUnitario="248001" Importe="248001.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="248001.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="39680.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="331642.05">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="2072762.80" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="331642.05" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="86503110-6E48-4984-9D5D-51B75A2B87CD" FechaTimbrado="2024-02-29T11:14:20" RfcProvCertif="SAT970701NN3" SelloCFD="Uupvg5132BlmSj5mwNlyYi+d4rxyRmFpDtgpSkcB+TzGmMWnII+e241NgiWNI5xlCm11Saf+xU9MFXxgU+ZpJdGe7clJMyLZrrDI6KCpuV2JfEGtjNMJMfCdTy5KjTqbVQD4dAiedpUuFJIblmRV+ZBHj1HMCWiEJ9pQUhJU0QkOMCl6PCwUOqxbu56H6tRsRqmSwxEqG08AMZ8uCodfdwASBo9deyadsGNo8Pes2s/VHi3CYJ4PCF9W4Rvb1bBQ2gSxVaPIczC/U2/s8JG4xCfSwxOW29pjzgLsrYu1NtSRH8k7o3Imthj+yNi4r+PmpH+PdO9ozuP+SontaCXOSA==" NoCertificadoSAT="00001000000504465028" SelloSAT="OPJC2hJqNwJtBbu8bqA7+1OxtaBE5Mr+U8bOgyaNf7R+IkxBGTArVtShxQllBrdKTq45DG4CknCCaK8TavYBI+i3s7Hj8yQmo9+EjclFl1TBp88cPk664Va9XaKgrHOOxn/kiTHE5l/Y48OVGX3F4nyk2W5AQ6bMKBB0JIg8FKJ+LQ0muAJXpJjaWMuaYcYLi8TTe637LktTykkb/1ark3Ybr0jRl4PRVhVtlzrz/xw7Rnze+W6x6fkUmMplostjRNPTvmwJXxbC4YdBX3bay3VnDZaMrb+lLe03YgcJiL4ukCRjRtC92JzBJ06eYl9j9ED21iwolAocmqgFzvdB8g==" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

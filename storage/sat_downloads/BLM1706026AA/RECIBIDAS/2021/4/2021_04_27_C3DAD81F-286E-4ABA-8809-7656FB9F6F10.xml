@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:ventavehiculos="http://www.sat.gob.mx/ventavehiculos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Fecha="2021-04-27T13:27:48" Folio="40572" FormaPago="30" LugarExpedicion="78399" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000504226287" Sello="BfVQDqhccKeTR4oaCWakVYMhLfGt0UE/9qn8NGp5T4tynqkc05e97mTm2RHNh1Ayjho1C6YyipiSwWBmBDJDXGD3u4cVoSY37R1fPrJO9nV/nAzSZYEn8AVx3SZghffY92OTmHX74DuSvMJqY/FRVeK3k77LxrQ14u4sTV7Si9kM/zIrVcyQHhC0ZQZslUfE/dmVrQyQmFIeoIjQ64TjBnoSri9DQEr63ByV0TozMrPrjR253SF/AEdC+JxdAFeRCLFjoJAy3uUMs8NL/xFn7HZqHzeoqFXFRVS1huExYgu/TSItnCKpBr5s6qBAQtU2C6AvdT1D2MA22rSdu6LWkA==" Serie="HP" SubTotal="637.93" TipoCambio="1" TipoDeComprobante="E" Total="740.00" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/ventavehiculos http://www.sat.gob.mx/sitio_internet/cfd/ventavehiculos/ventavehiculos11.xsd">
+  <cfdi:CfdiRelacionados TipoRelacion="01">
+    <cfdi:CfdiRelacionado UUID="0942e7d8-415f-4d78-a458-6f31bddc1754" />
+  </cfdi:CfdiRelacionados>
+  <cfdi:Emisor Nombre="DALTON MOTORS SLP S.A. DE C.V." RegimenFiscal="601" Rfc="DMS970909C33" />
+  <cfdi:Receptor Nombre="BOT LEASE MEXICO SA DE CV" Rfc="BLM1706026AA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84111506" ClaveUnidad="ACT" Descripcion="GESTORIA PLACAS Y TENENCIA C57, APLICACION DE ANTICIPO" Importe="637.93" NoIdentificacion="CS12GPTD" Unidad="Actividad" ValorUnitario="637.93">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="637.94" Importe="102.07" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="102.07">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="102.07" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2021-04-27T13:29:51" NoCertificadoSAT="00001000000412961981" RfcProvCertif="FCG840618N51" SelloCFD="BfVQDqhccKeTR4oaCWakVYMhLfGt0UE/9qn8NGp5T4tynqkc05e97mTm2RHNh1Ayjho1C6YyipiSwWBmBDJDXGD3u4cVoSY37R1fPrJO9nV/nAzSZYEn8AVx3SZghffY92OTmHX74DuSvMJqY/FRVeK3k77LxrQ14u4sTV7Si9kM/zIrVcyQHhC0ZQZslUfE/dmVrQyQmFIeoIjQ64TjBnoSri9DQEr63ByV0TozMrPrjR253SF/AEdC+JxdAFeRCLFjoJAy3uUMs8NL/xFn7HZqHzeoqFXFRVS1huExYgu/TSItnCKpBr5s6qBAQtU2C6AvdT1D2MA22rSdu6LWkA==" SelloSAT="X1O1PsnaMDSMI0lJyAhnaqxUU3nJmM5hQfrXRt2Qs9gc5s0Jc4/jFUewwyAnCa43sXRlSUlyuXbZfqycYlqQW85/1qiK9SpQfFpr02xf79a5m0JhvY8G+80pz8v5xTEuKn+5DQ8gw292jQMHT0VVhFm5J4z+oPnAtxXocA6XlXsCAqNivOJD5L2ZZ8E+j/lMdEuIjoGApaUvbuWwqZd6W7eWLv5JCbv7Qely47qgg9bK8+h94n9xlDBEiSJij4gluuYSzt7qTEhzQMqalRJ0zckBZ7pN/+OpHCmjgnT0zv0ydF9kNpWABG7XUCWkFDTrChasoUl3Mu/5S2P25gAk7A==" UUID="C3DAD81F-286E-4ABA-8809-7656FB9F6F10" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

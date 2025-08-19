@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="A" Folio="43118" Fecha="2020-01-18T10:51:46" Sello="itgqaDLRkCs2823cKks8gFPzvsEY+unTzBjsFT7gVS5zZOfntxigzaK4GGPqmIVXVj3M778qSpBC2vz0hRJeHPk2zvMlYPECA4U5WnwlVZd3tivvJDo/IaACeQZbLEpPqdOzrsi5XfZ1TYs6zWx8tB4kMj04GYgDWtpDXjPGd9s0p0TrUU5I8OlhT1dkGvl3EWGDCesuE+iAR29cCraorUj8GmhlR25RVkIgsIY2trcrc+QzbL0BnpXmiXAYbW6Qx1R8TIIiHr5/UIdOM1hd4KXQvHmBcX1pkVigHoIiEe4jf+3+v8JwskOU74Q8Z8SEWfYLSZJvc6LH5yMeAf45jA==" FormaPago="03" NoCertificado="00001000000403895622" Certificado="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" SubTotal="127072.41" Moneda="MXN" Total="147100.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="52959">
+  <cfdi:Emisor Rfc="CGH591117K48" Nombre="CLUB DE GOLF LA HACIENDA, S.A. DE C.V." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="BLM1706026AA" Nombre="BOT LEASE MEXICO, S.A. DE C.V." UsoCFDI="P01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="94121500" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="CASILLEROS CABALLERO 2020" ValorUnitario="2275.86" Importe="2275.86"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="2275.862063" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="364.137930" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="94121500" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="CTA.ANUAL PERSONA MORAL 2020" ValorUnitario="122896.55" Importe="122896.55"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="122896.551750" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="19663.448280" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="94121500" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="FEDERACION MEXICANA DE GOLF 20" ValorUnitario="1900.00" Importe="1900.00"> 
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="20027.59">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="20027.59" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="B81951EB-1131-4BA4-ACF6-F98029336808" FechaTimbrado="2020-01-18T10:55:29" SelloCFD="itgqaDLRkCs2823cKks8gFPzvsEY+unTzBjsFT7gVS5zZOfntxigzaK4GGPqmIVXVj3M778qSpBC2vz0hRJeHPk2zvMlYPECA4U5WnwlVZd3tivvJDo/IaACeQZbLEpPqdOzrsi5XfZ1TYs6zWx8tB4kMj04GYgDWtpDXjPGd9s0p0TrUU5I8OlhT1dkGvl3EWGDCesuE+iAR29cCraorUj8GmhlR25RVkIgsIY2trcrc+QzbL0BnpXmiXAYbW6Qx1R8TIIiHr5/UIdOM1hd4KXQvHmBcX1pkVigHoIiEe4jf+3+v8JwskOU74Q8Z8SEWfYLSZJvc6LH5yMeAf45jA==" NoCertificadoSAT="00001000000404477432" SelloSAT="a/53SL7Am1JRVPS/xWeUEM7yGN1OkWWfxsSlKaoxfICokEn0UTOtX7S86A+DO87ak0bDQg4i/9l93DE4yk6Dl2JpKY9NOpN0LE+WNB7PqW+XW6zCmKa12/YDBEtSkG1ZrUZaGViBGRnVwql0RoUdWfb/ZjhXSG0TyogV9oggHnO7TzIjK0rtfUAS2J1eKe3ooJe9kEok7tBxpegAbqGinDhdZUYTdcqErKRRWrdi8QmOhv0MJ8PthW6v4p8i9TUQ4bM0shQJILrh/E5j1hEzFt7z/Sb+z2KtvRctrHdABTjJ9WCwVbuUhi4yI+PwDFt8EuYsonQKlm8t74Yy8Tirnw==" RfcProvCertif="EME000602QR9" /></cfdi:Complemento></cfdi:Comprobante>

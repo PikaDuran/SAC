@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIG1DCCBLygAwIBAgIUMDAwMDEwMDAwMDA0MTQ0NzEyMDQwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTkwNDI0MTgxNTE3WhcNMjMwNDI0MTgxNTE3WjCCAXMxSTBHBgNVBAMTQE1VRkcgQkFOSyBNRVhJQ08gU09DSUVEQUQgQU5PTklNQSBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRSAxTzBNBgNVBCkTRk1VRkcgQkFOSyBNRVhJQ08gU09DSUVEQUQgQU5PTklNQSBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRSBGSUxJQUwxSTBHBgNVBAoTQE1VRkcgQkFOSyBNRVhJQ08gU09DSUVEQUQgQU5PTklNQSBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRSAxJTAjBgNVBC0THEJUTTk2MDQwMURWNyAvIFNJS083MDA5MTM2TDgxHjAcBgNVBAUTFSAvIFNJWEs3MDA5MTNITkVIWFgwMDFDMEEGA1UECxQ6TVVGRyBCQU5LIE3JWElDTyBTLkEuIElOU1RJVFVDSdNOIERFIEJBTkNBIE3aTFRJUExFIEZJTElBTDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIVhpn0wSE1gsHfo/A6c3nT98Pmdx4iCnPtAFUkWvTLQVG6h65S62glhyuVifMcLEdbq1mRCrIKH2z3WP2U7KB0Ndg4BtBtu0OictguEGx5Ogc1foDo9/6myvLebtiyK/o/D6zMNOgOsKRdHFZuMrAfRelIaABZ+Ga7Ne1rg9kcK4kZxVTsQxZVm2Jlbws8kaXbp0L3Y3Lw1PANo2/scPc1KSC1eHPCdv/nTovRl0PgaqLgddxXAtYSI8cY7j2wfZK8dSbnRrF5TUdnCzp/6n10ffeQZxCmAgKvcY998tJJOZF/QxCVxGi9St12fXfjMZQAMfuSIZQBa7y6foU/X01sCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAGXWj6gzZFKWZtMf2NRK4+0GggAKs+o1bCdcF0ikypxflZdwHJcKeU2BU6zvgvtvX4uv4IvO7LHZF8WUjksl5zRD5nTjv4uufK+pNkfVSslQmA123sv9H8OLIg6W6kot+mnQqNrkxgmdfXT6NN3zf+x2vhX1b9wXEZRfGG6bsI0I/k1uVND2zs43A+UPZlKG0Y8nClyVgVnIdjS16jkOQMhsApVG3dsRwmJA7p7H+HTI/3hY4sW5XxCu574rDVSXQs8EQF43tIeUcSbafrdmZqVH72P2xvlTVCAIrEMXuTQxGv97eFUiRXIHa7sgXc3xh2jKNE3o9VEcvNXbdOS1tjO2DAeTVEVGafyiAzZwLNEl5tjPBuH58ZEIPo8F9DaZRr7sKRzd9gFs8xQq4+Su/Ggq8piNLvrYWUZ6cHB2biW+vvLaUcJz0pxSBBNUjJoHk3ZePEI5FSjxp7qH0qS0//yHMqyAbpsM/U4z663XXKqzuRiBtB3ZgkZT9iSS8STVhvNWabs3OTT0SdpttfJUPlqi9KUmjFNig+CU0puNnw6kkZySHRkgCbJrea/1w+Ywd3fOeAl/cToan6PVRpnGw3Axeb3gBrk1bcsdahc1sW1b72wPJDaPwfWiDVX3EZhTJXiXyNyS9pZyx7XQIFPgwu3sKHUTzqadoeVhgPYHctC/" Fecha="2020-12-01T12:11:07" Folio="7202011600135401" FormaPago="03" LugarExpedicion="06600" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000414471204" Sello="du+Gihz++r38doYHa85+5BwJkFBkBWq4UUuLBf25vuyud2yOfxCt7wJzns23vvgyMowQe+eSccDVzV9fcFseJphirPEDhR3lq0YjmUsy7TGeqjlLJqODK3uHo/7nc+Y+v/Llm7oEAHPZfBzrfMqT/qSMh5R0Iwu+QNl+LIEnipsD++ft8Y91vx/qu8B4IlFGB5DuUQoEiNC68RdVmSz2jhMqx9M/jPEnXO6wPC67wFIZMYhVyPXGqUxePPnqjoeLuaJ2Vy4YmSPIdKYPKSV54Blj2QnjpNO4JfYf/vKL7hmaaTPadGwKJo/22l3kBPC54YeoelL4q6rK0uy38d0LjQ==" Serie="A" SubTotal="9740.97" TipoCambio="1" TipoDeComprobante="I" Total="11299.50" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor Nombre="MUFG BANK S.A. INSTITUCION DE BANCA MULTIPLE FILIAL" RegimenFiscal="601" Rfc="BTM960401DV7" />
+    <cfdi:Receptor Nombre="BOT FINANCE MEXICO, S.A. DE C.V., SOFOM., E.N.R." Rfc="BFM170822P38" UsoCFDI="P01" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="4.00" Unidad="UNIDAD DE SERVICIO" ValorUnitario="4.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.00" Importe="0.64" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="200.00" Unidad="UNIDAD DE SERVICIO" ValorUnitario="200.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="200.00" Importe="32.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="311.42" Unidad="UNIDAD DE SERVICIO" ValorUnitario="311.42">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="311.42" Importe="49.83" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="4.00" Unidad="UNIDAD DE SERVICIO" ValorUnitario="4.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.00" Importe="0.64" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="407.20" Unidad="UNIDAD DE SERVICIO" ValorUnitario="407.20">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="407.20" Importe="65.15" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="300.70" Unidad="UNIDAD DE SERVICIO" ValorUnitario="300.70">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="300.70" Importe="48.11" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="301.76" Unidad="UNIDAD DE SERVICIO" ValorUnitario="301.76">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="301.76" Importe="48.28" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="402.34" Unidad="UNIDAD DE SERVICIO" ValorUnitario="402.34">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="402.34" Importe="64.37" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="4.00" Unidad="UNIDAD DE SERVICIO" ValorUnitario="4.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.00" Importe="0.64" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="402.34" Unidad="UNIDAD DE SERVICIO" ValorUnitario="402.34">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="402.34" Importe="64.37" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="402.34" Unidad="UNIDAD DE SERVICIO" ValorUnitario="402.34">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="402.34" Importe="64.37" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="100.23" Unidad="UNIDAD DE SERVICIO" ValorUnitario="100.23">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="100.23" Importe="16.04" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="302.79" Unidad="UNIDAD DE SERVICIO" ValorUnitario="302.79">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="302.79" Importe="48.45" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="303.58" Unidad="UNIDAD DE SERVICIO" ValorUnitario="303.58">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="303.58" Importe="48.57" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="404.78" Unidad="UNIDAD DE SERVICIO" ValorUnitario="404.78">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="404.78" Importe="64.76" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="402.34" Unidad="UNIDAD DE SERVICIO" ValorUnitario="402.34">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="402.34" Importe="64.37" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="402.34" Unidad="UNIDAD DE SERVICIO" ValorUnitario="402.34">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="402.34" Importe="64.37" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="402.34" Unidad="UNIDAD DE SERVICIO" ValorUnitario="402.34">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="402.34" Importe="64.37" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="102.65" Unidad="UNIDAD DE SERVICIO" ValorUnitario="102.65">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="102.65" Importe="16.42" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="4.00" Unidad="UNIDAD DE SERVICIO" ValorUnitario="4.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.00" Importe="0.64" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="406.42" Unidad="UNIDAD DE SERVICIO" ValorUnitario="406.42">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="406.42" Importe="65.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="402.34" Unidad="UNIDAD DE SERVICIO" ValorUnitario="402.34">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="402.34" Importe="64.37" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="407.20" Unidad="UNIDAD DE SERVICIO" ValorUnitario="407.20">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="407.20" Importe="65.15" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="410.61" Unidad="UNIDAD DE SERVICIO" ValorUnitario="410.61">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="410.61" Importe="65.70" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="406.42" Unidad="UNIDAD DE SERVICIO" ValorUnitario="406.42">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="406.42" Importe="65.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="406.42" Unidad="UNIDAD DE SERVICIO" ValorUnitario="406.42">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="406.42" Importe="65.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="406.42" Unidad="UNIDAD DE SERVICIO" ValorUnitario="406.42">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="406.42" Importe="65.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="4.00" Unidad="UNIDAD DE SERVICIO" ValorUnitario="4.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.00" Importe="0.64" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="406.42" Unidad="UNIDAD DE SERVICIO" ValorUnitario="406.42">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="406.42" Importe="65.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="406.42" Unidad="UNIDAD DE SERVICIO" ValorUnitario="406.42">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="406.42" Importe="65.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="406.42" Unidad="UNIDAD DE SERVICIO" ValorUnitario="406.42">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="406.42" Importe="65.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="402.34" Unidad="UNIDAD DE SERVICIO" ValorUnitario="402.34">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="402.34" Importe="64.37" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="4.00" Unidad="UNIDAD DE SERVICIO" ValorUnitario="4.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4.00" Importe="0.64" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION COBRADA" Importe="100.39" Unidad="UNIDAD DE SERVICIO" ValorUnitario="100.39">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="100.39" Importe="16.06" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="1558.53">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="1558.53" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="59171C8C-B970-4F86-8779-78E5A612BB82" SelloCFD="du+Gihz++r38doYHa85+5BwJkFBkBWq4UUuLBf25vuyud2yOfxCt7wJzns23vvgyMowQe+eSccDVzV9fcFseJphirPEDhR3lq0YjmUsy7TGeqjlLJqODK3uHo/7nc+Y+v/Llm7oEAHPZfBzrfMqT/qSMh5R0Iwu+QNl+LIEnipsD++ft8Y91vx/qu8B4IlFGB5DuUQoEiNC68RdVmSz2jhMqx9M/jPEnXO6wPC67wFIZMYhVyPXGqUxePPnqjoeLuaJ2Vy4YmSPIdKYPKSV54Blj2QnjpNO4JfYf/vKL7hmaaTPadGwKJo/22l3kBPC54YeoelL4q6rK0uy38d0LjQ==" NoCertificadoSAT="00001000000407611499" FechaTimbrado="2020-12-01T12:11:21" SelloSAT="24Q+6rh/y7N/VpgJDIS1v48k8gq1hXpbozxOrJk0LyLAHu4WnX6XdJDBkQwNE30SbicIBTi+8N0/1LapE3Fmv1n1S2gXkTtTixnsPbHBpcRXnm/t9+8TndblZKJotmNEKOwmIOpTETjZE+2wmbkJjj38Ud/5PWpXu+KPASkS/3F7zNTDkjgPg7+pqjmRd1/E9yAGEsQe7THIpOjHWHps51erIX/IKrsbqP6j8Yonc6Ski4jT/IUumhJx1sNqOvORkIWxtA/S9VVuSXhxN6JNP8lx+g96WtZo4tjJ7OxooMYTr2Rhlx12wQIbPkO0Z0MtvQ506s90KTSdxt1Vi5RD8Q==" RfcProvCertif="SIF0403229F9" /></cfdi:Complemento></cfdi:Comprobante>

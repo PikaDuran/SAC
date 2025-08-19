@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="10MEX" Folio="15176241230222828280" Fecha="2024-12-30T15:28:28" Exportacion="01" Sello="SQOqPXZQ9S74n7dTGq7gyRIQPJknm9ELcrctsZznVsW4Fbusi3SH1CtZ5cKn5yGiYubZ8TYhsEaBaDd6/KUm6yLoq9g2TSfILt8AsTgGhkL39gY70QqicbwuCVl1nMyBc9KtDzVnRasWsZBEvK7rK4XX/IXkYuZloaIVgHeK7U7+7qjWhz6f5FRoQtsAeytxSvVoTgzAMG2iRiwP+RYTYYVRy7xtgJ8I1VG3AQu7n4CUkqdEHy7BW2FaXrL9fYfgF0y6PUQAUX0aNeSZFpcgAgP9vM8rtLmvdE2dsx634PrUc/YIR5PC4HdvbKYtrmq+poFi/enOcd+3o2wEwrl61Q==" FormaPago="01" NoCertificado="00001000000506772672" Certificado="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" SubTotal="243.10" Moneda="MXN" Total="282.01" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="06600">
+  <cfdi:Emisor Nombre="CADENA COMERCIAL OXXO" Rfc="CCO8605231N4" RegimenFiscal="623" />
+  <cfdi:Receptor Rfc="BLM1706026AA" Nombre="BOT LEASE MEXICO" UsoCFDI="G03" DomicilioFiscalReceptor="06600" RegimenFiscalReceptor="601" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="50202306" NoIdentificacion="7501055304745" Cantidad="2.00" ClaveUnidad="EA" Unidad="EA" Descripcion="REFRESCO COCA-COLA 3 LT BOTELLA NO RETORNABLE COLA" ValorUnitario="40.086207" Importe="80.172414" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="80.17" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="12.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202306" NoIdentificacion="7501055340422" Cantidad="1.00" ClaveUnidad="EA" Unidad="EA" Descripcion="SIDRAL MUNDET MANZANA 3L NR" ValorUnitario="29.310345" Importe="29.310345" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="29.31" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="52151502" NoIdentificacion="7501431207615" Cantidad="2.00" ClaveUnidad="EA" Unidad="EA" Descripcion="PLATO PAPEL 9IN CANATEK REGIONAL BIOFORM C/10" ValorUnitario="21.551724" Importe="43.103448" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="43.10" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="6.90" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="52151504" NoIdentificacion="7501431208506" Cantidad="2.00" ClaveUnidad="EA" Unidad="EA" Descripcion="VASO PAPEL 10OZ CANATEK BEBIDA CALIENTE BIOFORM C/15" ValorUnitario="34.482758" Importe="68.965517" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="68.97" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="11.04" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="14111705" NoIdentificacion="7502271155630" Cantidad="1.00" ClaveUnidad="EA" Unidad="EA" Descripcion="SERVILLETAS AZALEA 250PZ" ValorUnitario="21.551724" Importe="21.551724" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="21.55" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3.45" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="38.91">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Base="243.10" Importe="38.91" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="735dea3c-077c-44cc-9a47-fbade717347b" FechaTimbrado="2024-12-30T16:28:29" RfcProvCertif="AUR100128NN3" SelloSAT="Phr5pAXQRBt7ZYa29U843kzVwD0j35aUzMAVI/b3RUwg8IK5xbT2BHzg0qpJ+CnzOR2rlFgFtXc/VjYB6zDFGDWlz4rfWipWrvGF0b/fBuG3TVYa3YDQR1aaoBgT9O6YUQEn+0dhPpmx0uKRsDA7pCxXcHsxicDKbWHEiHZV//jJCRVkmj1SQRpg4mFH4SWzrCjkOWYS2tMDb0DX8izYmi5vqJK6n81GPD0/5CHCVlfCrJlZl85C2cnwwrHon9p8TBsZbl+U9Boanf5Jk4xZQEgWFd3RRRaYMkBt2jSVDnZNHcENSxqMJ1JTKPXv6qh+e0O1qggJHUCI/2YBxu2wlQ==" SelloCFD="SQOqPXZQ9S74n7dTGq7gyRIQPJknm9ELcrctsZznVsW4Fbusi3SH1CtZ5cKn5yGiYubZ8TYhsEaBaDd6/KUm6yLoq9g2TSfILt8AsTgGhkL39gY70QqicbwuCVl1nMyBc9KtDzVnRasWsZBEvK7rK4XX/IXkYuZloaIVgHeK7U7+7qjWhz6f5FRoQtsAeytxSvVoTgzAMG2iRiwP+RYTYYVRy7xtgJ8I1VG3AQu7n4CUkqdEHy7BW2FaXrL9fYfgF0y6PUQAUX0aNeSZFpcgAgP9vM8rtLmvdE2dsx634PrUc/YIR5PC4HdvbKYtrmq+poFi/enOcd+3o2wEwrl61Q==" NoCertificadoSAT="00001000000710611637" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

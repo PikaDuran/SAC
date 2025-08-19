@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Descuento="0.00" Fecha="2021-09-15T12:20:22" Folio="-TRAD-B1-458591224" FormaPago="99" LugarExpedicion="03100" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000501560255" Sello="X6t3YtEWzqbMeM0xbRXLq5Nzli8sJDjEFqDvM0YuiEnjkH7L9WkWLA1v8a2A0N3DzE6a2vFOhUN6aqckTS9VKDJ5DH2FlK5t+r5ZNZOSvk4PW8bGQ+RAelwdBuK+WiyCTYlAlCK4AVcSdYzrkRtWT1KYgC+S3warT0GUGwO9iViUY2DrgRxLUjnfUwp9jIS9TmyMAoORpBjqBzeYyjyCJbJ4t8vWWYxXPHodoIpCTuBlpWM7/KSBGdD5hhKWZB6lTZXdXPMnqMLcGBTufKzlOGTzsXronL2lSZjDoBjaEOzWX9sm01Fk0mXnVRrErpNsO2D6WwsCJTj8m53lUXHIEg==" Serie="A" SubTotal="224.00" TipoDeComprobante="I" Total="256.00" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor Nombre="CORPORACIÓN NOVAVISIÓN S DE RL DE CV" RegimenFiscal="601" Rfc="CNO960830IT7" />
+    <cfdi:Receptor Nombre="Bot Lease Mexico S A De C V" Rfc="BLM1706026AA" UsoCFDI="G03" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="72151600" ClaveUnidad="E48" Descripcion="CARGO ADMINISTRATIVO INDIVIDUAL EMAIL" Descuento="0.00" Importe="6.03" Unidad="Unidad de servicio" ValorUnitario="6.03">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="6.03" Importe="0.97" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="55101506" ClaveUnidad="H87" Descripcion="REVISTA SKY VIEW (IVA 0%)" Descuento="0.00" Importe="24.00" Unidad="Pieza" ValorUnitario="24.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="24.00" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="83111800" ClaveUnidad="E48" Descripcion="BASICO" Descuento="0.00" Importe="193.97" Unidad="Unidad de servicio" ValorUnitario="193.97">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="193.97" Importe="31.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="32.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa" />
+            <cfdi:Traslado Importe="32.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    
+<cfdi:Complemento><tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="7E41E511-1FA1-42AB-9804-706B54BAB979" FechaTimbrado="2021-09-15T16:50:56" SelloCFD="X6t3YtEWzqbMeM0xbRXLq5Nzli8sJDjEFqDvM0YuiEnjkH7L9WkWLA1v8a2A0N3DzE6a2vFOhUN6aqckTS9VKDJ5DH2FlK5t+r5ZNZOSvk4PW8bGQ+RAelwdBuK+WiyCTYlAlCK4AVcSdYzrkRtWT1KYgC+S3warT0GUGwO9iViUY2DrgRxLUjnfUwp9jIS9TmyMAoORpBjqBzeYyjyCJbJ4t8vWWYxXPHodoIpCTuBlpWM7/KSBGdD5hhKWZB6lTZXdXPMnqMLcGBTufKzlOGTzsXronL2lSZjDoBjaEOzWX9sm01Fk0mXnVRrErpNsO2D6WwsCJTj8m53lUXHIEg==" NoCertificadoSAT="00001000000505600468" SelloSAT="l6THAfyrKdlnWq462LtdDdYSK4o81rc18gu+vQwv3Q3Ul8NAinhcfUjtMpIygGSPkHIM2gFiD3KAISUVSt3/f6WV/gfwrKv0bxC5Kwdn40GoP2JTq0nz/i0kfJeQ6bWJPEo7J3YpXrSyM/9bxh2+RXz+Vyh0/Jf+LYVb7lI/im1+URDJRGridXZjPhhS1bV7JiOUdvif1Wqva/DrAqa9xukBnmjx5TzCe/+3MW9uHVn5SXHmp+L2fmrXXoQHTq57dUjsbWghFSOdOQNK1rBifbvO+TK4dqbQIzi+cph55KTLk3xoQEnbLHlzmXnO1P7PYgu91Kh2tOafp+eDMzdTIA==" RfcProvCertif="EME000602QR9" /></cfdi:Complemento></cfdi:Comprobante>

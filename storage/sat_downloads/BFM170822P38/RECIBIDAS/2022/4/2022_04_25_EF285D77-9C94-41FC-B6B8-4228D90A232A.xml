@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="Transferencia" Fecha="2022-04-25T16:17:44" Folio="31590" FormaPago="03" LugarExpedicion="38150" MetodoPago="PUE" Moneda="USD" NoCertificado="00001000000509180760" Sello="SKZVJuNB1fszAr+q0cFn1ZnqB3FqL5bYqUi5CueepGmOnRX5qIoVF+nDhi4RuF5lRqiEJFOI3eXUeT2lfc4VoqjVIgDhJ4w0jK7KuB+cu2Ma5Rqs5gFosFxkXOLuDEfDR6FaNNkxURbYIYweCBXk2vJlqP5aodwFV3wLy/jLuezqp3ckvItX0g6levTG4ICLbKh80bKYuzmUXrdZOA8WZO5ppBVwFZvP7myH5MsJEbCZtGNbEQvBD1oxpYscAC1+c/CGMhlTdaVMTCnre89jELJDg4UMPy9K8YHqujnxfeQVcImXLBbaIqceZE9NQhvatPqL1e1t5D2ut3c2r4Ou4Q==" Serie="F" SubTotal="41804.00" TipoCambio="19.111900" TipoDeComprobante="I" Total="48492.64" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor Nombre="SANKO GOSEI MEXICO S.A. de C.V." RegimenFiscal="601" Rfc="SGM120703Q44" />
+    <cfdi:Receptor Nombre="BOT Finance México, S.A. de C.V. SOFOM ENR" Rfc="BFM170822P38" UsoCFDI="I08" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="23281900" ClaveUnidad="H87" Descripcion="23281900 FOLIO 23475 MOLD ELECTRONIC CLEANING MACHINE" Importe="31501.00" NoIdentificacion="23281900" Unidad="pzas" ValorUnitario="31501.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="31501.0000" Importe="5040.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="55101521" ClaveUnidad="SET" Descripcion="55101521 FOLIO 23475 MANUAL JP/ENG CLEANVY MANUAL" Importe="1501.00" NoIdentificacion="55101521" Unidad="set" ValorUnitario="1501.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1501.0000" Importe="240.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="78102203" ClaveUnidad="SE" Descripcion="78102203 FOLIO 23475 SHIPPING AND OR HANDLING" Importe="7501.00" NoIdentificacion="78102203" Unidad="SE" ValorUnitario="7501.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="7501.0000" Importe="1200.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="81111809" ClaveUnidad="SE" Descripcion="81111809 Folio: 23475 CLEANVY INSTALLATION &amp; TRAINING SERVICE" Importe="1301.00" NoIdentificacion="23151500" Unidad="SE" ValorUnitario="1301.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1301.0000" Importe="208.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="6688.64">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="6688.64" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2022-04-26T09:03:19" NoCertificadoSAT="00001000000505430144" RfcProvCertif="SEF100616AD2" SelloCFD="SKZVJuNB1fszAr+q0cFn1ZnqB3FqL5bYqUi5CueepGmOnRX5qIoVF+nDhi4RuF5lRqiEJFOI3eXUeT2lfc4VoqjVIgDhJ4w0jK7KuB+cu2Ma5Rqs5gFosFxkXOLuDEfDR6FaNNkxURbYIYweCBXk2vJlqP5aodwFV3wLy/jLuezqp3ckvItX0g6levTG4ICLbKh80bKYuzmUXrdZOA8WZO5ppBVwFZvP7myH5MsJEbCZtGNbEQvBD1oxpYscAC1+c/CGMhlTdaVMTCnre89jELJDg4UMPy9K8YHqujnxfeQVcImXLBbaIqceZE9NQhvatPqL1e1t5D2ut3c2r4Ou4Q==" SelloSAT="ZFtL5YyAuJt1n5lQS6H8ZE2g0NxOqlZVSUqQyUiS2jp1aL0bBQ9tM6MDSkB4eJ23o6YaPhjNCOnc9FJut4UDt1OdZgG+rTla+5jnzGgtbzWs9V+jrjKhM/F++htlsbXBr7gNIVx+UIlVEy5RgyKAu6hIhqorGjfXvCKwlPO7yCCiqHGtakW/VAvg2kTKKUdK/HHrNxeEU18A08Yg2CimsncDgto8y84tjv6Gcum14nyrjVZVmolAMAudHnB5G1jeqfUHaSraM1cugfVGQt6S77335sX4tSCMyB1Q7mcM1Q2z2JZZSnQvGGWk3cZ10xaXb+BBc74gIPPe5if5vqHpog==" UUID="EF285D77-9C94-41FC-B6B8-4228D90A232A" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" /></cfdi:Complemento></cfdi:Comprobante>

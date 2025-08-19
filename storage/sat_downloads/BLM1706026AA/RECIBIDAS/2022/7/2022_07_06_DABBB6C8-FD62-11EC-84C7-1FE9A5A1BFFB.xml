@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="A" Folio="64122" Fecha="2022-07-06T14:35:56" Sello="TTbKVBMcQe3ma9ND/L5Zk0Wq6YmO8buHxomH1ZMhkyf80TqalmkI5KTAfzRvjQWlUtv00es6UfC+da4gX52I26FLkty9EXLcw2LbJF6NHsrP2FQtTS4dvt2eR7PlV88f4TgTYKuOAq0Z7kvro50WeVA7wcjpWQ41HOqX6NFRZgDj/48dv0x1E4PcYyNpLdh5bfNCBT0agxoeNFd7oj8DgOYuZ+00Q7fjZCzw9e6isBc1odsioE8OPzFwhY3rfEBjZKpdHMVwCuYkG0vhZPqsrHCBQ7mIkdALzuNh1Xr+QGfdLzLkCrB44v92RBG7l1NFqAIrV3dEIzMNhzHZFsL2lA==" FormaPago="03" NoCertificado="00001000000504523504" Certificado="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" SubTotal="778.27" Moneda="MXN" Total="902.79" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="52959">
+  <cfdi:Emisor Rfc="CGH591117K48" Nombre="CLUB DE GOLF LA HACIENDA, S.A. DE C.V." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="BLM1706026AA" Nombre="BOT LEASE MEXICO, S.A. DE C.V." UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="Restaurante        300401 05/0" ValorUnitario="283.73" Importe="283.73"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="283.706875" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="45.393100" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="Restaurante        601436 26/0" ValorUnitario="60.34" Importe="60.34"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="60.344813" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="9.655170" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="Restaurante        601600 05/0" ValorUnitario="56.03" Importe="56.03"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="56.034500" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="8.965520" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="Restaurante        602765 26/0" ValorUnitario="64.66" Importe="64.66"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="64.655188" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="10.344830" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="Restaurante        700136 06/0" ValorUnitario="47.41" Importe="47.41"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="47.413813" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="7.586210" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="Restaurante        700529 26/0" ValorUnitario="25.86" Importe="25.86"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="25.862063" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4.137930" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="Restaurante        700993 27/0" ValorUnitario="60.34" Importe="60.34"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="60.344813" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="9.655170" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="Restaurante        701509 24/0" ValorUnitario="56.03" Importe="56.03"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="56.034500" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="8.965520" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="94121500" Cantidad="1.000000" ClaveUnidad="E48" Descripcion="INTERESES MORATORIOS" ValorUnitario="123.87" Importe="123.87"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="123.870688" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="19.819310" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="124.52">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="124.52" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="DABBB6C8-FD62-11EC-84C7-1FE9A5A1BFFB" FechaTimbrado="2022-07-06T14:36:02" SelloCFD="TTbKVBMcQe3ma9ND/L5Zk0Wq6YmO8buHxomH1ZMhkyf80TqalmkI5KTAfzRvjQWlUtv00es6UfC+da4gX52I26FLkty9EXLcw2LbJF6NHsrP2FQtTS4dvt2eR7PlV88f4TgTYKuOAq0Z7kvro50WeVA7wcjpWQ41HOqX6NFRZgDj/48dv0x1E4PcYyNpLdh5bfNCBT0agxoeNFd7oj8DgOYuZ+00Q7fjZCzw9e6isBc1odsioE8OPzFwhY3rfEBjZKpdHMVwCuYkG0vhZPqsrHCBQ7mIkdALzuNh1Xr+QGfdLzLkCrB44v92RBG7l1NFqAIrV3dEIzMNhzHZFsL2lA==" NoCertificadoSAT="00001000000505600468" SelloSAT="fR3HdpAe1EG2z8lJpfDe5Xz+lFCOSvSObBHZJy8xbUjlYLrv8/24VKnSjz8lqMC5ZGvdL2hobQg5u8OKkJliZFttASAaLd+CHZ3KLCvlRoe3CGjB43ydCPmV17gOqJ3huG2XBfR/938tSP/5JcPSfKJyuGbSvDlb62k8Nok0ZN6VTn1ULD/Et2L0/lMiLVaKUmEIjTNBMjUhg+P9lJDrPVqv2/dnfZIbqPnQPkCq+wx15oc5M8PkT+yqEeF4jlxV9rUkEaGrdpUmAUmM311KANbvXGBColJ1Suz0XTopS1TPumeIWmRjUnz+QLaRX/70pTZXpa2lR6sGSqQsZr7Uxg==" RfcProvCertif="EME000602QR9" /></cfdi:Complemento></cfdi:Comprobante>

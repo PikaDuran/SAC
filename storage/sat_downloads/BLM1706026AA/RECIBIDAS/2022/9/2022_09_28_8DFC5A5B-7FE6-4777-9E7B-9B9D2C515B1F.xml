@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/Pagos20 http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos20.xsd" Version="4.0" Serie="A-P" Folio="-TRAD-B1-540896004" Fecha="2022-09-28T22:01:28" NoCertificado="00001000000501560255" SubTotal="0" Moneda="XXX" Total="0" LugarExpedicion="03100" TipoDeComprobante="P" Exportacion="01" Certificado="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" Sello="Xbm8W1v3zxyXk9gScov2vMr0bAZ1jQlO+mi0N18AFilmFJJrsv1pbllzROb9iCjcU6d81plRW6P8mJE0HPSeqmlkViyc6DE5fFjkI5HwL/X/bZmL91NJlzkioChVYCvV3qiOGDojQKYa+qDM8qBrJmUjDPZklbuhAFaumuzJiu2C35yUTi+r8xxmdyZouhbwpusBn5WPjuQbWcxWPyKCM1uaW14ipbgk++Qu0IjkwZowUlW/4rQzFHpljmM+6p+QtG6V/apqFLGPjy4g3fVItEXRavQ1kC1FP7nr9VyfFprPb9LAoenfVZ3rn/2ZfPopkWxByLHSAAgz+nEdy3NjIQ==" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:pago20="http://www.sat.gob.mx/Pagos20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor Rfc="CNO960830IT7" Nombre="CORPORACION NOVAVISION" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="BLM1706026AA" Nombre="BOT LEASE MEXICO" DomicilioFiscalReceptor="06600" RegimenFiscalReceptor="601" UsoCFDI="CP01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1" ValorUnitario="0" Importe="0" ClaveUnidad="ACT" Descripcion="Pago" ClaveProdServ="84111506" ObjetoImp="01" />
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <pago20:Pagos Version="2.0">
+      <pago20:Totales TotalRetencionesIVA="0.00" TotalRetencionesISR="0.00" TotalRetencionesIEPS="0.00" TotalTrasladosBaseIVA16="163.79" TotalTrasladosImpuestoIVA16="26.21" TotalTrasladosBaseIVA8="0.00" TotalTrasladosImpuestoIVA8="0.00" TotalTrasladosBaseIVA0="0.00" TotalTrasladosImpuestoIVA0="0.00" TotalTrasladosBaseIVAExento="0.00" MontoTotalPagos="190.00" />
+      <pago20:Pago FechaPago="2022-09-23T12:00:00" FormaDePagoP="03" MonedaP="MXN" TipoCambioP="1" Monto="190.00">
+        <pago20:DoctoRelacionado IdDocumento="a7a4e955-870b-4c79-89b9-9b9d2c51d1ff" Serie="A" Folio="-TRAD-B1-540896004" MonedaDR="MXN" NumParcialidad="1" ImpSaldoAnt="256.000000" ImpPagado="190.000000" ImpSaldoInsoluto="66.000000" ObjetoImpDR="02" EquivalenciaDR="1">
+          <pago20:ImpuestosDR>
+            <pago20:RetencionesDR>
+              <pago20:RetencionDR BaseDR="190.00" ImpuestoDR="002" TipoFactorDR="Cuota" TasaOCuotaDR="0.000000" ImporteDR="0.00" />
+            </pago20:RetencionesDR>
+            <pago20:TrasladosDR>
+              <pago20:TrasladoDR BaseDR="163.79" ImpuestoDR="002" TipoFactorDR="Tasa" TasaOCuotaDR="0.160000" ImporteDR="26.21" />
+            </pago20:TrasladosDR>
+          </pago20:ImpuestosDR>
+        </pago20:DoctoRelacionado>
+        <pago20:ImpuestosP>
+          <pago20:RetencionesP>
+            <pago20:RetencionP ImpuestoP="002" ImporteP="0.00" />
+          </pago20:RetencionesP>
+          <pago20:TrasladosP>
+            <pago20:TrasladoP BaseP="163.79" ImpuestoP="002" TipoFactorP="Tasa" TasaOCuotaP="0.160000" ImporteP="26.21" />
+          </pago20:TrasladosP>
+        </pago20:ImpuestosP>
+      </pago20:Pago>
+    </pago20:Pagos>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="8DFC5A5B-7FE6-4777-9E7B-9B9D2C515B1F" FechaTimbrado="2022-09-28T23:24:59" RfcProvCertif="INT020124V62" SelloCFD="Xbm8W1v3zxyXk9gScov2vMr0bAZ1jQlO+mi0N18AFilmFJJrsv1pbllzROb9iCjcU6d81plRW6P8mJE0HPSeqmlkViyc6DE5fFjkI5HwL/X/bZmL91NJlzkioChVYCvV3qiOGDojQKYa+qDM8qBrJmUjDPZklbuhAFaumuzJiu2C35yUTi+r8xxmdyZouhbwpusBn5WPjuQbWcxWPyKCM1uaW14ipbgk++Qu0IjkwZowUlW/4rQzFHpljmM+6p+QtG6V/apqFLGPjy4g3fVItEXRavQ1kC1FP7nr9VyfFprPb9LAoenfVZ3rn/2ZfPopkWxByLHSAAgz+nEdy3NjIQ==" NoCertificadoSAT="00001000000505211329" SelloSAT="epTSktIpot3cNlu9PiFwR3uZHN+dDrBL4cIMpTLQQblEHbRvPpw4cPIhMjEH+BGB9BsQaie3uEtVoctUiVHLcIx8eFOiroQUh1ysVHRYAsnYQXgyOdVrbON6Z0VKNnBY11gxbZq35I/SNTwxgXY/hBXe2i0vBae68V5Wv9xowS1YqK90tsy1+7lZx5nLf6H1InmrgG37GVB1Zv8DRqjw7zDBDH9VPzPvyoK0+/zPvpzRLHPnUUpWFxIoHIpI12cbyfNnGnAXEt29ouK7jndlJllqZwcpZy7gfx3+Rpy/Tzjp8MV+CwN1bZa871wdisJG6ZtQcwkzLySVaupxanpb/g==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+  
+</cfdi:Comprobante>

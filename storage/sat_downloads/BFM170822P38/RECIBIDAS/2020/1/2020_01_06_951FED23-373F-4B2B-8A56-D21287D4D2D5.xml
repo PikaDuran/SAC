@@ -1,0 +1,119 @@
+<cfdi:Comprobante Version="3.3" Serie="6001354" Folio="2019126001354" Fecha="2020-01-06T10:45:34" Sello="V0FqCkExzbjK6dCpaeq9RqNliD19ais9ZMZp5AFLpeg61wjjrKtPQ8ZT7KmGYSabmyWxnLQQ0MXPvs9eRazuN3WlFqYQOvzelCnXKXq/E3nsR1Ri8GfFI1sw17CFKu31/YLRXj5TGtLZZIcAkwXeWtJGK2sGmFljdvw9/ehNMbk7a7rfxfQ/W+LJbeS3TEFS4SwLfQy2RT/Pup5/daV7T1/JtIAPTV0xHL+YsR03YlhRSrqWDe46izOKEGyGMescYaeWXtzm1p99C5UxwNeXcbiR+lZk72nRY+rCzohPX+Z3LDaXwpiI5yvUfvmLIHv7FZaUsMSxpVoMfJhNDvrdyA==" FormaPago="03" NoCertificado="00001000000414471204" Certificado="MIIG1DCCBLygAwIBAgIUMDAwMDEwMDAwMDA0MTQ0NzEyMDQwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTkwNDI0MTgxNTE3WhcNMjMwNDI0MTgxNTE3WjCCAXMxSTBHBgNVBAMTQE1VRkcgQkFOSyBNRVhJQ08gU09DSUVEQUQgQU5PTklNQSBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRSAxTzBNBgNVBCkTRk1VRkcgQkFOSyBNRVhJQ08gU09DSUVEQUQgQU5PTklNQSBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRSBGSUxJQUwxSTBHBgNVBAoTQE1VRkcgQkFOSyBNRVhJQ08gU09DSUVEQUQgQU5PTklNQSBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRSAxJTAjBgNVBC0THEJUTTk2MDQwMURWNyAvIFNJS083MDA5MTM2TDgxHjAcBgNVBAUTFSAvIFNJWEs3MDA5MTNITkVIWFgwMDFDMEEGA1UECxQ6TVVGRyBCQU5LIE3JWElDTyBTLkEuIElOU1RJVFVDSdNOIERFIEJBTkNBIE3aTFRJUExFIEZJTElBTDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIVhpn0wSE1gsHfo/A6c3nT98Pmdx4iCnPtAFUkWvTLQVG6h65S62glhyuVifMcLEdbq1mRCrIKH2z3WP2U7KB0Ndg4BtBtu0OictguEGx5Ogc1foDo9/6myvLebtiyK/o/D6zMNOgOsKRdHFZuMrAfRelIaABZ+Ga7Ne1rg9kcK4kZxVTsQxZVm2Jlbws8kaXbp0L3Y3Lw1PANo2/scPc1KSC1eHPCdv/nTovRl0PgaqLgddxXAtYSI8cY7j2wfZK8dSbnRrF5TUdnCzp/6n10ffeQZxCmAgKvcY998tJJOZF/QxCVxGi9St12fXfjMZQAMfuSIZQBa7y6foU/X01sCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAGXWj6gzZFKWZtMf2NRK4+0GggAKs+o1bCdcF0ikypxflZdwHJcKeU2BU6zvgvtvX4uv4IvO7LHZF8WUjksl5zRD5nTjv4uufK+pNkfVSslQmA123sv9H8OLIg6W6kot+mnQqNrkxgmdfXT6NN3zf+x2vhX1b9wXEZRfGG6bsI0I/k1uVND2zs43A+UPZlKG0Y8nClyVgVnIdjS16jkOQMhsApVG3dsRwmJA7p7H+HTI/3hY4sW5XxCu574rDVSXQs8EQF43tIeUcSbafrdmZqVH72P2xvlTVCAIrEMXuTQxGv97eFUiRXIHa7sgXc3xh2jKNE3o9VEcvNXbdOS1tjO2DAeTVEVGafyiAzZwLNEl5tjPBuH58ZEIPo8F9DaZRr7sKRzd9gFs8xQq4+Su/Ggq8piNLvrYWUZ6cHB2biW+vvLaUcJz0pxSBBNUjJoHk3ZePEI5FSjxp7qH0qS0//yHMqyAbpsM/U4z663XXKqzuRiBtB3ZgkZT9iSS8STVhvNWabs3OTT0SdpttfJUPlqi9KUmjFNig+CU0puNnw6kkZySHRkgCbJrea/1w+Ywd3fOeAl/cToan6PVRpnGw3Axeb3gBrk1bcsdahc1sW1b72wPJDaPwfWiDVX3EZhTJXiXyNyS9pZyx7XQIFPgwu3sKHUTzqadoeVhgPYHctC/" SubTotal="2878.41" Moneda="MXN" TipoCambio="1.00" Total="3338.95" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="06600" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd ">
+  <cfdi:Emisor Rfc="BTM960401DV7" Nombre="MUFG BANK MEXICO S.A. INSTITUCION DE BANCA MULTIPLE FILIAL" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="BFM170822P38" Nombre="BOT FINANCE MEXICO, S.A. DE C.V., SOFOM., E.N.R." UsoCFDI="P01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="4.00" Importe="4.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="0.64" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="4.00" Importe="4.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="0.64" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="380.91" Importe="380.91">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="380.91" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="60.95" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="4.00" Importe="4.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="0.64" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="283.75" Importe="283.75">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="283.75" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="45.40" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="284.31" Importe="284.31">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="284.31" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="45.49" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="284.31" Importe="284.31">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="284.31" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="45.49" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="284.31" Importe="284.31">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="284.31" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="45.49" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="4.00" Importe="4.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="0.64" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="4.00" Importe="4.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="0.64" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="379.28" Importe="379.28">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="379.28" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="60.68" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="378.77" Importe="378.77">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="378.77" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="60.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="378.77" Importe="378.77">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="378.77" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="60.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="CR ESQUEMA COMISIONES" ValorUnitario="4.00" Importe="4.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="0.64" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84121500" Cantidad="1.00" ClaveUnidad="E48" Descripcion="COMMISSION PAID" ValorUnitario="200.00" Importe="200.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="200.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="32.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="460.54">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="460.54" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="951FED23-373F-4B2B-8A56-D21287D4D2D5" FechaTimbrado="2020-01-06T10:50:40" RfcProvCertif="CEC961028A98" SelloCFD="V0FqCkExzbjK6dCpaeq9RqNliD19ais9ZMZp5AFLpeg61wjjrKtPQ8ZT7KmGYSabmyWxnLQQ0MXPvs9eRazuN3WlFqYQOvzelCnXKXq/E3nsR1Ri8GfFI1sw17CFKu31/YLRXj5TGtLZZIcAkwXeWtJGK2sGmFljdvw9/ehNMbk7a7rfxfQ/W+LJbeS3TEFS4SwLfQy2RT/Pup5/daV7T1/JtIAPTV0xHL+YsR03YlhRSrqWDe46izOKEGyGMescYaeWXtzm1p99C5UxwNeXcbiR+lZk72nRY+rCzohPX+Z3LDaXwpiI5yvUfvmLIHv7FZaUsMSxpVoMfJhNDvrdyA==" NoCertificadoSAT="00001000000407058485" SelloSAT="RjLPAkgmlwYqHvRWRLyr7eylAY71EI2WBeb3b8XK6SlIfvC/i2G4xKJ3DQxVcNTKjjXVsubvncLBLCDiWsTb8DvNJr3eXnlGNebkmyFIVC7HvXCoAfMVLED2xtzUHp5mWfCEBh108M2LUz1gf+szH9LIB5JwyUxLkrVMpzMr1LLT3XrHG09i4k1nPQVvTXeeYVeMVi/rCwcyHQ2PX1DAP/5XjjDhBs2ffO67KtxiCzw3FvOFX0a0WIJV1TGojPJ1gBSC8guoKDiT+GkvYXfR0XCnu9go0/K4eQVieBW60IILtb69UPxPS5oZ02gB0YYi4RoBAE6aChkbQqkn7OmJOA==" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

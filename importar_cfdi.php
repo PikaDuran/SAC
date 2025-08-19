@@ -34,10 +34,41 @@ function parseCfdi($xmlFile)
 
     $namespaces = $xml->getNamespaces(true);
     $data = [];
+    
+    // Detectar RFC consultado y dirección del flujo desde la ruta del archivo
+    $pathParts = explode(DIRECTORY_SEPARATOR, str_replace('/', DIRECTORY_SEPARATOR, $xmlFile));
+    $rfcConsultado = null;
+    $direccionFlujo = null;
+    
+    // Buscar el RFC consultado y la dirección en la ruta
+    for ($i = 0; $i < count($pathParts); $i++) {
+        if (preg_match('/^[A-Z&]{3,4}[0-9]{6}[A-Z0-9]{3}$/', $pathParts[$i])) {
+            $rfcConsultado = $pathParts[$i];
+            // La siguiente parte de la ruta indica la dirección del flujo
+            if ($i + 1 < count($pathParts)) {
+                $direccionFlujo = strtoupper($pathParts[$i + 1]);
+            }
+            break;
+        }
+    }
+    
+    $data['rfc_consultado'] = $rfcConsultado;
+    $data['direccion_flujo'] = $direccionFlujo;
+    $data['archivo_xml'] = $xmlFile;
 
     // Detectar nodo raíz y namespace principal
     $cfdiNs = isset($namespaces['cfdi']) ? $namespaces['cfdi'] : null;
     $rootName = $xml->getName();
+
+    // Extraer versión del CFDI
+    $version = null;
+    foreach ($xml->attributes($cfdiNs) as $k => $v) {
+        if ($k === 'Version') {
+            $version = (string)$v;
+            break;
+        }
+    }
+    $data['version'] = $version;
 
     // Comprobante (atributos)
     foreach ($xml->attributes($cfdiNs) as $k => $v) $data['comprobante'][$k] = (string)$v;
@@ -91,6 +122,7 @@ function parseCfdi($xmlFile)
     }
 
     // Impuestos globales
+    $data['impuestos'] = [];
     $impuestos = null;
     if ($cfdiNs) {
         $impuestos = $xml->children($cfdiNs)->Impuestos;
@@ -156,7 +188,6 @@ function parseCfdi($xmlFile)
 
 // Ejemplo de procesamiento y muestra de los primeros 10
 
-
 $total = count($xmlPaths);
 $ok = 0;
 $err = 0;
@@ -178,10 +209,38 @@ echo "  Errores: $err\n";
 require_once __DIR__ . '/src/config/database.php';
 $pdo = getDatabase();
 
+// Funciones auxiliares para extraer datos específicos
+function extractTimbreFiscalDigital($data) {
+    $tfdData = [];
+    if (isset($data['complementos']['TimbreFiscalDigital'])) {
+        $tfd = $data['complementos']['TimbreFiscalDigital'][0] ?? [];
+        $tfdData['FechaTimbrado'] = $tfd['FechaTimbrado'] ?? null;
+        $tfdData['SelloSAT'] = $tfd['SelloSAT'] ?? null;
+        $tfdData['NoCertificadoSAT'] = $tfd['NoCertificadoSAT'] ?? null;
+        $tfdData['RfcProvCertif'] = $tfd['RfcProvCertif'] ?? null;
+    }
+    return $tfdData;
+}
+
+function extractCfdiRelacionados($data) {
+    $relacionados = [];
+    if (isset($data['complementos']['CfdiRelacionados'])) {
+        $cfdiRel = $data['complementos']['CfdiRelacionados'];
+        if (is_array($cfdiRel) && !empty($cfdiRel)) {
+            foreach ($cfdiRel as $rel) {
+                if (isset($rel['CfdiRelacionado'])) {
+                    foreach ($rel['CfdiRelacionado'] as $uuid) {
+                        $relacionados[] = $uuid['UUID'] ?? $uuid;
+                    }
+                }
+            }
+        }
+    }
+    return !empty($relacionados) ? json_encode($relacionados) : null;
+}
 
 function insertCfdi($pdo, $data)
 {
-    // ...existing code...
     // Verificar si el CFDI ya existe por UUID
     $stmtCheck = $pdo->prepare("SELECT id FROM cfdi WHERE uuid = ? LIMIT 1");
     $stmtCheck->execute([$data['uuid'] ?? null]);
@@ -192,15 +251,19 @@ function insertCfdi($pdo, $data)
         return;
     } else {
         // Si no existe, insertar
-        $sql = "INSERT INTO cfdi (uuid, tipo, serie, folio, fecha, fecha_timbrado, rfc_emisor, nombre_emisor, regimen_fiscal_emisor, rfc_receptor, nombre_receptor, regimen_fiscal_receptor, uso_cfdi, lugar_expedicion, moneda, tipo_cambio, subtotal, descuento, total, metodo_pago, forma_pago, exportacion, archivo_xml, complemento_tipo, complemento_json) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+        $sql = "INSERT INTO cfdi (uuid, tipo, serie, folio, fecha, fecha_timbrado, rfc_emisor, nombre_emisor, regimen_fiscal_emisor, rfc_receptor, nombre_receptor, regimen_fiscal_receptor, uso_cfdi, lugar_expedicion, moneda, tipo_cambio, subtotal, descuento, total, metodo_pago, forma_pago, exportacion, archivo_xml, complemento_tipo, complemento_json, rfc_consultado, direccion_flujo, version, sello_cfd, sello_sat, no_certificado_sat, rfc_prov_certif, estatus_sat, cfdi_relacionados) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
         $stmt = $pdo->prepare($sql);
+        
+        // Extraer TimbreFiscalDigital para campos específicos
+        $tfdData = extractTimbreFiscalDigital($data);
+        
         $stmt->execute([
             $data['uuid'] ?? null,
             $data['comprobante']['TipoDeComprobante'] ?? null,
             $data['comprobante']['Serie'] ?? null,
             $data['comprobante']['Folio'] ?? null,
             $data['comprobante']['Fecha'] ?? null,
-            $data['comprobante']['FechaTimbrado'] ?? null,
+            $tfdData['FechaTimbrado'] ?? null,
             $data['emisor']['Rfc'] ?? null,
             $data['emisor']['Nombre'] ?? null,
             $data['emisor']['RegimenFiscal'] ?? null,
@@ -219,16 +282,25 @@ function insertCfdi($pdo, $data)
             $data['comprobante']['Exportacion'] ?? null,
             $data['archivo_xml'] ?? null,
             isset($data['complementos']) ? implode(',', array_keys($data['complementos'])) : null,
-            json_encode($data)
+            json_encode($data),
+            $data['rfc_consultado'] ?? null,
+            $data['direccion_flujo'] ?? null,
+            $data['version'] ?? null,
+            $data['comprobante']['Sello'] ?? null,
+            $tfdData['SelloSAT'] ?? null,
+            $tfdData['NoCertificadoSAT'] ?? null,
+            $tfdData['RfcProvCertif'] ?? null,
+            'Vigente', // Valor por defecto
+            extractCfdiRelacionados($data)
         ]);
         $cfdi_id = $pdo->lastInsertId();
     }
 
     // Guardar campos no contemplados en un solo registro JSON en cfdi_complementos (tipo: 'extra_comprobante')
-    $campos_cfdi = ['uuid', 'tipo', 'serie', 'folio', 'fecha', 'fecha_timbrado', 'rfc_emisor', 'nombre_emisor', 'regimen_fiscal_emisor', 'rfc_receptor', 'nombre_receptor', 'regimen_fiscal_receptor', 'uso_cfdi', 'lugar_expedicion', 'moneda', 'tipo_cambio', 'subtotal', 'descuento', 'total', 'metodo_pago', 'forma_pago', 'exportacion', 'archivo_xml', 'complemento_tipo', 'complemento_json'];
+    $campos_cfdi = ['uuid', 'tipo', 'serie', 'folio', 'fecha', 'fecha_timbrado', 'rfc_emisor', 'nombre_emisor', 'regimen_fiscal_emisor', 'rfc_receptor', 'nombre_receptor', 'regimen_fiscal_receptor', 'uso_cfdi', 'lugar_expedicion', 'moneda', 'tipo_cambio', 'subtotal', 'descuento', 'total', 'metodo_pago', 'forma_pago', 'exportacion', 'archivo_xml', 'complemento_tipo', 'complemento_json', 'rfc_consultado', 'direccion_flujo', 'version', 'sello_cfd', 'sello_sat', 'no_certificado_sat', 'rfc_prov_certif', 'estatus_sat', 'cfdi_relacionados'];
     $extras = [];
     foreach ($data['comprobante'] as $k => $v) {
-        if (!in_array(strtolower($k), $campos_cfdi)) {
+        if (!in_array(strtolower($k), array_map('strtolower', $campos_cfdi))) {
             $extras[$k] = $v;
         }
     }
@@ -315,42 +387,28 @@ function insertCfdi($pdo, $data)
 $total = count($xmlPaths);
 $ok = 0;
 $err = 0;
-// Auditoría de procesamiento
-$auditLog = __DIR__ . '/importar_cfdi_auditoria.log';
-file_put_contents($auditLog, "", LOCK_EX); // Limpiar log antes de iniciar
+$procesados = 0;
+
 foreach ($xmlPaths as $i => $xmlFile) {
     $data = parseCfdi($xmlFile);
-    $msg = "";
-    if (isset($data['error'])) {
+    if (isset($data['error']) || empty($data['uuid'])) {
         $err++;
-        $msg = date('Y-m-d H:i:s') . " | ERROR | $xmlFile | " . $data['error'] . "\n";
-    } elseif (empty($data['uuid'])) {
-        $err++;
-        $msg = date('Y-m-d H:i:s') . " | SIN_UUID | $xmlFile | No se encontró UUID\n";
+        echo "Error en archivo: $xmlFile\n";
     } else {
-        // Verificar duplicado antes de insertar
-        $stmtCheck = $pdo->prepare("SELECT id FROM cfdi WHERE uuid = ? LIMIT 1");
-        $stmtCheck->execute([$data['uuid']]);
-        if ($stmtCheck->rowCount() > 0) {
-            $msg = date('Y-m-d H:i:s') . " | DUPLICADO | $xmlFile | UUID: " . $data['uuid'] . "\n";
-        } else {
-            insertCfdi($pdo, $data);
-            $ok++;
-            $msg = date('Y-m-d H:i:s') . " | INSERTADO | $xmlFile | UUID: " . $data['uuid'] . "\n";
-        }
+        insertCfdi($pdo, $data);
+        $ok++;
+        $procesados++;
     }
-    if ($msg) file_put_contents($auditLog, $msg, FILE_APPEND | LOCK_EX);
-    // Insertar registro en la tabla cfdi_auditoria
-    $stmtAudit = $pdo->prepare("INSERT INTO cfdi_auditoria (archivo, uuid, estado, mensaje, fecha) VALUES (?, ?, ?, ?, ?)");
-    $stmtAudit->execute([
-        $xmlFile,
-        isset($data['uuid']) ? $data['uuid'] : null,
-        (strpos($msg, 'ERROR') !== false ? 'ERROR' : (strpos($msg, 'SIN_UUID') !== false ? 'SIN_UUID' : (strpos($msg, 'DUPLICADO') !== false ? 'DUPLICADO' : 'INSERTADO'))),
-        $msg,
-        date('Y-m-d H:i:s')
-    ]);
+    
+    // Mostrar progreso cada 100 archivos
+    if (($i + 1) % 100 == 0) {
+        echo "Procesados: " . ($i + 1) . "/$total (" . round((($i + 1) / $total) * 100, 2) . "%)\n";
+    }
 }
-echo "\nResumen:\n";
-echo "  Total XML procesados: $total\n";
-echo "  Importados correctamente: $ok\n";
-echo "  Errores: $err\n";
+
+echo "\n=== RESUMEN FINAL ===\n";
+echo "Total archivos XML: $total\n";
+echo "CFDIs insertados correctamente: $ok\n";
+echo "Errores de procesamiento: $err\n";
+echo "Porcentaje de éxito: " . round(($ok / $total) * 100, 2) . "%\n";
+?>

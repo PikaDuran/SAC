@@ -5,9 +5,12 @@ $pdo = getDatabase();
 
 try {
     $pdo->exec("SET FOREIGN_KEY_CHECKS=0;");
+    $pdo->exec("TRUNCATE TABLE cfdi_timbre_fiscal;");
     $pdo->exec("TRUNCATE TABLE cfdi_conceptos;");
     $pdo->exec("TRUNCATE TABLE cfdi_impuestos;");
     $pdo->exec("TRUNCATE TABLE cfdi_complementos;");
+    $pdo->exec("TRUNCATE TABLE cfdi_pagos;");
+    $pdo->exec("TRUNCATE TABLE cfdi_pago_documentos_relacionados;");
     $pdo->exec("TRUNCATE TABLE cfdi;");
     $pdo->exec("TRUNCATE TABLE cfdi_auditoria;");
     $pdo->exec("SET FOREIGN_KEY_CHECKS=1;");

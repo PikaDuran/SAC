@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="POR DEFINIR" Fecha="2020-01-31T22:20:30" Folio="1917" FormaPago="99" LugarExpedicion="45050" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000403745864" Sello="RlOHIp4Lu5e7kOcIwo2ZAggsFgTxlc0/mxwwbdCdRDoM66VoBb+7e5l6fV4JGk28QOeFLqWhR05KJg5oNMNUyoWxruBpAVDRM+jmnHKoj5l7LHvnXjr9vNcZu+xkvojY8SKa9BXEg0BVBwb6o+UnMi3iEVSzc3xdAy/LJY/I4q7Uqzt4HMtGXMKPoFHqoa2dIiqMgafpWYf2neyNiDTZUH+GIrUCuRpWKhlzfqdf7D+/6WwLa+BNq1EPbsOxMj+6asVzzsGWihsD84K7y+oUJJ3K8lkXHhtiWPlX8yAdODyIZA0L3MdTTjOcCf5WD03TheU1+1594GmsSVROqqC5+A==" Serie="NCARGO-SA" SubTotal="172.41" TipoCambio="1" TipoDeComprobante="I" Total="200.00" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:CfdiRelacionados TipoRelacion="02">
+    <cfdi:CfdiRelacionado UUID="6FBCC3C2-6937-4463-A2AD-F3B737698E19" />
+  </cfdi:CfdiRelacionados>
+  <cfdi:Emisor Nombre="PLASENCIA AUTOS JAPONESES, S.A. DE C.V." RegimenFiscal="601" Rfc="PAJ0504267P1" />
+  <cfdi:Receptor Nombre="BOT LEASE MEXICO SA DE CV" Rfc="BLM1706026AA" UsoCFDI="P01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84111506" ClaveUnidad="ACT" Descripcion="EXCEPCION" Importe="172.41" NoIdentificacion="111091300000000" Unidad="NO DISPONIBLE" ValorUnitario="172.41">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="172.41" Importe="27.59" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="27.59">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="27.59" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2020-01-31T22:24:14" NoCertificadoSAT="00001000000412961981" RfcProvCertif="FCG840618N51" SelloCFD="RlOHIp4Lu5e7kOcIwo2ZAggsFgTxlc0/mxwwbdCdRDoM66VoBb+7e5l6fV4JGk28QOeFLqWhR05KJg5oNMNUyoWxruBpAVDRM+jmnHKoj5l7LHvnXjr9vNcZu+xkvojY8SKa9BXEg0BVBwb6o+UnMi3iEVSzc3xdAy/LJY/I4q7Uqzt4HMtGXMKPoFHqoa2dIiqMgafpWYf2neyNiDTZUH+GIrUCuRpWKhlzfqdf7D+/6WwLa+BNq1EPbsOxMj+6asVzzsGWihsD84K7y+oUJJ3K8lkXHhtiWPlX8yAdODyIZA0L3MdTTjOcCf5WD03TheU1+1594GmsSVROqqC5+A==" SelloSAT="UvJCIW/8kLzrbpkoDjt2g9CNJ3rJqLe98HVW+KZj8jAqcGJZqY8071hBiykQDiOOLVb73c8jYDsusBwnQAHwSBJ/jabPWvwk3BXY8OPaT62/vzbR1725lvWBt5PbS9dk1VYa6Y42rm30Rvp8QjxKngo9vNkJiAfP8Atx2gvBmVsTa4z2xY9IXjw6EC72zdIT3tt3KOYeB19+2qOvU5UTqikvfOVk3GzmSwwicu6wAhiiU8Wi54OfoZUfJ8UFiH/ZkFXkD0nVhzjl73o2LHXBQX75wIxuPUZd29n57aQ6t7fxGc9YVWMguwxmv8WTz2e3y116WFRhs71SS5cbeo0N4Q==" UUID="AC89E13E-D63A-43E6-B751-6605697DFFF9" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

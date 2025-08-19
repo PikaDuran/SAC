@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" NoCertificado="00001000000506910170" Certificado="MIIFyTCCA7GgAwIBAgIUMDAwMDEwMDAwMDA1MDY5MTAxNzAwDQYJKoZIhvcNAQELBQAwggGEMSAwHgYDVQQDDBdBVVRPUklEQUQgQ0VSVElGSUNBRE9SQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxKjAoBgkqhkiG9w0BCQEWG2NvbnRhY3RvLnRlY25pY29Ac2F0LmdvYi5teDEmMCQGA1UECQwdQVYuIEhJREFMR08gNzcsIENPTC4gR1VFUlJFUk8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQQ0lVREFEIERFIE1FWElDTzETMBEGA1UEBwwKQ1VBVUhURU1PQzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMVwwWgYJKoZIhvcNAQkCE01yZXNwb25zYWJsZTogQURNSU5JU1RSQUNJT04gQ0VOVFJBTCBERSBTRVJWSUNJT1MgVFJJQlVUQVJJT1MgQUwgQ09OVFJJQlVZRU5URTAeFw0yMTAzMjYxOTM0MjZaFw0yNTAzMjYxOTM0MjZaMIGXMRIwEAYDVQQDEwlMT1JJQ0EgU0MxEjAQBgNVBCkTCUxPUklDQSBTQzESMBAGA1UEChMJTE9SSUNBIFNDMSUwIwYDVQQtExxMT1IyMDAyMDY0QkEgLyBDQUFBNjYwMjE2OTYzMR4wHAYDVQQFExUgLyBDQUFBNjYwMjE2SERGTEdOMDExEjAQBgNVBAsTCUxPUklDQSBTQzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOhPknABVxbXMOO6/5Giwycik0Xyk0kSIfgZy//Ad1zdsfWyQoTm//UvP5vyVLnZgcewHrf0tT5qCHK5rNbrV+M5jS61dlbLsCgYLeQk42dz26dxweRk3XbciMafVIiZnjzVNWyCI2V1+7e/sIVXdv1EG2AewLHelLxeFnKWEXyb4Nmb21gy9WZKj/bq8Z80rmURrqKG7r6y55MA9Y+1zrY99x0itSICgLxRNmT00NdmU5rUi6CGHRN3/8U8JaVnfY4+GCLOh0EbzvDKZuEN6FGMeGPoI14dCTW6SKzvL7EsGZQBIcd5dxHI95KCK7yFcDzJKemryuIWFCxJAzxJAMsCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAEaWfC4XAZdV+gtD0iCIfksm8OZDfrLxvjseBBs5QYCQ76oxIsg6II3jGbO3f3IvtvSo4bOPsh/6NrYe1B2Jt52BLe+m+ke0iM6lqnbW/7VJFeSPpnAe8TMgoVBZa0PuYVlf79IlgMd3Oq6tsTL75Jxg+5c+mSzgxJ7+PCNAkPLcG2f5mteaKm9sN9C6XR48w5eaFk/ZpMq99YVXcK6P5X4vbUTqgockUydTAsiR2CayLG8cemMzff4R2aR+wwTspN864A4YTZAizaUFE/e1wI36ayjdTED2I7b8WTSWsXjPHAQsQLUCc9nQoHuflLdWA7EPcF05RXR/egLJ/ooZZqHjREjsSdcX86neCcDKNNnOXYOZt6Z9lOt+WSSl+1/Tbr+9kzNDIPrqd7UWzKGxnBP6vGWheAyKwuiElvAM0sxNRGoyWj00EXsl7kplc0FXH0UDXyMkxpIVF+pfeDKLFHQ4ESB9M8+aP6FCRiyg6FKE2OX/ReA715I7j6JOTjFFRkoZn5nmvB6y0eg5rq1LYzcgXb9r77DOuwuSB925foPdnn8iUbgSaqxAKYPHpeU/7BKcBM9wCzOJuLi4ruwwaaMWdLx+BfcoNIo2dmneK4+FSLSI3z2m1QRhmVzFqi3u/szHu9gclyBVO8Ck2rTIXS5Ujtl17Km6n6vrCHnaPTvC" Sello="ECulszWazHoJStNQoGpqskVqlKbjggSuhl6Ot1Ba5XBaS5hWHo+JESBjkRC4Srpp3lblBmD9U+zRARgVVxAxpJP/meyBCQIkRUWDghGzyD/3/DTAgAEQSNQJtiP5TRQD541tgid9UubHYyU99Fg4vJbfJ5x00hSbWnHV7GxVgXEbLhfjh3vn0+UaZFTmrkbjDPs/tmTG/KXT9rWBpakVU66HwHfb3BTH8aEd1mb/q6IjzVJDQfEj7XOwVmfUo67VLfG+0C9Ifw6E1G/FD7+KkhFgo/gZJ1ZZKmEvj+8RslAyRDW7z0WIvFSJ5CLFpCaLe7m0kW2wGSTj7LaUDSqd7g==" LugarExpedicion="06600" TipoDeComprobante="I" Fecha="2022-04-11T12:09:19" Serie="A" Folio="1422" MetodoPago="PPD" FormaPago="99" Moneda="MXN" TipoCambio="1" SubTotal="6200.00" Descuento="0.00" Total="7192.00">
+	
+		
+	<cfdi:Emisor Rfc="LOR2002064BA" Nombre="LORICA SOCIEDAD CIVIL" RegimenFiscal="601" />
+	
+	<cfdi:Receptor Rfc="BFM170822P38" Nombre="BOT FINANCE MEXICO SOCIEDAD ANONIMA DE CAPITAL VARIABLE, SOCIEDAD FINANCIERA DE OBJETO MULTIPLE, ENTIDAD NO REGULADA" UsoCFDI="G03" />
+	<cfdi:Conceptos>
+			<cfdi:Concepto ClaveProdServ="80121600" ClaveUnidad="E48" Unidad="servicios" Descripcion="Honorarios  19630-NOTIFICACIÓN BOOT LEASE - CREDITO REAL" Cantidad="1" ValorUnitario="6200.000" Importe="6200.00" Descuento="0.00">
+							<cfdi:Impuestos>
+										
+						<cfdi:Traslados>
+												
+							<cfdi:Traslado Base="6200.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="992.00" />
+												</cfdi:Traslados>
+								
+														</cfdi:Impuestos>
+						</cfdi:Concepto>
+		</cfdi:Conceptos>
+	<cfdi:Impuestos TotalImpuestosTrasladados="992.00">
+				<cfdi:Traslados>
+				
+			<cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="992.00" />
+		
+		</cfdi:Traslados>
+		
+	</cfdi:Impuestos>
+	
+		 <cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1" UUID="923CBE06-A9FD-FD46-ACB8-26F60975E21D" FechaTimbrado="2022-04-11T12:09:20" RfcProvCertif="SCD110105654" SelloCFD="ECulszWazHoJStNQoGpqskVqlKbjggSuhl6Ot1Ba5XBaS5hWHo+JESBjkRC4Srpp3lblBmD9U+zRARgVVxAxpJP/meyBCQIkRUWDghGzyD/3/DTAgAEQSNQJtiP5TRQD541tgid9UubHYyU99Fg4vJbfJ5x00hSbWnHV7GxVgXEbLhfjh3vn0+UaZFTmrkbjDPs/tmTG/KXT9rWBpakVU66HwHfb3BTH8aEd1mb/q6IjzVJDQfEj7XOwVmfUo67VLfG+0C9Ifw6E1G/FD7+KkhFgo/gZJ1ZZKmEvj+8RslAyRDW7z0WIvFSJ5CLFpCaLe7m0kW2wGSTj7LaUDSqd7g==" NoCertificadoSAT="00001000000502000436" SelloSAT="K7HSC2cvJ1VGHf+lWy00p4nbzXa8eilMlwpQUwXSpUwmYvTrtW7bQlMJGhsiuB7t/0dmo8ImYykAgyi1f0ooD4yDDdFueVJRTkLCC4A+ZlzPGyao9ldxjRmJ+I8G0wVmZatZJ1ejzLj7l1eD5wsoYH8mJ14G21CH305igq/HlvQFezzb33WX4E5vY/NoGz7SxOi9SuyjyQ7RTqFAPbl3FTN4PZXUM9hM+C/y9eIiDU8/P351w2PLQe1Yn1RQiTSGiJEX/zIiqFu0JqZrBJ6xz5okTQhOsAxCVN8U+3JMKyeMgvWZWGLyOSB/HHSWXTzdnT7xxpngpygFkxw0C2fyOQ==" />
+</cfdi:Complemento></cfdi:Comprobante>

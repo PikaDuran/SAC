@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Version="3.3" Serie="NULO" Folio="78914176" Fecha="2023-02-16T20:05:15" Sello="jB1R+Z9uuW47B19m7B+ZGQmUaGcFa3l3Fnz1H0lqrIQXeM0S9X1sAvAQbclbP7ak7P1PqIECNxfj1bTS00bYHwB5bgkKk6brR44dmh7kzHCPUECQF2Isk6eaZVNKaUIBjhlPMeoy9SwBh0lJeCqCl4q4w8nSvHkk7SBRsjfcFC7ZpQoGqGx6W9J08GSoukk9vsjSnESDxruUyj0dtCY0MibFArttGfiUZgNCdTfMKQUgX6/ofMYA8WK6SbO1bXCvCCLwY/lMrwOlA/KZV5ucXR4jdyKLFNG94Nt8qlD6VeaJ4is1Tq6qlC/8b92sSkXtpVMvOP9kNDWlMUXMVW4fTg==" FormaPago="99" NoCertificado="00001000000509546063" Certificado="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" SubTotal="94184.33" Descuento="0.00" Moneda="MXN" TipoCambio="1" Total="109253.82" TipoDeComprobante="I" MetodoPago="PPD" LugarExpedicion="03920" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+  <cfdi:Emisor Rfc="MME920427EM3" Nombre="METLIFE MEXICO S.A. DE C.V." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="BFM170822P38" Nombre="BOT FINANCE MEXICO, S.A. DE C.V. SOFOM, E.N.R." UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84131602" Cantidad="1" ClaveUnidad="E48" Descripcion="SEGUROS DE GASTOS MEDICOS MAYORES PRIMA" ValorUnitario="93884.33" Importe="93884.33" Descuento="0.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="93884.33" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="15021.49" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84131602" Cantidad="1" ClaveUnidad="E48" Descripcion="SEGUROS DE GASTOS MEDICOS MAYORES GASTOS DE EXPEDICION" ValorUnitario="300.00" Importe="300.00" Descuento="0.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="300.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="48.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="15069.49">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="15069.49" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="5B358B11-4FC8-458E-86E5-2CF7AB303EFE" FechaTimbrado="2023-02-16T20:05:17" RfcProvCertif="INT020124V62" SelloCFD="jB1R+Z9uuW47B19m7B+ZGQmUaGcFa3l3Fnz1H0lqrIQXeM0S9X1sAvAQbclbP7ak7P1PqIECNxfj1bTS00bYHwB5bgkKk6brR44dmh7kzHCPUECQF2Isk6eaZVNKaUIBjhlPMeoy9SwBh0lJeCqCl4q4w8nSvHkk7SBRsjfcFC7ZpQoGqGx6W9J08GSoukk9vsjSnESDxruUyj0dtCY0MibFArttGfiUZgNCdTfMKQUgX6/ofMYA8WK6SbO1bXCvCCLwY/lMrwOlA/KZV5ucXR4jdyKLFNG94Nt8qlD6VeaJ4is1Tq6qlC/8b92sSkXtpVMvOP9kNDWlMUXMVW4fTg==" NoCertificadoSAT="00001000000505211329" SelloSAT="2s9nOJL7q6TUVl3fzloaJs38xP2jcIVmHLPOyOM5TxvjCoAIn0daABJ7KRbJM2bFvuBRd1QziVsN6NhA9+mzbglw3ndC9tVUJfeD4qK/eXdt3GXjIuWQUTxp2QLEkzG2Xy89xBchq3lsdDWZkXJb4zvRXNPhzwLtZNUgXGZDDAk5LJMPsec6LpO8Q9mPbl69xKJrRN/ulG0q4I9biwJpa9I43H9IBtz3GRnUoiEkKItP/Ot77YmFcnU5hF16nLAAMi6/QKdO3L3WYm3BoIEQZI/EGMS++jzLKwIxWQ+I9GGJFbZ79Uo9EG41xtFg1jRUACfE2xVygfmOvVHny0tsLA==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
