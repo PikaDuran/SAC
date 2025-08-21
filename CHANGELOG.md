@@ -4,65 +4,69 @@
 
 **NUNCA modificar código funcional por temas visuales. Si funciona, NO tocarlo.**
 
-## [2025-08-19] - Estructura Actual de Tablas CFDI ✅ ACTUALIZADA
+## [0.6.1] - 2025-08-19 - ESTRUCTURA ACTUAL BASE DE DATOS CFDI
 
-### Tabla: cfdi
+### 📊 ESTRUCTURA ACTUAL DE TABLAS CFDI (desde Dump20250819.sql)
 
-- id (int(11))
-- uuid (varchar(255))
-- tipo (varchar(50))
-- serie (varchar(50))
-- folio (varchar(50))
-- fecha (datetime)
-- fecha_timbrado (datetime)
-- rfc_emisor (varchar(13))
-- nombre_emisor (varchar(500))
-- regimen_fiscal_emisor (varchar(10))
-- rfc_receptor (varchar(13))
-- nombre_receptor (varchar(500))
-- regimen_fiscal_receptor (varchar(10))
-- uso_cfdi (varchar(10))
-- lugar_expedicion (varchar(10))
-- moneda (varchar(10))
-- tipo_cambio (decimal(10,6))
-- subtotal (decimal(15,2))
-- descuento (decimal(15,2))
-- total (decimal(15,2))
-- metodo_pago (varchar(10))
-- forma_pago (varchar(10))
-- exportacion (varchar(10))
-- **observaciones (text) ← AGREGADA**
-- archivo_xml (text)
-- complemento_tipo (text)
-- complemento_json (longtext)
-- rfc_consultado (varchar(13))
-- direccion_flujo (varchar(20))
-- version (varchar(10))
-- sello_cfd (text)
-- sello_sat (text)
-- no_certificado_sat (varchar(50))
-- rfc_prov_certif (varchar(13))
-- estatus_sat (varchar(20))
-- cfdi_relacionados (text)
-- no_certificado (varchar(50))
+#### Tabla Principal: `cfdi`
+
+```sql
+- id (int AUTO_INCREMENT) - PK
+- uuid (varchar 255) - Folio Fiscal único
+- tipo (varchar 50) - I=Ingreso, E=Egreso, T=Traslado, N=Nómina, P=Pagos
+- serie (varchar 50) - Serie del comprobante
+- folio (varchar 50) - Folio consecutivo
+- fecha (datetime) - Fecha expedición
+- fecha_timbrado (datetime) - Fecha timbrado PAC
+- rfc_emisor (varchar 13) - RFC emisor
+- nombre_emisor (varchar 500) - Nombre emisor
+- regimen_fiscal_emisor (varchar 10) - Régimen fiscal emisor
+- rfc_receptor (varchar 13) - RFC receptor
+- nombre_receptor (varchar 500) - Nombre receptor
+- regimen_fiscal_receptor (varchar 10) - Régimen fiscal receptor
+- uso_cfdi (varchar 10) - Uso del CFDI
+- lugar_expedicion (varchar 10) - CP expedición
+- moneda (varchar 10) - Moneda (MXN, USD, etc.)
+- tipo_cambio (decimal 10,6) - Tipo cambio
+- subtotal (decimal 15,2) - Subtotal
+- descuento (decimal 15,2) - Descuentos
+- total (decimal 15,2) - Total
+- metodo_pago (varchar 10) - PUE, PPD
+- forma_pago (varchar 10) - 01=Efectivo, 03=Transferencia
+- exportacion (varchar 10) - Exportación
+- archivo_xml (text) - Ruta archivo XML
+- complemento_tipo (text) - Tipos complementos (🚨 VACÍO!)
+- complemento_json (longtext) - JSON completo (🚨 VACÍO!)
+- rfc_consultado (varchar 13) - RFC consulta SAT
+- direccion_flujo (varchar 20) - EMITIDA/RECIBIDA
+- version (varchar 10) - 3.3, 4.0
+- sello_cfd (text) - Sello CFD
+- sello_sat (text) - Sello SAT
+- no_certificado_sat (varchar 50) - Número certificado SAT
+- rfc_prov_certif (varchar 13) - RFC PAC
+- estatus_sat (varchar 20) - Vigente/Cancelado
+- cfdi_relacionados (text) - UUIDs relacionados JSON
+- no_certificado (varchar 50)
 - certificado (text)
 - condiciones_de_pago (text)
+```
 
-### Tabla: cfdi_conceptos
+#### Tabla: `cfdi_conceptos`
 
-- id (int(11))
-- cfdi_id (int(11))
-- clave_prodserv (varchar(8))
-- **no_identificacion (varchar(100)) ← AGREGADA**
-- cantidad (decimal(18,6))
-- clave_unidad (varchar(3))
-- unidad (varchar(50))
-- descripcion (varchar(255))
-- valor_unitario (decimal(18,6))
-- importe (decimal(18,2))
-- descuento (decimal(18,2))
-- objeto_imp (varchar(2))
-- cuenta_predial (varchar(20))
+```sql
+- id (int AUTO_INCREMENT) - PK
+- cfdi_id (int) - FK a cfdi.id
+- clave_prodserv (varchar 8) - Clave producto/servicio
+- cantidad (decimal 18,6) - Cantidad
+- clave_unidad (varchar 3) - Clave unidad
+- unidad (varchar 50) - Unidad
+- descripcion (varchar 255) - Descripción
+- valor_unitario (decimal 18,6) - Valor unitario
+- importe (decimal 18,2) - Importe
+- descuento (decimal 18,2) - Descuento
+- objeto_imp (varchar 2) - Objeto impuesto
+- cuenta_predial (varchar 20) - Cuenta predial
+```
 
 #### Tabla: `cfdi_impuestos`
 
