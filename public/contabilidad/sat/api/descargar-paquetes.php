@@ -1,77 +1,97 @@
 <?php
-// API para descargar paquetes de CFDIs
+// API para descargar paquetes de CFDIs usando implementación real SAT
+date_default_timezone_set('America/Mexico_City');
 header('Content-Type: application/json');
 session_start();
 
+require_once '../../../../vendor/autoload.php';
 require_once '../../../../src/helpers/auth.php';
 require_once '../../../../src/config/database.php';
+require_once '../../../../src/Services/SatDescargaMasivaService.php';
+
+use App\Services\SatDescargaMasivaService;
 
 // Verificar autenticación
 checkAuth(['admin', 'contabilidad']);
 
-if ($_SERVER['REQUEST_METHOD'] !== 'GET' || !isset($_GET['id'])) {
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    http_response_code(405);
+    echo json_encode(['success' => false, 'message' => 'Método POST requerido']);
+    exit;
+}
+
+$id = $_POST['id'] ?? $_GET['id'] ?? null;
+if (!$id) {
     http_response_code(400);
     echo json_encode(['success' => false, 'message' => 'ID de solicitud requerido']);
     exit;
 }
 
 try {
-    // Conectar a base de datos
-    $pdo = new PDO(
-        "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET,
-        DB_USER,
-        DB_PASS,
-        [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
-    );
+    $pdo = getDatabase();
 
-    $solicitud_id = $_GET['id'];
-
-    // Obtener solicitud
+    // Obtener solicitud con paquetes disponibles
     $stmt = $pdo->prepare("
-        SELECT h.*, c.rfc
+        SELECT h.*, c.rfc, c.certificate_path, c.key_path, c.password_plain
         FROM sat_download_history h
         INNER JOIN sat_fiel_certificates c ON h.certificate_id = c.id
-        WHERE h.id = ? AND h.status = 'COMPLETED' 
+        WHERE h.id = ? 
+        AND h.status IN ('COMPLETED', 'REQUESTED')
+        AND h.paquetes IS NOT NULL 
+        AND h.paquetes != '[]'
         AND (h.requested_by = ? OR ? = 'admin')
     ");
-    $stmt->execute([$solicitud_id, $_SESSION['user_id'], $_SESSION['user_role']]);
+    $stmt->execute([$id, $_SESSION['user_id'], $_SESSION['user_role']]);
     $solicitud = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if (!$solicitud) {
-        throw new Exception('Solicitud no encontrada o no está completada');
+        throw new Exception('Solicitud no encontrada, no completada, o sin paquetes disponibles');
     }
 
-    if (!$solicitud['paquetes']) {
+    $paquetes = json_decode($solicitud['paquetes'], true);
+    if (empty($paquetes)) {
         throw new Exception('No hay paquetes disponibles para descargar');
     }
 
-    // TODO: Integrar con librería phpcfdi/sat-ws-descarga-masiva para descarga real
-    // Por ahora, simulamos la descarga
+    // Crear servicio SAT real
+    $certBaseDir = realpath(__DIR__ . '/../../../../storage/fiel_certificates/');
+    $certFile = basename($solicitud['certificate_path']);
+    $keyFile = basename($solicitud['key_path']);
+    $certPath = $certBaseDir . DIRECTORY_SEPARATOR . $certFile;
+    $keyPath = $certBaseDir . DIRECTORY_SEPARATOR . $keyFile;
 
-    $paquetes = json_decode($solicitud['paquetes'], true);
+    $service = SatDescargaMasivaService::fromCertificateFiles(
+        $certPath,
+        $keyPath,
+        $solicitud['password_plain']
+    );
 
-    // Crear directorio de descarga con estructura: RFC/EMITIDAS O RECIBIDAS/anio/mes/
-    $tipo_documento = $solicitud['tipo_documento'] ?? 'Emitidas'; // Default fallback
-    $year = date('Y');
-    $month = date('m');
-    $download_dir = '../../../../storage/sat_downloads/' . $solicitud['rfc'] . '/' . $tipo_documento . '/' . $year . '/' . $month . '/';
-    if (!is_dir($download_dir)) {
-        mkdir($download_dir, 0755, true);
+    // Crear directorio con estructura: RFC/EMITIDAS|RECIBIDAS/año/mes/
+    $tipo_documento = $solicitud['tipo_documento'] ?? 'Emitidas';
+    $year = date('Y', strtotime($solicitud['date_from']));
+    $month = date('m', strtotime($solicitud['date_from']));
+    $downloadPath = realpath(__DIR__ . '/../../../../storage/sat_downloads/') .
+        DIRECTORY_SEPARATOR . $solicitud['rfc'] .
+        DIRECTORY_SEPARATOR . strtoupper($tipo_documento) .
+        DIRECTORY_SEPARATOR . $year .
+        DIRECTORY_SEPARATOR . $month;
+
+    // Descargar paquetes reales del SAT
+    $resultado = $service->descargarPaquetes(
+        $solicitud['request_id'],
+        $paquetes,
+        $downloadPath
+    );
+
+    if (!$resultado['success']) {
+        throw new Exception($resultado['message']);
     }
 
-    // Por ahora crear archivo básico para evitar errores
-    // TODO: Implementar descarga real del SAT cuando esté completamente configurado
-    $filename = "descarga_masiva_{$solicitud['rfc']}_{$solicitud_id}_" . date('Ymd_His') . '.zip';
-    $filepath = $download_dir . $filename;
-
-    // Crear archivo temporal
-    file_put_contents($filepath, 'Archivo de descarga - implementación pendiente');
-    $file_size = filesize($filepath);
-
-    // Actualizar solicitud con path de descarga
+    // Actualizar solicitud con información de descarga
     $stmt = $pdo->prepare("
         UPDATE sat_download_history 
         SET 
+            status = 'COMPLETED',
             download_path = ?,
             completed_at = NOW(),
             files_count = ?,
@@ -79,14 +99,12 @@ try {
         WHERE id = ?
     ");
 
-    $total_files = array_sum(array_column($paquetes, 'cfdi_count'));
-    $file_size = filesize($filepath);
-
+    $totalSize = array_sum(array_column($resultado['files'], 'size'));
     $stmt->execute([
-        $filepath,
-        $total_files,
-        $file_size,
-        $solicitud_id
+        $downloadPath,
+        $resultado['total_files'],
+        $totalSize,
+        $id
     ]);
 
     // Log de actividad
@@ -97,22 +115,27 @@ try {
     $stmt->execute([
         $_SESSION['user_id'],
         'SAT_DOWNLOAD',
-        "Descarga completada solicitud SAT ID: {$solicitud_id} - RFC: {$solicitud['rfc']} - {$total_files} archivos",
+        "Descarga real SAT completada - ID: {$id} - RFC: {$solicitud['rfc']} - {$resultado['total_files']} archivos",
         $_SERVER['REMOTE_ADDR'] ?? '127.0.0.1'
     ]);
 
     echo json_encode([
         'success' => true,
-        'message' => 'Descarga preparada',
-        'download_url' => "api/download-file.php?id={$solicitud_id}",
-        'files_count' => $total_files,
-        'file_size' => $file_size
-    ]);
+        'message' => 'Descarga completada del SAT',
+        'data' => [
+            'request_id' => $solicitud['request_id'],
+            'rfc' => $solicitud['rfc'],
+            'files_downloaded' => $resultado['total_files'],
+            'total_size' => $totalSize,
+            'download_path' => $downloadPath,
+            'files' => $resultado['files']
+        ]
+    ], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
 } catch (Exception $e) {
     error_log("Error en descargar-paquetes.php: " . $e->getMessage());
 
     echo json_encode([
         'success' => false,
-        'message' => $e->getMessage()
+        'message' => 'Error descargando del SAT: ' . $e->getMessage()
     ]);
 }

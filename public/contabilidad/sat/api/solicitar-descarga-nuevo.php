@@ -112,20 +112,17 @@ try {
                     $password_certificado ?: $certificado['password_plain']
                 );
 
-                // Preparar parámetros según tipo de documento
+                // Preparar parámetros
+                $parametros = [
+                    'fecha_inicial' => $fecha_desde,
+                    'fecha_final' => $fecha_hasta,
+                    'rfc_emisor' => $certificado['rfc']
+                ];
+
+                // Ejecutar solicitud según tipo
                 if ($tipo === 'Emitidas') {
-                    $parametros = [
-                        'fecha_inicial' => $fecha_desde,
-                        'fecha_final' => $fecha_hasta,
-                        'rfc_emisor' => $certificado['rfc']
-                    ];
                     $resultado = $satService->solicitarDescargaEmitidos($parametros);
                 } else {
-                    $parametros = [
-                        'fecha_inicial' => $fecha_desde,
-                        'fecha_final' => $fecha_hasta,
-                        'rfc_receptor' => $certificado['rfc']
-                    ];
                     $resultado = $satService->solicitarDescargaRecibidos($parametros);
                 }
 

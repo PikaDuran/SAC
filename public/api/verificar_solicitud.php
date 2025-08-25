@@ -1,6 +1,7 @@
+<?php
 // Forzar zona horaria global CDMX
 date_default_timezone_set('America/Mexico_City');
-<?php
+
 require_once __DIR__ . '/../../vendor/autoload.php';
 require_once __DIR__ . '/../../src/config/database.php';
 require_once __DIR__ . '/../../src/Services/SatDescargaMasivaService.php';
@@ -116,8 +117,6 @@ try {
     }
 
     // Extraer valores para actualizar base de datos
-
-
     $statusObj = $result ? $result->getStatus() : null;
     $statusNombreSAT = null;
     if ($statusObj) {
@@ -129,32 +128,47 @@ try {
             $statusNombreSAT = extractValue($statusObj);
         }
     }
-    // Mapeo de status SAT a ENUM válido
-    $statusEnum = [
-        'Solicitud Aceptada' => 'REQUESTED',
-        'Solicitud En Proceso' => 'PROCESSING',
-        'Solicitud Terminada' => 'COMPLETED',
-        'Solicitud Rechazada' => 'REJECTED',
-        'Solicitud No Encontrada' => 'NOTFOUND',
-        'Solicitud Parcialmente Completada' => 'PARTIALLY_COMPLETED',
-        'Solicitud Cancelada' => 'CANCELLED',
-        '-' => 'REQUESTED',
-    ];
-    $statusNombre = isset($statusEnum[$statusNombreSAT]) ? $statusEnum[$statusNombreSAT] : 'REQUESTED';
 
+    // Obtener status request (más detallado)
     $estatusSolicitudObj = $result ? $result->getStatusRequest() : null;
-    $estatusSolicitudNum = $estatusSolicitudObj && property_exists($estatusSolicitudObj, 'index') ? $estatusSolicitudObj->index : ($estatusSolicitudObj && method_exists($estatusSolicitudObj, 'getIndex') ? $estatusSolicitudObj->getIndex() : ($estatusSolicitudObj ? extractValue($estatusSolicitudObj) : '-'));
-
+    $estatusSolicitudNum = null;
     $mensajeVerificacion = null;
+
     if ($estatusSolicitudObj) {
-        if (property_exists($estatusSolicitudObj, 'value') && is_array($estatusSolicitudObj->value) && isset($estatusSolicitudObj->value['message'])) {
-            $mensajeVerificacion = $estatusSolicitudObj->value['message'];
-        } elseif (method_exists($estatusSolicitudObj, 'getMessage')) {
-            $mensajeVerificacion = $estatusSolicitudObj->getMessage();
+        // Obtener el index (número)
+        if (method_exists($estatusSolicitudObj, 'value') && is_callable([$estatusSolicitudObj, 'value'])) {
+            $estatusSolicitudNum = $estatusSolicitudObj->value();
+        } elseif (property_exists($estatusSolicitudObj, 'index')) {
+            $estatusSolicitudNum = $estatusSolicitudObj->index;
+        }
+
+        // Obtener el mensaje descriptivo del value array
+        $reflection = new ReflectionClass($estatusSolicitudObj);
+        if ($reflection->hasProperty('value')) {
+            $valueProperty = $reflection->getProperty('value');
+            $valueProperty->setAccessible(true);
+            $valueArray = $valueProperty->getValue($estatusSolicitudObj);
+
+            if (is_array($valueArray) && isset($valueArray['message'])) {
+                $mensajeVerificacion = $valueArray['message'];
+            }
         }
     }
+
+    // Mapeo de status SAT a ENUM válido basado en el status request
+    $statusEnum = [
+        1 => 'REQUESTED',      // Aceptada
+        2 => 'PROCESSING',     // En proceso
+        3 => 'COMPLETED',      // Terminada  
+        4 => 'ERROR',          // Error
+        5 => 'REJECTED',       // Rechazada
+        6 => 'EXPIRED',        // Vencida
+    ];
+
+    $statusNombre = isset($statusEnum[$estatusSolicitudNum]) ? $statusEnum[$estatusSolicitudNum] : 'REQUESTED';
+
     if (!$mensajeVerificacion || $mensajeVerificacion === '' || $mensajeVerificacion === null) {
-        $mensajeVerificacion = '-';
+        $mensajeVerificacion = $statusNombreSAT ?: 'Estado SAT sin mensaje';
     }
 
     $paquetes = $result ? json_encode($result->getPackagesIds()) : '[]';

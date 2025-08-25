@@ -40,6 +40,45 @@ $dia_actual = date('Y-m-d');      // Día actual
     <link rel="stylesheet" href="../../assets/css/global.css">
     <link rel="stylesheet" href="e-firma.css">
     <link rel="stylesheet" href="descarga-xml.css">
+
+    <!-- Estilos personalizados para SweetAlert2 -->
+    <style>
+        .swal-solicitudes-info {
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        .swal-solicitudes-info p {
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .swal-solicitudes-info i {
+            color: #007cba;
+            width: 20px;
+        }
+
+        .total-solicitudes {
+            background: #e3f2fd;
+            border: 2px solid #007cba;
+            border-radius: 8px;
+            padding: 12px;
+            margin-top: 15px;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #1976d2;
+        }
+
+        .swal-wide {
+            width: 500px !important;
+        }
+
+        .swal-html-container {
+            margin: 1rem 0 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -86,25 +125,37 @@ $dia_actual = date('Y-m-d');      // Día actual
                                     <label for="rfc_selected">RFC y Vencimiento</label>
                                     <select id="rfc_selected" name="rfc_selected" required>
                                         <option value="">Selecciona un RFC...</option>
+                                        <option value="TODOS" style="font-weight: bold; background-color: #e3f2fd;">
+                                            🔄 TODOS LOS RFCs - Consulta masiva
+                                        </option>
                                         <?php foreach ($certificados as $cert): ?>
                                             <option value="<?php echo $cert['id']; ?>"
                                                 data-rfc="<?php echo htmlspecialchars($cert['rfc']); ?>"
                                                 data-vencimiento="<?php echo date('d/m/Y', strtotime($cert['valid_to'])); ?>">
                                                 <?php echo htmlspecialchars($cert['rfc']); ?> -
                                                 <?php echo htmlspecialchars($cert['legal_name'] ?? 'Sin nombre'); ?>
-                                                (Vencimiento real: <?php echo date('d/m/Y', strtotime($cert['valid_to'])); ?>)
+                                                (Vencimiento: <?php echo date('d/m/Y', strtotime($cert['valid_to'])); ?>)
                                             </option>
                                         <?php endforeach; ?>
                                     </select>
+                                    <small class="form-hint">
+                                        💡 Selecciona "TODOS LOS RFCs" para crear solicitudes para ambos certificados simultáneamente
+                                    </small>
                                 </div>
 
                                 <!-- Tipo de documento -->
                                 <div class="form-group">
                                     <label for="tipo_documento">Tipo de documento</label>
                                     <select id="tipo_documento" name="tipo_documento" required>
-                                        <option value="Emitidas">Emitidas</option>
-                                        <option value="Recibidas">Recibidas</option>
+                                        <option value="Emitidas">📤 Emitidas</option>
+                                        <option value="Recibidas">📥 Recibidas</option>
+                                        <option value="Ambos" style="font-weight: bold; background-color: #e8f5e8;">
+                                            🔄 Ambos (Emitidas + Recibidas)
+                                        </option>
                                     </select>
+                                    <small class="form-hint">
+                                        💡 "Ambos" creará 2 solicitudes separadas: una de Emitidas y otra de Recibidas
+                                    </small>
                                 </div>
 
                                 <!-- Fechas -->
@@ -169,6 +220,8 @@ $dia_actual = date('Y-m-d');      // Día actual
     </div>
 
     <script src="../../dashboard/dashboard.js"></script>
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="descarga-xml.js"></script>
 </body>
 
