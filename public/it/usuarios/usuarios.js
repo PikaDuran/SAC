@@ -204,7 +204,7 @@ function abrirModalUsuario(usuario = null) {
             display: flex !important;
             justify-content: center !important;
             align-items: center !important;
-            z-index: 2147483647 !important;
+            z-index: 2147483646 !important;
             opacity: 1 !important;
         ">
             <div style="
@@ -319,17 +319,41 @@ async function guardarUsuarioDinamico() {
 
     // Validaciones
     if (!nombre || !apellido || !usuario || !rol) {
-        mostrarError('Todos los campos son requeridos');
+        Swal.fire({
+            icon: 'warning',
+            title: 'Campos requeridos',
+            text: 'Todos los campos son requeridos',
+            confirmButtonColor: '#dc3545',
+            customClass: {
+                container: 'swal-high-z'
+            }
+        });
         return;
     }
 
     if (!usuarioEditando && !password) {
-        mostrarError('La contraseña es requerida para usuarios nuevos');
+        Swal.fire({
+            icon: 'warning',
+            title: 'Contraseña requerida',
+            text: 'La contraseña es requerida para usuarios nuevos',
+            confirmButtonColor: '#dc3545',
+            customClass: {
+                container: 'swal-high-z'
+            }
+        });
         return;
     }
 
     if (password && password.length < 6) {
-        mostrarError('La contraseña debe tener al menos 6 caracteres');
+        Swal.fire({
+            icon: 'warning',
+            title: 'Contraseña muy corta',
+            text: 'La contraseña debe tener al menos 6 caracteres',
+            confirmButtonColor: '#dc3545',
+            customClass: {
+                container: 'swal-high-z'
+            }
+        });
         return;
     }
 
@@ -610,7 +634,24 @@ function mostrarError(mensaje) {
         icon: 'error',
         title: 'Error',
         text: mensaje,
-        confirmButtonColor: '#dc3545'
+        confirmButtonColor: '#dc3545',
+        customClass: {
+            container: 'swal-high-z'
+        }
+    });
+}
+
+// Función para mostrar éxito
+function mostrarExito(mensaje) {
+    Swal.fire({
+        icon: 'success',
+        title: 'Éxito',
+        text: mensaje,
+        confirmButtonColor: '#28a745',
+        timer: 2000,
+        customClass: {
+            container: 'swal-high-z'
+        }
     });
 }
 

@@ -18,7 +18,25 @@ checkAuth(['admin']);
     <!-- SweetAlert2 CDN -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
-        .usuarios-container {
+        /* Estilos para SweetAlert2 con z-index alto */
+        .swal-high-z {
+            z-index: 2147483648 !important;
+        }
+
+        .swal-high-z .swal2-container {
+            z-index: 2147483648 !important;
+        }
+
+        /* Forzar z-index alto para todas las alertas de SweetAlert2 */
+        .swal2-container {
+            z-index: 2147483648 !important;
+        }
+
+        .swal2-popup {
+            z-index: 2147483649 !important;
+        }
+
+        <style>.usuarios-container {
             padding: 20px;
         }
 
