@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapeo XML → Base de Datos CFDI</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #2c3e50; text-align: center; }
+        h2 { color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 12px; }
+        th { background-color: #3498db; color: white; padding: 8px; text-align: left; }
+        td { padding: 6px; border: 1px solid #ddd; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .xml-field { font-family: monospace; background-color: #f8f9fa; color: #d63384; }
+        .bd-field { font-family: monospace; background-color: #e7f3ff; color: #0066cc; }
+        .cfdi-type { text-align: center; font-weight: bold; }
+        .notes { font-style: italic; color: #6c757d; }
+        .legend { background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .table-header { background-color: #2c3e50; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>🗂️ MAPEO COMPLETO XML → BASE DE DATOS CFDI</h1>
+    <p style="text-align: center; color: #7f8c8d;">Sistema SAT - Mapping de elementos XML a campos de base de datos</p>
+
+    <div class="legend">
+        <h3>📋 LEYENDA</h3>
+        <p><strong>Tipos CFDI:</strong> I=Ingreso | E=Egreso | P=Pago | N=Nómina | T=Traslado</p>
+        <p><strong>Colores:</strong> 
+            <span class="xml-field">Campo XML</span> → 
+            <span class="bd-field">Campo BD</span>
+        </p>
+    </div>
+
+    <div class="table-header">1️⃣ TABLA: cfdi (Principal)</div>
+    <table>
+        <thead>
+            <tr>
+                <th width="35%">Elemento/Atributo XML</th>
+                <th width="25%">Campo Base de Datos</th>
+                <th width="10%">Tipos CFDI</th>
+                <th width="30%">Notas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="xml-field">@Version</td><td class="bd-field">version</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">3.3 o 4.0</td></tr>
+            <tr><td class="xml-field">@Serie</td><td class="bd-field">serie</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Serie del comprobante</td></tr>
+            <tr><td class="xml-field">@Folio</td><td class="bd-field">folio</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Número de folio</td></tr>
+            <tr><td class="xml-field">@Fecha</td><td class="bd-field">fecha</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Fecha de emisión</td></tr>
+            <tr><td class="xml-field">@TipoDeComprobante</td><td class="bd-field">tipo</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">I=Ingreso, E=Egreso, P=Pago</td></tr>
+            <tr><td class="xml-field">@SubTotal</td><td class="bd-field">subtotal</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Subtotal sin impuestos</td></tr>
+            <tr><td class="xml-field">@Total</td><td class="bd-field">total</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Total con impuestos</td></tr>
+            <tr><td class="xml-field">@Moneda</td><td class="bd-field">moneda</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">MXN, USD, EUR</td></tr>
+            <tr><td class="xml-field">Emisor/@Rfc</td><td class="bd-field">emisor_rfc</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">RFC del emisor</td></tr>
+            <tr><td class="xml-field">Emisor/@Nombre</td><td class="bd-field">emisor_nombre</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Razón social emisor</td></tr>
+            <tr><td class="xml-field">Receptor/@Rfc</td><td class="bd-field">receptor_rfc</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">RFC del receptor</td></tr>
+            <tr><td class="xml-field">Receptor/@Nombre</td><td class="bd-field">receptor_nombre</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Razón social receptor</td></tr>
+            <tr><td class="xml-field">TimbreFiscalDigital/@UUID</td><td class="bd-field">uuid</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">UUID único del CFDI</td></tr>
+        </tbody>
+    </table>
+
+    <div class="table-header">2️⃣ TABLA: cfdi_conceptos</div>
+    <table>
+        <thead>
+            <tr>
+                <th width="35%">Elemento/Atributo XML</th>
+                <th width="25%">Campo Base de Datos</th>
+                <th width="10%">Tipos CFDI</th>
+                <th width="30%">Notas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="xml-field">[ID CFDI Padre]</td><td class="bd-field">cfdi_id</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Foreign Key</td></tr>
+            <tr><td class="xml-field">Concepto/@ClaveProdServ</td><td class="bd-field">clave_prodserv</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Código SAT producto/servicio</td></tr>
+            <tr><td class="xml-field">Concepto/@Cantidad</td><td class="bd-field">cantidad</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Cantidad de productos</td></tr>
+            <tr><td class="xml-field">Concepto/@ClaveUnidad</td><td class="bd-field">clave_unidad</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Código unidad de medida</td></tr>
+            <tr><td class="xml-field">Concepto/@Descripcion</td><td class="bd-field">descripcion</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Descripción del concepto</td></tr>
+            <tr><td class="xml-field">Concepto/@ValorUnitario</td><td class="bd-field">valor_unitario</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Precio unitario</td></tr>
+            <tr><td class="xml-field">Concepto/@Importe</td><td class="bd-field">importe</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Importe total</td></tr>
+            <tr><td class="xml-field">Concepto/@ObjetoImp</td><td class="bd-field">objeto_imp</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Solo CFDI 4.0</td></tr>
+        </tbody>
+    </table>
+
+    <div class="table-header">3️⃣ TABLA: cfdi_impuestos</div>
+    <table>
+        <thead>
+            <tr>
+                <th width="35%">Elemento/Atributo XML</th>
+                <th width="25%">Campo Base de Datos</th>
+                <th width="10%">Tipos CFDI</th>
+                <th width="30%">Notas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="xml-field">[ID CFDI Padre]</td><td class="bd-field">cfdi_id</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Foreign Key</td></tr>
+            <tr><td class="xml-field">[ID Concepto Padre]</td><td class="bd-field">concepto_id</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Foreign Key</td></tr>
+            <tr><td class="xml-field">Traslado/@Impuesto</td><td class="bd-field">impuesto</td><td class="cfdi-type">I,E,N,T</td><td class="notes">002=IVA, 001=ISR, 003=IEPS</td></tr>
+            <tr><td class="xml-field">Traslado/@TipoFactor</td><td class="bd-field">tipo_factor</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Tasa, Cuota, Exento</td></tr>
+            <tr><td class="xml-field">Traslado/@TasaOCuota</td><td class="bd-field">tasa_cuota</td><td class="cfdi-type">I,E,N,T</td><td class="notes">0.16 para IVA 16%</td></tr>
+            <tr><td class="xml-field">Traslado/@Base</td><td class="bd-field">base</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Base gravable</td></tr>
+            <tr><td class="xml-field">Traslado/@Importe</td><td class="bd-field">importe</td><td class="cfdi-type">I,E,N,T</td><td class="notes">Importe del impuesto</td></tr>
+        </tbody>
+    </table>
+
+    <div class="table-header">4️⃣ TABLA: cfdi_pagos (Solo Tipo P)</div>
+    <table>
+        <thead>
+            <tr>
+                <th width="35%">Elemento/Atributo XML</th>
+                <th width="25%">Campo Base de Datos</th>
+                <th width="10%">Tipos CFDI</th>
+                <th width="30%">Notas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="xml-field">[ID CFDI Padre]</td><td class="bd-field">cfdi_id</td><td class="cfdi-type">P</td><td class="notes">Foreign Key</td></tr>
+            <tr><td class="xml-field">pago:Pago/@FechaPago</td><td class="bd-field">fecha_pago</td><td class="cfdi-type">P</td><td class="notes">Fecha del pago</td></tr>
+            <tr><td class="xml-field">pago:Pago/@FormaDePagoP</td><td class="bd-field">forma_pago</td><td class="cfdi-type">P</td><td class="notes">01=Efectivo, 02=Cheque, 03=Transfer</td></tr>
+            <tr><td class="xml-field">pago:Pago/@MonedaP</td><td class="bd-field">moneda</td><td class="cfdi-type">P</td><td class="notes">MXN, USD, EUR</td></tr>
+            <tr><td class="xml-field">pago:Pago/@Monto</td><td class="bd-field">monto</td><td class="cfdi-type">P</td><td class="notes">Monto del pago</td></tr>
+            <tr><td class="xml-field">pago:Pago/@NumOperacion</td><td class="bd-field">num_operacion</td><td class="cfdi-type">P</td><td class="notes">Número de operación bancaria</td></tr>
+            <tr><td class="xml-field">pago:Pago/@RfcEmisorCtaOrd</td><td class="bd-field">rfc_emisor_cuenta_ordenante</td><td class="cfdi-type">P</td><td class="notes">RFC del banco ordenante</td></tr>
+            <tr><td class="xml-field">pago:Pago/@CtaOrdenante</td><td class="bd-field">cuenta_ordenante</td><td class="cfdi-type">P</td><td class="notes">Cuenta ordenante</td></tr>
+        </tbody>
+    </table>
+
+    <div class="table-header">5️⃣ TABLA: cfdi_pago_documentos_relacionados</div>
+    <table>
+        <thead>
+            <tr>
+                <th width="35%">Elemento/Atributo XML</th>
+                <th width="25%">Campo Base de Datos</th>
+                <th width="10%">Tipos CFDI</th>
+                <th width="30%">Notas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="xml-field">[ID Pago Padre]</td><td class="bd-field">pago_id</td><td class="cfdi-type">P</td><td class="notes">Foreign Key</td></tr>
+            <tr><td class="xml-field">DoctoRelacionado/@IdDocumento</td><td class="bd-field">uuid_documento</td><td class="cfdi-type">P</td><td class="notes">UUID del documento pagado</td></tr>
+            <tr><td class="xml-field">DoctoRelacionado/@Serie</td><td class="bd-field">serie</td><td class="cfdi-type">P</td><td class="notes">Serie del documento</td></tr>
+            <tr><td class="xml-field">DoctoRelacionado/@Folio</td><td class="bd-field">folio</td><td class="cfdi-type">P</td><td class="notes">Folio del documento</td></tr>
+            <tr><td class="xml-field">DoctoRelacionado/@ImpSaldoAnt</td><td class="bd-field">imp_saldo_ant</td><td class="cfdi-type">P</td><td class="notes">Saldo anterior</td></tr>
+            <tr><td class="xml-field">DoctoRelacionado/@ImpPagado</td><td class="bd-field">imp_pagado</td><td class="cfdi-type">P</td><td class="notes">Importe pagado</td></tr>
+            <tr><td class="xml-field">DoctoRelacionado/@ImpSaldoInsoluto</td><td class="bd-field">imp_saldo_insoluto</td><td class="cfdi-type">P</td><td class="notes">Saldo pendiente</td></tr>
+        </tbody>
+    </table>
+
+    <div class="table-header">6️⃣ TABLA: cfdi_complementos</div>
+    <table>
+        <thead>
+            <tr>
+                <th width="35%">Elemento/Atributo XML</th>
+                <th width="25%">Campo Base de Datos</th>
+                <th width="10%">Tipos CFDI</th>
+                <th width="30%">Notas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="xml-field">[ID CFDI Padre]</td><td class="bd-field">cfdi_id</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Foreign Key</td></tr>
+            <tr><td class="xml-field">[Namespace URI]</td><td class="bd-field">tipo</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Pagos, Nomina, CartaPorte</td></tr>
+            <tr><td class="xml-field">[XML + Namespace JSON]</td><td class="bd-field">datos_json</td><td class="cfdi-type">I,E,P,N,T</td><td class="notes">Datos serializados en JSON</td></tr>
+        </tbody>
+    </table>
+
+    <div class="legend">
+        <h3>🔧 NAMESPACES DETECTADOS</h3>
+        <ul>
+            <li><code>http://www.sat.gob.mx/Pagos</code> → <strong>Pagos</strong> (v1.0 - CFDI 3.3)</li>
+            <li><code>http://www.sat.gob.mx/Pagos20</code> → <strong>Pagos20</strong> (v2.0 - CFDI 4.0)</li>
+            <li><code>http://www.sat.gob.mx/nomina12</code> → <strong>Nomina</strong></li>
+            <li><code>http://www.sat.gob.mx/CartaPorte20</code> → <strong>CartaPorte</strong></li>
+            <li><code>http://www.sat.gob.mx/iedu</code> → <strong>InstitucionesEducativas</strong></li>
+            <li><code>http://www.sat.gob.mx/donat</code> → <strong>Donatarias</strong></li>
+        </ul>
+    </div>
+
+    <div style="background-color: #d4edda; padding: 15px; border-radius: 5px; margin: 20px 0;">
+        <h3>✅ VALIDACIÓN</h3>
+        <p>Esta tabla asegura que <strong>TODOS</strong> los elementos XML se mapeen correctamente a campos de base de datos para:</p>
+        <ul>
+            <li>✅ Regeneración completa de PDFs</li>
+            <li>✅ Reportes de contabilidad</li>
+            <li>✅ Análisis de impuestos</li>
+            <li>✅ Seguimiento de pagos</li>
+        </ul>
+    </div>
+</body>
+</html>

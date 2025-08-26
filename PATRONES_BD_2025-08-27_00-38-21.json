@@ -1,0 +1,413 @@
+{
+    "categorias": {
+        "comprobante": [
+            "CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_CFD_ag",
+            "CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_CFD_ce",
+            "CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_CFD_po",
+            "CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_CFD_re",
+            "CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_EXPEDI",
+            "CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_RECEPT",
+            "CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_TIPODO",
+            "CFDI:COMPROBANTE_CFDI:CFDIRELACIONADOS_CFDI:CFDIRELACIONADO_",
+            "CFDI:COMPROBANTE_CFDI:CFDIRELACIONADOS_TipoRelacion",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:ACUENTATE",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:CUENTAPRE",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:INFORMACI",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Can",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Cla",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Des",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Imp",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_NoI",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_TOT",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Uni",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Val",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Cantidad",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_ClaveProdServ",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_ClaveUnidad",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Descripcion",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Descuento",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Importe",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_NoIdentificaci",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_ObjetoImp",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_TOTAL",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Unidad",
+            "CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_ValorUnitario",
+            "CFDI:COMPROBANTE_CFDI:EMISOR_Nombre",
+            "CFDI:COMPROBANTE_CFDI:EMISOR_RegimenFiscal",
+            "CFDI:COMPROBANTE_CFDI:EMISOR_Rfc",
+            "CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:RETENCIONES_CFDI:RETENC",
+            "CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:TRASLADOS_CFDI:TRASLADO",
+            "CFDI:COMPROBANTE_CFDI:IMPUESTOS_TotalImpuestosRetenidos",
+            "CFDI:COMPROBANTE_CFDI:IMPUESTOS_TotalImpuestosTrasladados",
+            "CFDI:COMPROBANTE_CFDI:INFORMACIONGLOBAL_A\u00f1o",
+            "CFDI:COMPROBANTE_CFDI:INFORMACIONGLOBAL_Meses",
+            "CFDI:COMPROBANTE_CFDI:INFORMACIONGLOBAL_Periodicidad",
+            "CFDI:COMPROBANTE_CFDI:RECEPTOR_DomicilioFiscalReceptor",
+            "CFDI:COMPROBANTE_CFDI:RECEPTOR_Nombre",
+            "CFDI:COMPROBANTE_CFDI:RECEPTOR_RegimenFiscalReceptor",
+            "CFDI:COMPROBANTE_CFDI:RECEPTOR_Rfc",
+            "CFDI:COMPROBANTE_CFDI:RECEPTOR_UsoCFDI",
+            "CFDI:COMPROBANTE_Certificado",
+            "CFDI:COMPROBANTE_CondicionesDePago",
+            "CFDI:COMPROBANTE_Descuento",
+            "CFDI:COMPROBANTE_Exportacion",
+            "CFDI:COMPROBANTE_Fecha",
+            "CFDI:COMPROBANTE_Folio",
+            "CFDI:COMPROBANTE_FormaPago",
+            "CFDI:COMPROBANTE_LugarExpedicion",
+            "CFDI:COMPROBANTE_MetodoPago",
+            "CFDI:COMPROBANTE_Moneda",
+            "CFDI:COMPROBANTE_NoCertificado",
+            "CFDI:COMPROBANTE_Sello",
+            "CFDI:COMPROBANTE_Serie",
+            "CFDI:COMPROBANTE_SubTotal",
+            "CFDI:COMPROBANTE_TipoCambio",
+            "CFDI:COMPROBANTE_TipoDeComprobante",
+            "CFDI:COMPROBANTE_Total",
+            "CFDI:COMPROBANTE_Version",
+            "CFDI:COMPROBANTE_schemaLocation",
+            "COMPROBANTE_Certificado",
+            "COMPROBANTE_CondicionesDePago",
+            "COMPROBANTE_Descuento",
+            "COMPROBANTE_Exportacion",
+            "COMPROBANTE_Fecha",
+            "COMPROBANTE_Folio",
+            "COMPROBANTE_FormaPago",
+            "COMPROBANTE_LugarExpedicion",
+            "COMPROBANTE_MetodoPago",
+            "COMPROBANTE_Moneda",
+            "COMPROBANTE_NoCertificado",
+            "COMPROBANTE_Sello",
+            "COMPROBANTE_Serie",
+            "COMPROBANTE_SubTotal",
+            "COMPROBANTE_TipoCambio",
+            "COMPROBANTE_TipoDeComprobante",
+            "COMPROBANTE_Total",
+            "COMPROBANTE_Version",
+            "COMPROBANTE_schemaLocation"
+        ],
+        "emisor": [],
+        "receptor": [],
+        "conceptos": [],
+        "impuestos": [
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_"
+        ],
+        "complementos": [
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_AEROLINEAS:AEROLINEAS_AERO",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_AEROLINEAS:AEROLINEAS_TUA",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_AEROLINEAS:AEROLINEAS_Vers",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_To",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_Tr",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_Ve",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_DIVISAS:DIVISAS_tipoOperac",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_DIVISAS:DIVISAS_version",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_LEYENDASFISC:LEYENDASFISCA",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_FechaFinal",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_FechaInici",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_FechaPago",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:D",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:E",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:O",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NumDiasPag",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_TipoNomina",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_TotalDeduc",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_TotalOtros",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_TotalPerce",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_Version",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_C",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_F",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_M",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_N",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_R",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_S",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_T",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_Version",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_schemaLocatio",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_C",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_F",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_M",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_N",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_R",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_S",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_T",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_Version",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_schemaLocatio",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_REGISTROFISCAL:CFDIREGISTR",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Fe",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Le",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_No",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Rf",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Se",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_UU",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Ve",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_sc",
+            "CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES"
+        ],
+        "otros": []
+    },
+    "complementos": {
+        "====================================================================================================": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "- COMPLEMENTO_TFD": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "... y 19 campos m\u00e1s": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "... y 46 campos m\u00e1s": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "... y 51 campos m\u00e1s": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "- COMPLEMENTO_LEYENDASFISC": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "- COMPLEMENTO_DIVISAS": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "- COMPLEMENTO_REGISTROFISCAL": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "- COMPLEMENTO_IMPLOCAL": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "- COMPLEMENTO_AEROLINEAS": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "... y 2 campos m\u00e1s": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "... y 10 campos m\u00e1s": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "... y 22 campos m\u00e1s": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "... y 20 campos m\u00e1s": {
+            "contextos": 0,
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        }
+    },
+    "tabla_principal": {
+        "nombre": "cfdi",
+        "campos_comunes": [
+            "cfdi_cfdirelacionados_cfdi_cfdirelacionado",
+            "cfdi_cfdirelacionados_tiporelacion",
+            "cfdi_conceptos_cfdi_concepto_cfdi_impuestos",
+            "cfdi_conceptos_cfdi_concepto_cfdi_informaci",
+            "cfdi_conceptos_cfdi_concepto_cantidad",
+            "cfdi_conceptos_cfdi_concepto_claveprodserv",
+            "cfdi_conceptos_cfdi_concepto_claveunidad",
+            "cfdi_conceptos_cfdi_concepto_descripcion",
+            "cfdi_conceptos_cfdi_concepto_descuento",
+            "cfdi_conceptos_cfdi_concepto_importe",
+            "cfdi_conceptos_cfdi_concepto_noidentificaci",
+            "cfdi_conceptos_cfdi_concepto_objetoimp",
+            "cfdi_conceptos_cfdi_concepto_total",
+            "cfdi_conceptos_cfdi_concepto_unidad",
+            "cfdi_conceptos_cfdi_concepto_valorunitario",
+            "cfdi_emisor_nombre",
+            "cfdi_emisor_regimenfiscal",
+            "cfdi_emisor_rfc",
+            "cfdi_impuestos_cfdi_traslados_cfdi_traslado",
+            "cfdi_impuestos_totalimpuestosretenidos",
+            "cfdi_impuestos_totalimpuestostrasladados",
+            "cfdi_receptor_domiciliofiscalreceptor",
+            "cfdi_receptor_nombre",
+            "cfdi_receptor_regimenfiscalreceptor",
+            "cfdi_receptor_rfc",
+            "cfdi_receptor_usocfdi",
+            "certificado",
+            "condicionesdepago",
+            "descuento",
+            "exportacion",
+            "fecha",
+            "folio",
+            "formapago",
+            "lugarexpedicion",
+            "metodopago",
+            "moneda",
+            "nocertificado",
+            "sello",
+            "serie",
+            "subtotal",
+            "tipocambio",
+            "tipodecomprobante",
+            "total",
+            "version",
+            "schemalocation",
+            "certificado",
+            "condicionesdepago",
+            "descuento",
+            "exportacion",
+            "fecha",
+            "folio",
+            "formapago",
+            "lugarexpedicion",
+            "metodopago",
+            "moneda",
+            "nocertificado",
+            "sello",
+            "serie",
+            "subtotal",
+            "tipocambio",
+            "tipodecomprobante",
+            "total",
+            "version",
+            "schemalocation"
+        ],
+        "campos_opcionales": [
+            "cfdi_addenda_tokiomarine_buzonfiscal_cfd_ag",
+            "cfdi_addenda_tokiomarine_buzonfiscal_cfd_ce",
+            "cfdi_addenda_tokiomarine_buzonfiscal_cfd_po",
+            "cfdi_addenda_tokiomarine_buzonfiscal_cfd_re",
+            "cfdi_addenda_tokiomarine_buzonfiscal_expedi",
+            "cfdi_addenda_tokiomarine_buzonfiscal_recept",
+            "cfdi_addenda_tokiomarine_buzonfiscal_tipodo",
+            "cfdi_conceptos_cfdi_concepto_cfdi_acuentate",
+            "cfdi_conceptos_cfdi_concepto_cfdi_complemen",
+            "cfdi_conceptos_cfdi_concepto_cfdi_cuentapre",
+            "cfdi_conceptos_cfdi_concepto_cfdi_parte_can",
+            "cfdi_conceptos_cfdi_concepto_cfdi_parte_cla",
+            "cfdi_conceptos_cfdi_concepto_cfdi_parte_des",
+            "cfdi_conceptos_cfdi_concepto_cfdi_parte_imp",
+            "cfdi_conceptos_cfdi_concepto_cfdi_parte_noi",
+            "cfdi_conceptos_cfdi_concepto_cfdi_parte_tot",
+            "cfdi_conceptos_cfdi_concepto_cfdi_parte_uni",
+            "cfdi_conceptos_cfdi_concepto_cfdi_parte_val",
+            "cfdi_impuestos_cfdi_retenciones_cfdi_retenc",
+            "cfdi_informacionglobal_a_o",
+            "cfdi_informacionglobal_meses",
+            "cfdi_informacionglobal_periodicidad"
+        ]
+    },
+    "tablas_relacion": {
+        "cfdi_impuestos": [
+            "cfdi_complemento_implocal_impuestoslocales"
+        ]
+    },
+    "tablas_complementos": {
+        "cfdi_complemento_": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_complemento_tfd": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_y_19_campos_m_s": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_y_46_campos_m_s": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_y_51_campos_m_s": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_complemento_leyendasfisc": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_complemento_divisas": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_complemento_registrofiscal": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_complemento_implocal": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_complemento_aerolineas": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_y_2_campos_m_s": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_y_10_campos_m_s": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_y_22_campos_m_s": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        },
+        "cfdi_complemento_y_20_campos_m_s": {
+            "campos": 0,
+            "version": "",
+            "presencia": []
+        }
+    }
+}

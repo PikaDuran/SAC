@@ -1,0 +1,83 @@
+MAPEO DEFINITIVO DE CAMPOS CFDI XML -> BASE DE DATOS
+Generado: 2025-08-27_00-21-29
+================================================================================
+
+RESUMEN:
+- CFDI 3.3 (2022 Emitido): 41 campos
+- CFDI 3.3 (2022 Recibido): 44 campos
+- CFDI 4.0 (2024 Emitido): 47 campos
+- CFDI 4.0 (2024 Recibido): 64 campos
+- Total campos únicos: 70
+
+LISTADO COMPLETO DE CAMPOS:
+--------------------------------------------------------------------------------
+COMPLEMENTO_PAGOS_Version
+COMPLEMENTO_TIMBREFISCALDIGITAL_FechaTimbrado
+COMPLEMENTO_TIMBREFISCALDIGITAL_NoCertificadoSAT
+COMPLEMENTO_TIMBREFISCALDIGITAL_RfcProvCertif
+COMPLEMENTO_TIMBREFISCALDIGITAL_SelloCFD
+COMPLEMENTO_TIMBREFISCALDIGITAL_SelloSAT
+COMPLEMENTO_TIMBREFISCALDIGITAL_UUID
+COMPLEMENTO_TIMBREFISCALDIGITAL_Version
+COMPROBANTE_Certificado
+COMPROBANTE_Descuento
+COMPROBANTE_Exportacion
+COMPROBANTE_Fecha
+COMPROBANTE_Folio
+COMPROBANTE_FormaPago
+COMPROBANTE_LugarExpedicion
+COMPROBANTE_MetodoPago
+COMPROBANTE_Moneda
+COMPROBANTE_NoCertificado
+COMPROBANTE_Sello
+COMPROBANTE_Serie
+COMPROBANTE_SubTotal
+COMPROBANTE_TipoCambio
+COMPROBANTE_TipoDeComprobante
+COMPROBANTE_Total
+COMPROBANTE_Version
+CONCEPTOS_TOTAL
+CONCEPTO_Cantidad
+CONCEPTO_ClaveProdServ
+CONCEPTO_ClaveUnidad
+CONCEPTO_Descripcion
+CONCEPTO_Descuento
+CONCEPTO_Importe
+CONCEPTO_ObjetoImp
+CONCEPTO_Unidad
+CONCEPTO_ValorUnitario
+EMISOR_Nombre
+EMISOR_RegimenFiscal
+EMISOR_Rfc
+PAGOS_DOCTO_EquivalenciaDR
+PAGOS_DOCTO_Folio
+PAGOS_DOCTO_IdDocumento
+PAGOS_DOCTO_ImpPagado
+PAGOS_DOCTO_ImpSaldoAnt
+PAGOS_DOCTO_ImpSaldoInsoluto
+PAGOS_DOCTO_MonedaDR
+PAGOS_DOCTO_NumParcialidad
+PAGOS_DOCTO_ObjetoImpDR
+PAGOS_DOCTO_Serie
+PAGOS_PAGO_CtaBeneficiario
+PAGOS_PAGO_FechaPago
+PAGOS_PAGO_FormaDePagoP
+PAGOS_PAGO_MonedaP
+PAGOS_PAGO_Monto
+PAGOS_PAGO_RfcEmisorCtaBen
+PAGOS_PAGO_TipoCambioP
+PAGOS_TOTALES_MontoTotalPagos
+PAGOS_TOTALES_TotalTrasladosBaseIVA16
+PAGOS_TOTALES_TotalTrasladosImpuestoIVA16
+RECEPTOR_DomicilioFiscalReceptor
+RECEPTOR_Nombre
+RECEPTOR_RegimenFiscalReceptor
+RECEPTOR_Rfc
+RECEPTOR_UsoCFDI
+TIMBRE_FechaTimbrado
+TIMBRE_NoCertificadoSAT
+TIMBRE_RfcProvCertif
+TIMBRE_SelloCFD
+TIMBRE_SelloSAT
+TIMBRE_UUID
+TIMBRE_Version

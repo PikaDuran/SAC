@@ -1,0 +1,71 @@
+MAPEO COMPLETO DE CAMPOS - TABLA CFDI_PAGOS
+==============================================
+
+CAMPOS OBLIGATORIOS SEGÚN XML COMPLEMENTO DE PAGO:
+==================================================
+
+1. IDENTIFICACIÓN Y VERSIÓN:
+   - cfdi_id              ✅ INSERTADO - ID del CFDI padre
+   - version              ✅ AGREGADO  - Detecta automáticamente pago10 (1.0) o pago20 (2.0)
+
+2. DATOS BÁSICOS DEL PAGO:
+   - fecha_pago           ✅ INSERTADO - XML: FechaPago
+   - forma_pago           ✅ INSERTADO - XML: FormaDePagoP  
+   - moneda               ✅ INSERTADO - XML: MonedaP (default: MXN)
+   - tipo_cambio          ✅ INSERTADO - XML: TipoCambioP (default: 1.0)
+   - monto                ✅ INSERTADO - XML: Monto
+   - num_operacion        ✅ INSERTADO - XML: NumOperacion
+
+3. DATOS CUENTA ORDENANTE:
+   - rfc_emisor_cuenta_ordenante      ✅ AGREGADO - XML: RfcEmisorCtaOrd
+   - cuenta_ordenante                 ✅ AGREGADO - XML: CtaOrdenante  
+   - nombre_banco_extranjero          ✅ AGREGADO - XML: NomBancoOrdExt
+
+4. DATOS CUENTA BENEFICIARIO:
+   - rfc_emisor_cuenta_beneficiario   ✅ AGREGADO - XML: RfcEmisorCtaBen
+   - cuenta_beneficiario              ✅ AGREGADO - XML: CtaBeneficiario
+
+5. DATOS CERTIFICACIÓN Y CADENA:
+   - tipo_cadena_pago                 ✅ AGREGADO - XML: TipoCadPago
+   - certificado_pago                 ✅ AGREGADO - XML: CertPago
+   - cadena_pago                      ✅ AGREGADO - XML: CadPago  
+   - sello_pago                       ✅ AGREGADO - XML: SelloPago
+
+EJEMPLO XML COMPLEMENTO PAGO (CFDI 4.0 - pago20):
+===============================================
+<pago20:Pago FechaPago="2024-08-26T10:30:00" 
+             FormaDePagoP="03" 
+             MonedaP="MXN" 
+             TipoCambioP="1.0"
+             Monto="1500.00" 
+             NumOperacion="OP123456"
+             RfcEmisorCtaOrd="BFM170822P38"
+             CtaOrdenante="1234567890"
+             NomBancoOrdExt="BANCO EXTRANJERO"
+             RfcEmisorCtaBen="BLM1706026AA"
+             CtaBeneficiario="0987654321"
+             TipoCadPago="01"
+             CertPago="MIIC..."
+             CadPago="||2.0|2024-08-26T10:30:00..."
+             SelloPago="ABC123...">
+
+EJEMPLO XML COMPLEMENTO PAGO (CFDI 3.3 - pago10):
+===============================================
+<pago10:Pago FechaPago="2024-08-26T10:30:00" 
+             FormaDePagoP="03" 
+             MonedaP="MXN"
+             Monto="1500.00" 
+             NumOperacion="OP123456"
+             RfcEmisorCtaOrd="BFM170822P38"
+             CtaOrdenante="1234567890"
+             RfcEmisorCtaBen="BLM1706026AA"
+             CtaBeneficiario="0987654321">
+
+RESUMEN DE CAMBIOS REALIZADOS:
+=============================
+✅ Agregados 10 campos faltantes en la inserción SQL
+✅ Creada función determinarVersionPago() para detectar versión automáticamente  
+✅ Mapeo completo de todos los atributos XML a campos de base de datos
+✅ Soporte para ambas versiones de complemento (pago10 y pago20)
+
+ESTADO: TODOS LOS CAMPOS DE cfdi_pagos AHORA SE INSERTAN CORRECTAMENTE

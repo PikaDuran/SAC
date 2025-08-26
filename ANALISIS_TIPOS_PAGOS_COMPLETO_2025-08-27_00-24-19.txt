@@ -1,0 +1,27 @@
+ANÁLISIS EXHAUSTIVO DE TIPOS DE PAGOS EN XMLs CFDI
+Generado: 2025-08-27_00-24-19
+================================================================================
+
+ESTADÍSTICAS GENERALES:
+Total XMLs analizados: 0
+Con complemento de pago: 0
+Sin complemento de pago: 0
+CFDI 3.3: 0
+CFDI 4.0: 0
+Emitidos: 0
+Recibidos: 0
+
+COMPLEMENTOS DE PAGO ENCONTRADOS:
+
+FORMAS DE PAGO IDENTIFICADAS:
+
+MÉTODOS DE PAGO IDENTIFICADOS:
+
+MONEDAS UTILIZADAS:
+
+TIPOS DE COMPROBANTE:
+
+VERSIONES DE COMPLEMENTOS:
+
+DETALLE POR ARCHIVO:
+--------------------------------------------------------------------------------

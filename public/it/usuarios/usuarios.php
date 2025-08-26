@@ -13,30 +13,10 @@ checkAuth(['admin']);
     <title>Administración de Usuarios - SAC</title>
     <link rel="stylesheet" href="../../dashboard/dashboard.css">
     <link rel="stylesheet" href="../../assets/css/global.css">
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- SweetAlert2 CDN -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
-        /* Estilos para SweetAlert2 con z-index alto */
-        .swal-high-z {
-            z-index: 2147483648 !important;
-        }
-
-        .swal-high-z .swal2-container {
-            z-index: 2147483648 !important;
-        }
-
-        /* Forzar z-index alto para todas las alertas de SweetAlert2 */
-        .swal2-container {
-            z-index: 2147483648 !important;
-        }
-
-        .swal2-popup {
-            z-index: 2147483649 !important;
-        }
-
-        <style>.usuarios-container {
+        .usuarios-container {
             padding: 20px;
         }
 
@@ -199,41 +179,26 @@ checkAuth(['admin']);
 
         /* Estilos para modal de usuario */
         .modal-overlay {
-            position: fixed !important;
-            top: 0 !important;
-            left: 0 !important;
-            width: 100vw !important;
-            height: 100vh !important;
-            background: rgba(0, 0, 0, 0.8) !important;
-            display: none !important;
-            justify-content: center !important;
-            align-items: center !important;
-            z-index: 2147483647 !important;
-            /* Máximo z-index posible */
-            opacity: 0 !important;
-            transition: opacity 0.3s ease !important;
-            pointer-events: auto !important;
-        }
-
-        .modal-overlay.show {
-            opacity: 1 !important;
-            pointer-events: auto !important;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
         }
 
         .modal {
-            background: white !important;
-            border-radius: 8px !important;
-            padding: 0 !important;
-            max-width: 500px !important;
-            width: 90% !important;
-            max-height: 90vh !important;
-            overflow-y: auto !important;
-            position: relative !important;
-            z-index: 2147483647 !important;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
-            margin: 0 !important;
-            transform: none !important;
-            pointer-events: auto !important;
+            background: white;
+            border-radius: 8px;
+            padding: 0;
+            max-width: 500px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
         }
 
         .modal-header {

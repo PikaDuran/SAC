@@ -1,0 +1,64 @@
+ANÁLISIS COMPLETO DE TODOS LOS XMLs CFDI
+Generado: 2025-08-27 00:30:41
+================================================================================
+
+📊 ESTADÍSTICAS GENERALES:
+Total XMLs procesados: 31573
+Errores encontrados: 0
+
+📈 DISTRIBUCIÓN POR CATEGORÍA:
+• CFDI 3.3 EMITIDOS: 8671
+• CFDI 3.3 RECIBIDOS: 4864
+• CFDI 4.0 EMITIDOS: 12602
+• CFDI 4.0 RECIBIDOS: 5436
+
+🔢 CAMPOS ÚNICOS IDENTIFICADOS:
+• CFDI 3.3 EMITIDOS: 18 campos
+• CFDI 3.3 RECIBIDOS: 18 campos
+• CFDI 4.0 EMITIDOS: 18 campos
+• CFDI 4.0 RECIBIDOS: 18 campos
+
+================================================================================
+📋 TABLA COMPARATIVA COMPLETA DE CAMPOS
+================================================================================
+
+CAMPO                                                        | 3.3 EMIT     | 3.3 RECV     | 4.0 EMIT     | 4.0 RECV    
+------------------------------------------------------------------------------------------------------------------------
+Certificado                                                  | ✅          | ✅          | ✅          | ✅         
+CondicionesDePago                                            | ✅          | ✅          | ✅          | ✅         
+Descuento                                                    | ✅          | ✅          | ✅          | ✅         
+Exportacion                                                  | ✅          | ✅          | ✅          | ✅         
+Fecha                                                        | ✅          | ✅          | ✅          | ✅         
+Folio                                                        | ✅          | ✅          | ✅          | ✅         
+FormaPago                                                    | ✅          | ✅          | ✅          | ✅         
+LugarExpedicion                                              | ✅          | ✅          | ✅          | ✅         
+MetodoPago                                                   | ✅          | ✅          | ✅          | ✅         
+Moneda                                                       | ✅          | ✅          | ✅          | ✅         
+NoCertificado                                                | ✅          | ✅          | ✅          | ✅         
+Sello                                                        | ✅          | ✅          | ✅          | ✅         
+Serie                                                        | ✅          | ✅          | ✅          | ✅         
+SubTotal                                                     | ✅          | ✅          | ✅          | ✅         
+TipoCambio                                                   | ✅          | ✅          | ✅          | ✅         
+TipoDeComprobante                                            | ✅          | ✅          | ✅          | ✅         
+Total                                                        | ✅          | ✅          | ✅          | ✅         
+Version                                                      | ✅          | ✅          | ✅          | ✅         
+
+================================================================================
+📦 COMPLEMENTOS ENCONTRADOS POR CATEGORÍA
+================================================================================
+
+🔹 CFDI 3.3 EMITIDOS:
+   ❌ No se encontraron complementos
+
+🔹 CFDI 3.3 RECIBIDOS:
+   ❌ No se encontraron complementos
+
+🔹 CFDI 4.0 EMITIDOS:
+   ❌ No se encontraron complementos
+
+🔹 CFDI 4.0 RECIBIDOS:
+   ❌ No se encontraron complementos
+
+
+✅ ANÁLISIS COMPLETO FINALIZADO
+Total de campos únicos en todo el sistema: 18

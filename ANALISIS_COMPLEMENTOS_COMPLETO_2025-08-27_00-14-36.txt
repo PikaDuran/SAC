@@ -1,0 +1,15 @@
+ANÁLISIS EXHAUSTIVO DE COMPLEMENTOS CFDI
+Generado: 2025-08-27_00-14-36
+================================================================================
+
+RESUMEN TOTAL:
+- CFDI_33_EMITIDAS: 2 tipos de complementos
+- CFDI_33_RECIBIDAS: 4 tipos de complementos
+- CFDI_40_EMITIDAS: 2 tipos de complementos
+- CFDI_40_RECIBIDAS: 2 tipos de complementos
+
+COMPLEMENTOS ENCONTRADOS:
+• ImpuestosLocales
+• Pagos v1.0
+• Pagos v2.0
+• TimbreFiscalDigital v1.1
