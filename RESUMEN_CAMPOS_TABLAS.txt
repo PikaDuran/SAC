@@ -1,0 +1,49 @@
+## TABLA: cfdi
+CAMPOS EN BD: version, serie, folio, fecha, sello, forma_pago, no_certificado, certificado, condiciones_pago, subtotal, descuento, moneda, tipo_cambio, total, tipo_comprobante, metodo_pago, lugar_expedicion, confirmacion, fecha_procesamiento
+CAMPOS EN INSERT: version, serie, folio, fecha, sello, forma_pago, no_certificado, certificado, condiciones_pago, subtotal, descuento, moneda, tipo_cambio, total, tipo_comprobante, metodo_pago, lugar_expedicion, confirmacion, fecha_procesamiento
+FALTANTES: NINGUNO
+
+## TABLA: cfdi_timbre_fiscal_digital
+CAMPOS EN BD: cfdi_id, uuid, fecha_timbrado, rfc_prov_certif, sello_cfd, no_certificado_sat, sello_sat
+CAMPOS EN INSERT: cfdi_id, uuid, fecha_timbrado, rfc_prov_certif, sello_cfd, no_certificado_sat, sello_sat
+FALTANTES: NINGUNO (YA CORREGIDO)
+
+## TABLA: emisor
+CAMPOS EN BD: cfdi_id, rfc, nombre, regimen_fiscal, fac_atr_adquirente
+CAMPOS EN INSERT: cfdi_id, rfc, nombre, regimen_fiscal, fac_atr_adquirente
+FALTANTES: NINGUNO
+
+## TABLA: receptor
+CAMPOS EN BD: cfdi_id, rfc, nombre, uso_cfdi, domicilio_fiscal_receptor, residencia_fiscal, num_reg_id_trib
+CAMPOS EN INSERT: cfdi_id, rfc, nombre, uso_cfdi, domicilio_fiscal_receptor, residencia_fiscal, num_reg_id_trib
+FALTANTES: NINGUNO
+
+## TABLA: conceptos
+CAMPOS EN BD: cfdi_id, clave_prod_serv, no_identificacion, cantidad, clave_unidad, unidad, descripcion, valor_unitario, importe, descuento, objeto_imp
+CAMPOS EN INSERT: cfdi_id, clave_prod_serv, no_identificacion, cantidad, clave_unidad, unidad, descripcion, valor_unitario, importe, descuento, objeto_imp
+FALTANTES: NINGUNO
+
+## TABLA: impuestos_trasladados
+CAMPOS EN BD: concepto_id, impuesto, tipo_factor, tasa_cuota, importe, base
+CAMPOS EN INSERT: concepto_id, impuesto, tipo_factor, tasa_cuota, importe, base
+FALTANTES: NINGUNO
+
+## TABLA: impuestos_retenidos
+CAMPOS EN BD: concepto_id, impuesto, tipo_factor, tasa_cuota, importe, base
+CAMPOS EN INSERT: concepto_id, impuesto, tipo_factor, tasa_cuota, importe, base
+FALTANTES: NINGUNO
+
+## TABLA: cfdi_complemento_pagos_v10
+CAMPOS EN BD: cfdi_id, fecha_pago, forma_pago_p, moneda_p, tipo_cambio_p, monto, num_operacion, rfc_emisor_cta_ord, nom_banco_ord_ext, cta_ordenante, rfc_emisor_cta_ben, cta_beneficiario
+CAMPOS EN INSERT: cfdi_id, fecha_pago, forma_pago_p, moneda_p, tipo_cambio_p, monto
+FALTANTES: num_operacion, rfc_emisor_cta_ord, nom_banco_ord_ext, cta_ordenante, rfc_emisor_cta_ben, cta_beneficiario
+
+## TABLA: cfdi_complemento_pagos_v20
+CAMPOS EN BD: cfdi_id, fecha_pago, forma_pago_p, moneda_p, tipo_cambio_p, monto, num_operacion, rfc_emisor_cta_ord, nom_banco_ord_ext, cta_ordenante, rfc_emisor_cta_ben, cta_beneficiario, tipo_cad_pago, cert_pago, cad_pago, sello_pago
+CAMPOS EN INSERT: cfdi_id, fecha_pago, forma_pago_p, moneda_p, tipo_cambio_p, monto, num_operacion
+FALTANTES: rfc_emisor_cta_ord, nom_banco_ord_ext, cta_ordenante, rfc_emisor_cta_ben, cta_beneficiario, tipo_cad_pago, cert_pago, cad_pago, sello_pago
+
+## TABLA: cfdi_complemento_nomina
+CAMPOS EN BD: cfdi_id, tipo_nomina, fecha_pago, fecha_inicial_pago, fecha_final_pago, num_dias_pagados, total_percepciones, total_deducciones, total_otros_pagos
+CAMPOS EN INSERT: cfdi_id, tipo_nomina, fecha_pago, fecha_inicial_pago, fecha_final_pago, num_dias_pagados, total_percepciones, total_deducciones, total_otros_pagos
+FALTANTES: NINGUNO

@@ -2,17 +2,21 @@
 try {
     $pdo = new PDO('mysql:host=localhost;dbname=sac_db', 'root', '');
 
-    // Verificar conteo de registros en todas las tablas
+    // Tablas reales de la base sac_db
     $tablas = [
         'cfdi' => 'Comprobantes principales',
-        'cfdi_conceptos' => 'Conceptos',
-        'cfdi_impuestos' => 'Impuestos',
-        'cfdi_timbre_fiscal' => 'Timbres fiscales',
-        'cfdi_pagos' => 'Pagos',
-        'cfdi_pago_documentos_relacionados' => 'Documentos relacionados',
-        'cfdi_pago_impuestos_dr' => 'Impuestos documentos relacionados',
-        'cfdi_pago_totales' => 'Totales de pagos',
-        'cfdi_complementos' => 'Complementos generales'
+        'cfdi_complemento_carta_porte' => 'Complemento carta porte',
+        'cfdi_complemento_comercio_exterior' => 'Complemento comercio exterior',
+        'cfdi_complemento_impuestos_locales' => 'Complemento impuestos locales',
+        'cfdi_complemento_nomina' => 'Complemento nómina',
+        'cfdi_complemento_pagos_v10' => 'Complemento pagos v10',
+        'cfdi_complemento_pagos_v20' => 'Complemento pagos v20',
+        'cfdi_timbre_fiscal_digital' => 'Timbre fiscal digital',
+        'concepto' => 'Conceptos',
+        'emisor' => 'Emisor',
+        'receptor' => 'Receptor',
+        'impuestos_retenidos' => 'Impuestos retenidos',
+        'impuestos_trasladados' => 'Impuestos trasladados'
     ];
 
     echo "VERIFICACIÓN DE REGISTROS EN TODAS LAS TABLAS CFDI\n";
