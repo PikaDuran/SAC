@@ -1,0 +1,42 @@
+
+================================================================================
+              REPORTE COMPLETO DE IMPORTACIÓN DE CFDIs
+================================================================================
+🕐 Tiempo total de procesamiento: 1242.8 segundos
+📊 Promedio por archivo: 0.0388 seg/archivo
+
+📁 ARCHIVOS PROCESADOS:
+   • Total encontrados: 32055
+   • Procesados exitosos: 32055
+   • Con errores: 0
+   • Porcentaje de éxito: 100%
+
+📋 VERSIONES DE CFDI:
+   • CFDI 3.3: 14141
+   • CFDI 4.0: 17914
+
+🏷️ COMPLEMENTOS PROCESADOS:
+   • Timbres Fiscales: 32055
+   • Complementos de Pago: 5800
+   • Complementos de Nómina: 941
+   • Otros Complementos: 571
+
+🗄️ ESTADÍSTICAS DE BASE DE DATOS:
+   • CFDIs principales: 31663
+   • Emisores: 32055
+   • Receptores: 32055
+   • Conceptos/líneas: 54303
+   • Impuestos trasladados: 45867
+   • Impuestos retenidos: 577
+   • Timbres fiscales: 31663
+   • Pagos v1.0: 2912
+   • Pagos v2.0: 3069
+   • Nóminas: 941
+   • Otros complementos: 447
+   • Addendas: 18
+
+================================================================================
+✅ IMPORTACIÓN COMPLETADA EXITOSAMENTE
+🗄️ Base de datos: sac_db actualizada
+📅 Fecha: 2025-09-01 23:43:42
+================================================================================
