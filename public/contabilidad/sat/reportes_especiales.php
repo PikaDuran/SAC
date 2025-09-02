@@ -684,6 +684,9 @@ checkAuth(['admin', 'contabilidad']);
                                     <button class="btn btn-sm btn-success" onclick="descargarXML('${row[0]}')" title="Descargar XML">
                                         <i class="fas fa-download"></i>
                                     </button>
+                                    <button class="btn btn-sm btn-danger" onclick="generarPDF('${row[0]}')" title="Generar PDF">
+                                        <i class="fas fa-file-pdf"></i>
+                                    </button>
                                 `;
                             }
                         }
@@ -1131,6 +1134,10 @@ checkAuth(['admin', 'contabilidad']);
 
         function descargarXML(uuid) {
             window.location.href = `api/descargar_xml.php?uuid=${uuid}`;
+        }
+
+        function generarPDF(uuid) {
+            window.open(`api/generar_pdf_cfdi.php?uuid=${uuid}`, '_blank');
         }
     </script>
 </body>

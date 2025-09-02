@@ -4950,3 +4950,87 @@
 2025-08-28 22:57:00 - Resultados tabla: 0
 2025-08-28 22:57:00 - Resultados stats: 0
 2025-08-28 22:57:00 - Response preparado
+2025-09-02 17:08:34 - Solicitud recibida
+2025-09-02 17:08:34 - Conexión BD OK
+2025-09-02 17:08:34 - Filtros: {"tipoReporte":"emitidos","rfc":"BFM170822P38","fechas":"2025-08-03 a 2025-08-31","tipoComprobante":"","moneda":"","montoMin":"","montoMax":"","version":"","serie":"","formaPago":"","metodoPago":"","usoCfdi":""}
+2025-09-02 17:08:34 - Es para Excel: NO
+2025-09-02 17:08:34 - SQL Stats: SELECT 
+                        COUNT(*) as total_cfdis,
+                        SUM(CASE WHEN total IS NOT NULL THEN total ELSE 0 END) as total_facturado,
+                        AVG(CASE WHEN total IS NOT NULL THEN total ELSE 0 END) as promedio_ticket,
+                        tipo,
+                        COUNT(*) as cantidad_por_tipo
+                    FROM v_reporte_excel
+                    WHERE uuid IS NOT NULL AND emisor_rfc = :rfc AND DATE(emision) BETWEEN :fecha_inicio AND :fecha_fin GROUP BY tipo
+2025-09-02 17:08:34 - SQL Data: SELECT 
+                        uuid, emision, emisor_rfc, emisor_nombre, receptor_rfc, receptor_nombre, 
+                        total, moneda, tipo
+                    FROM v_reporte_excel
+                    WHERE uuid IS NOT NULL AND emisor_rfc = :rfc AND DATE(emision) BETWEEN :fecha_inicio AND :fecha_fin ORDER BY emision DESC LIMIT 500
+2025-09-02 17:08:34 - Params: {":rfc":"BFM170822P38",":fecha_inicio":"2025-08-03",":fecha_fin":"2025-08-31"}
+2025-09-02 17:09:07 - Resultados tabla: 91
+2025-09-02 17:09:07 - Resultados stats: 3
+2025-09-02 17:09:38 - Response preparado
+2025-09-02 17:49:37 - Solicitud recibida
+2025-09-02 17:49:37 - Conexión BD OK
+2025-09-02 17:49:37 - Filtros: {"tipoReporte":"emitidos","rfc":"BFM170822P38","fechas":"2025-08-03 a 2025-09-02","tipoComprobante":"","moneda":"","montoMin":"","montoMax":"","version":"","serie":"","formaPago":"","metodoPago":"","usoCfdi":""}
+2025-09-02 17:49:37 - Es para Excel: NO
+2025-09-02 17:49:37 - SQL Stats: SELECT 
+                        COUNT(*) as total_cfdis,
+                        SUM(CASE WHEN total IS NOT NULL THEN total ELSE 0 END) as total_facturado,
+                        AVG(CASE WHEN total IS NOT NULL THEN total ELSE 0 END) as promedio_ticket,
+                        tipo,
+                        COUNT(*) as cantidad_por_tipo
+                    FROM v_reporte_excel
+                    WHERE uuid IS NOT NULL AND emisor_rfc = :rfc AND DATE(emision) BETWEEN :fecha_inicio AND :fecha_fin GROUP BY tipo
+2025-09-02 17:49:37 - SQL Data: SELECT 
+                        uuid, emision, emisor_rfc, emisor_nombre, receptor_rfc, receptor_nombre, 
+                        total, moneda, tipo
+                    FROM v_reporte_excel
+                    WHERE uuid IS NOT NULL AND emisor_rfc = :rfc AND DATE(emision) BETWEEN :fecha_inicio AND :fecha_fin ORDER BY emision DESC LIMIT 500
+2025-09-02 17:49:37 - Params: {":rfc":"BFM170822P38",":fecha_inicio":"2025-08-03",":fecha_fin":"2025-09-02"}
+2025-09-02 17:50:18 - Resultados tabla: 91
+2025-09-02 17:50:18 - Resultados stats: 3
+2025-09-02 17:50:55 - Response preparado
+2025-09-02 17:54:41 - Solicitud recibida
+2025-09-02 17:54:41 - Conexión BD OK
+2025-09-02 17:54:41 - Filtros: {"tipoReporte":"emitidos","rfc":"BFM170822P38","fechas":"2025-08-03 a 2025-09-02","tipoComprobante":"","moneda":"","montoMin":"","montoMax":"","version":"","serie":"","formaPago":"","metodoPago":"","usoCfdi":""}
+2025-09-02 17:54:41 - Es para Excel: NO
+2025-09-02 17:54:41 - SQL Stats: SELECT 
+                        COUNT(*) as total_cfdis,
+                        SUM(CASE WHEN total IS NOT NULL THEN total ELSE 0 END) as total_facturado,
+                        AVG(CASE WHEN total IS NOT NULL THEN total ELSE 0 END) as promedio_ticket,
+                        tipo,
+                        COUNT(*) as cantidad_por_tipo
+                    FROM v_reporte_excel
+                    WHERE uuid IS NOT NULL AND emisor_rfc = :rfc AND DATE(emision) BETWEEN :fecha_inicio AND :fecha_fin GROUP BY tipo
+2025-09-02 17:54:41 - SQL Data: SELECT 
+                        uuid, emision, emisor_rfc, emisor_nombre, receptor_rfc, receptor_nombre, 
+                        total, moneda, tipo
+                    FROM v_reporte_excel
+                    WHERE uuid IS NOT NULL AND emisor_rfc = :rfc AND DATE(emision) BETWEEN :fecha_inicio AND :fecha_fin ORDER BY emision DESC LIMIT 500
+2025-09-02 17:54:41 - Params: {":rfc":"BFM170822P38",":fecha_inicio":"2025-08-03",":fecha_fin":"2025-09-02"}
+2025-09-02 17:55:17 - Resultados tabla: 91
+2025-09-02 17:55:17 - Resultados stats: 3
+2025-09-02 17:55:49 - Response preparado
+2025-09-02 18:12:08 - Solicitud recibida
+2025-09-02 18:12:08 - Conexión BD OK
+2025-09-02 18:12:08 - Filtros: {"tipoReporte":"emitidos","rfc":"BFM170822P38","fechas":"2025-08-03 a 2025-09-02","tipoComprobante":"","moneda":"","montoMin":"","montoMax":"","version":"","serie":"","formaPago":"","metodoPago":"","usoCfdi":""}
+2025-09-02 18:12:08 - Es para Excel: NO
+2025-09-02 18:12:08 - SQL Stats: SELECT 
+                        COUNT(*) as total_cfdis,
+                        SUM(CASE WHEN total IS NOT NULL THEN total ELSE 0 END) as total_facturado,
+                        AVG(CASE WHEN total IS NOT NULL THEN total ELSE 0 END) as promedio_ticket,
+                        tipo,
+                        COUNT(*) as cantidad_por_tipo
+                    FROM v_reporte_excel
+                    WHERE uuid IS NOT NULL AND emisor_rfc = :rfc AND DATE(emision) BETWEEN :fecha_inicio AND :fecha_fin GROUP BY tipo
+2025-09-02 18:12:08 - SQL Data: SELECT 
+                        uuid, emision, emisor_rfc, emisor_nombre, receptor_rfc, receptor_nombre, 
+                        total, moneda, tipo
+                    FROM v_reporte_excel
+                    WHERE uuid IS NOT NULL AND emisor_rfc = :rfc AND DATE(emision) BETWEEN :fecha_inicio AND :fecha_fin ORDER BY emision DESC LIMIT 500
+2025-09-02 18:12:08 - Params: {":rfc":"BFM170822P38",":fecha_inicio":"2025-08-03",":fecha_fin":"2025-09-02"}
+2025-09-02 18:12:45 - Resultados tabla: 91
+2025-09-02 18:12:45 - Resultados stats: 3
+2025-09-02 18:13:17 - Response preparado
