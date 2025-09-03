@@ -1,4 +1,5 @@
 <?php
+
 /**
  * IMPORTADOR COMPLETO DE CFDIs
  * Limpia todas las tablas y reimporta todos los XMLs con complementos de pago
@@ -6,7 +7,8 @@
 
 require_once __DIR__ . '/src/config/database.php';
 
-class ImportadorCompletoSAT {
+class ImportadorCompletoSAT
+{
     private $pdo;
     private $stats = [
         'total_archivos' => 0,
@@ -16,27 +18,30 @@ class ImportadorCompletoSAT {
         'errores' => 0,
         'skipped' => 0
     ];
-    
-    public function __construct() {
+
+    public function __construct()
+    {
         $this->pdo = getDatabase();
         $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
-    
-    public function ejecutar() {
+
+    public function ejecutar()
+    {
         echo "🚀 IMPORTADOR COMPLETO SAT - REINICIO TOTAL\n";
         echo str_repeat("=", 60) . "\n\n";
-        
+
         $this->limpiarTablas();
         $this->escanearArchivos();
         $this->mostrarResumen();
     }
-    
-    private function limpiarTablas() {
+
+    private function limpiarTablas()
+    {
         echo "🧹 LIMPIANDO TODAS LAS TABLAS CFDI...\n";
-        
+
         $tablas = [
             'cfdi_pago_totales',
-            'cfdi_pago_impuestos_dr', 
+            'cfdi_pago_impuestos_dr',
             'cfdi_pago_documentos_relacionados',
             'cfdi_pagos',
             'cfdi_impuestos',
@@ -45,7 +50,7 @@ class ImportadorCompletoSAT {
             'cfdi_auditoria',
             'cfdi'
         ];
-        
+
         foreach ($tablas as $tabla) {
             try {
                 $this->pdo->exec("DELETE FROM $tabla");
@@ -54,7 +59,7 @@ class ImportadorCompletoSAT {
                 echo "  ⚠️  Error limpiando $tabla: " . $e->getMessage() . "\n";
             }
         }
-        
+
         // Reset auto increment
         foreach ($tablas as $tabla) {
             try {
@@ -63,105 +68,108 @@ class ImportadorCompletoSAT {
                 // Ignorar errores de auto increment
             }
         }
-        
+
         echo "✅ Limpieza completada\n\n";
     }
-    
-    private function escanearArchivos() {
+
+    private function escanearArchivos()
+    {
         echo "📁 ESCANEANDO ARCHIVOS XML...\n";
-        
+
         $directorio = 'storage/sat_downloads';
         $archivos = $this->obtenerArchivosXML($directorio);
-        
+
         $this->stats['total_archivos'] = count($archivos);
         echo "📊 Total de archivos encontrados: " . number_format($this->stats['total_archivos']) . "\n\n";
-        
+
         $procesados = 0;
         $lote = 0;
-        
+
         foreach ($archivos as $archivo) {
             $procesados++;
             $lote++;
-            
+
             if ($lote % 100 == 0) {
-                echo "📈 Procesados: " . number_format($procesados) . " / " . number_format($this->stats['total_archivos']) . 
-                     " (" . round(($procesados / $this->stats['total_archivos']) * 100, 2) . "%)\n";
+                echo "📈 Procesados: " . number_format($procesados) . " / " . number_format($this->stats['total_archivos']) .
+                    " (" . round(($procesados / $this->stats['total_archivos']) * 100, 2) . "%)\n";
             }
-            
+
             $this->procesarArchivo($archivo);
-            
+
             // Pequeña pausa cada 1000 archivos para no sobrecargar
             if ($lote % 1000 == 0) {
                 echo "⏸️  Pausa técnica...\n";
                 usleep(100000); // 0.1 segundos
             }
         }
-        
+
         echo "\n✅ PROCESAMIENTO DE ARCHIVOS COMPLETADO\n\n";
     }
-    
-    private function obtenerArchivosXML($directorio) {
+
+    private function obtenerArchivosXML($directorio)
+    {
         $archivos = [];
         $iterator = new RecursiveIteratorIterator(
             new RecursiveDirectoryIterator($directorio)
         );
-        
+
         foreach ($iterator as $file) {
             if ($file->isFile() && strtolower($file->getExtension()) === 'xml') {
                 $archivos[] = $file->getPathname();
             }
         }
-        
+
         return $archivos;
     }
-    
-    private function procesarArchivo($rutaArchivo) {
+
+    private function procesarArchivo($rutaArchivo)
+    {
         try {
             // Extraer información de la ruta
             $info = $this->extraerInfoRuta($rutaArchivo);
-            
+
             // Leer y parsear XML
             $xmlContent = file_get_contents($rutaArchivo);
             if (!$xmlContent) {
                 $this->stats['errores']++;
                 return;
             }
-            
+
             $xml = simplexml_load_string($xmlContent);
             if (!$xml) {
                 $this->stats['errores']++;
                 return;
             }
-            
+
             // Insertar CFDI principal
             $cfdi_id = $this->insertarCFDI($xml, $info, $rutaArchivo);
-            
+
             if ($cfdi_id) {
                 $this->stats['cfdi_importados']++;
-                
+
                 // Insertar timbre fiscal
                 $this->insertarTimbreFiscal($xml, $cfdi_id);
-                
+
                 // Insertar conceptos e impuestos
                 $this->insertarConceptos($xml, $cfdi_id);
-                
+
                 // Si es tipo P, procesar complemento de pago completo
                 $tipoComprobante = (string)$xml['TipoDeComprobante'];
                 if ($tipoComprobante === 'P') {
                     $this->procesarComplementoPago($xml, $cfdi_id);
                 }
             }
-            
         } catch (Exception $e) {
             $this->stats['errores']++;
             // Continuar con el siguiente archivo
         }
     }
-    
-    private function extraerInfoRuta($rutaArchivo) {
+
+    private function extraerInfoRuta($rutaArchivo)
+    {
         // Formato: storage/sat_downloads/RFC/TIPO/AÑO/MES/archivo.xml
         $partes = explode(DIRECTORY_SEPARATOR, str_replace('/', DIRECTORY_SEPARATOR, $rutaArchivo));
-        
+
         return [
             'rfc' => $partes[count($partes) - 5] ?? '',
             'tipo' => $partes[count($partes) - 4] ?? '',
@@ -170,11 +178,12 @@ class ImportadorCompletoSAT {
             'archivo' => basename($rutaArchivo)
         ];
     }
-    
-    private function insertarCFDI($xml, $info, $rutaArchivo) {
+
+    private function insertarCFDI($xml, $info, $rutaArchivo)
+    {
         try {
             $comprobante = $xml->attributes();
-            
+
             $stmt = $this->pdo->prepare("
                 INSERT INTO cfdi (
                     uuid, tipo, serie, folio, fecha, fecha_timbrado,
@@ -186,10 +195,10 @@ class ImportadorCompletoSAT {
                     version, estatus_sat
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ");
-            
+
             // Extraer UUID del timbre fiscal
             $uuid = $this->extraerUUID($xml);
-            
+
             $stmt->execute([
                 $uuid,
                 (string)$comprobante->TipoDeComprobante ?? '',
@@ -219,18 +228,18 @@ class ImportadorCompletoSAT {
                 (string)$comprobante->Version ?? '3.3',
                 'VIGENTE'
             ]);
-            
+
             return $this->pdo->lastInsertId();
-            
         } catch (Exception $e) {
             return null;
         }
     }
-    
-    private function procesarComplementoPago($xml, $cfdi_id) {
+
+    private function procesarComplementoPago($xml, $cfdi_id)
+    {
         $namespaces = $xml->getNamespaces(true);
         $pagos_encontrados = [];
-        
+
         // CFDI 4.0
         if (isset($namespaces['pago20'])) {
             $xml->registerXPathNamespace('pago20', 'http://www.sat.gob.mx/Pagos20');
@@ -241,26 +250,27 @@ class ImportadorCompletoSAT {
             $xml->registerXPathNamespace('pago10', 'http://www.sat.gob.mx/Pagos');
             $pagos_encontrados = $xml->xpath('//pago10:Pago');
         }
-        
+
         foreach ($pagos_encontrados as $pago) {
             $this->insertarPago($pago, $cfdi_id);
         }
     }
-    
-    private function insertarPago($pago, $cfdi_id) {
+
+    private function insertarPago($pago, $cfdi_id)
+    {
         try {
             $attrs = $pago->attributes();
-            
+
             $stmt = $this->pdo->prepare("
                 INSERT INTO cfdi_pagos (
                     cfdi_id, fecha_pago, forma_pago, moneda, 
                     tipo_cambio, monto, num_operacion
                 ) VALUES (?, ?, ?, ?, ?, ?, ?)
             ");
-            
-            $fechaPago = isset($attrs->FechaPago) ? 
+
+            $fechaPago = isset($attrs->FechaPago) ?
                 $this->formatearFecha((string)$attrs->FechaPago) : null;
-            
+
             $stmt->execute([
                 $cfdi_id,
                 $fechaPago,
@@ -270,26 +280,26 @@ class ImportadorCompletoSAT {
                 (float)($attrs->Monto ?? 0.0),
                 (string)$attrs->NumOperacion ?? null
             ]);
-            
+
             $pago_id = $this->pdo->lastInsertId();
             $this->stats['pagos_procesados']++;
-            
+
             // Procesar documentos relacionados
             if (isset($pago->DoctoRelacionado)) {
                 foreach ($pago->DoctoRelacionado as $doc) {
                     $this->insertarDocumentoRelacionado($doc, $pago_id);
                 }
             }
-            
         } catch (Exception $e) {
             // Continuar con el siguiente pago
         }
     }
-    
-    private function insertarDocumentoRelacionado($doc, $pago_id) {
+
+    private function insertarDocumentoRelacionado($doc, $pago_id)
+    {
         try {
             $attrs = $doc->attributes();
-            
+
             $stmt = $this->pdo->prepare("
                 INSERT INTO cfdi_pago_documentos_relacionados (
                     pago_id, uuid_documento, serie, folio, moneda_dr,
@@ -297,7 +307,7 @@ class ImportadorCompletoSAT {
                     imp_pagado, imp_saldo_insoluto
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ");
-            
+
             $stmt->execute([
                 $pago_id,
                 (string)$attrs->IdDocumento,
@@ -310,15 +320,15 @@ class ImportadorCompletoSAT {
                 (float)($attrs->ImpPagado ?? 0.0),
                 (float)($attrs->ImpSaldoInsoluto ?? 0.0)
             ]);
-            
+
             $this->stats['documentos_relacionados']++;
-            
         } catch (Exception $e) {
             // Continuar con el siguiente documento
         }
     }
-    
-    private function extraerUUID($xml) {
+
+    private function extraerUUID($xml)
+    {
         // Buscar en TimbreFiscalDigital
         $namespaces = $xml->getNamespaces(true);
         if (isset($namespaces['tfd'])) {
@@ -328,12 +338,13 @@ class ImportadorCompletoSAT {
                 return (string)$timbres[0]['UUID'];
             }
         }
-        
+
         // Fallback: buscar en el nombre del archivo
         return '';
     }
-    
-    private function extraerFechaTimbrado($xml) {
+
+    private function extraerFechaTimbrado($xml)
+    {
         $namespaces = $xml->getNamespaces(true);
         if (isset($namespaces['tfd'])) {
             $xml->registerXPathNamespace('tfd', 'http://www.sat.gob.mx/TimbreFiscalDigital');
@@ -344,10 +355,11 @@ class ImportadorCompletoSAT {
         }
         return null;
     }
-    
-    private function formatearFecha($fecha) {
+
+    private function formatearFecha($fecha)
+    {
         if (empty($fecha)) return null;
-        
+
         try {
             $dt = new DateTime($fecha);
             return $dt->format('Y-m-d H:i:s');
@@ -355,8 +367,9 @@ class ImportadorCompletoSAT {
             return null;
         }
     }
-    
-    private function mostrarResumen() {
+
+    private function mostrarResumen()
+    {
         echo "📊 RESUMEN FINAL:\n";
         echo str_repeat("=", 40) . "\n";
         echo "Total archivos procesados: " . number_format($this->stats['total_archivos']) . "\n";
@@ -365,17 +378,17 @@ class ImportadorCompletoSAT {
         echo "Documentos relacionados: " . number_format($this->stats['documentos_relacionados']) . "\n";
         echo "Errores: " . number_format($this->stats['errores']) . "\n";
         echo "\n✅ IMPORTACIÓN COMPLETA FINALIZADA\n";
-        
+
         // Verificación final
         $stmt = $this->pdo->query("SELECT COUNT(*) as total FROM cfdi");
         $total_cfdi = $stmt->fetch()['total'];
-        
+
         $stmt = $this->pdo->query("SELECT COUNT(*) as total FROM cfdi WHERE tipo = 'P'");
         $total_pagos = $stmt->fetch()['total'];
-        
+
         $stmt = $this->pdo->query("SELECT COUNT(*) as total FROM cfdi_pagos");
         $total_complementos = $stmt->fetch()['total'];
-        
+
         echo "\n🔍 VERIFICACIÓN:\n";
         echo "CFDIs en base de datos: " . number_format($total_cfdi) . "\n";
         echo "CFDIs tipo P: " . number_format($total_pagos) . "\n";
@@ -391,4 +404,3 @@ try {
     echo "❌ Error crítico: " . $e->getMessage() . "\n";
     exit(1);
 }
-?>

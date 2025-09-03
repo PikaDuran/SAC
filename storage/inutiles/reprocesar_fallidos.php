@@ -1,4 +1,5 @@
 <?php
+
 /**
  * REPROCESADOR DE ARCHIVOS FALLIDOS
  * Permite reprocesar archivos que fallaron en la importación inicial
@@ -23,4 +24,3 @@ try {
     echo "❌ Error crítico: " . $e->getMessage() . "\n";
     exit(1);
 }
-?>

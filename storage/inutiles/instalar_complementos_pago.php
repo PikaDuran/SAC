@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Instalador simple de complementos de pago
  * Solo crea las tablas necesarias
@@ -10,7 +11,7 @@ echo "🔧 INSTALANDO SISTEMA DE COMPLEMENTOS DE PAGO\n\n";
 
 try {
     $pdo = getDatabase();
-    
+
     echo "1. Creando tabla cfdi_pagos...\n";
     $pdo->exec("
         CREATE TABLE IF NOT EXISTS cfdi_pagos (
@@ -34,7 +35,7 @@ try {
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
     ");
     echo "   ✅ Tabla cfdi_pagos creada\n";
-    
+
     echo "2. Creando tabla cfdi_pago_documentos_relacionados...\n";
     $pdo->exec("
         CREATE TABLE IF NOT EXISTS cfdi_pago_documentos_relacionados (
@@ -56,25 +57,23 @@ try {
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
     ");
     echo "   ✅ Tabla cfdi_pago_documentos_relacionados creada\n";
-    
+
     echo "3. Verificando estructura...\n";
-    
+
     // Verificar CFDIs de pago disponibles
     $stmt = $pdo->query("SELECT COUNT(*) as total FROM cfdi WHERE tipo = 'P'");
     $totalPagos = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
-    
+
     echo "   📊 CFDIs de tipo Pago encontrados: $totalPagos\n";
-    
+
     echo "\n✅ INSTALACIÓN COMPLETADA\n";
     echo "Las tablas están listas para procesar complementos de pago\n\n";
-    
+
     if ($totalPagos > 0) {
         echo "🔄 Para procesar los CFDIs existentes, ejecuta:\n";
         echo "   php procesar_complementos_pago.php\n\n";
     }
-    
 } catch (Exception $e) {
     echo "❌ Error: " . $e->getMessage() . "\n";
     exit(1);
 }
-?>

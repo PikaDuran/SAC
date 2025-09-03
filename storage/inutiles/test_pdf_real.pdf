@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <style>
+                @page { size: letter; margin: 15mm; }
+                body { font-family: Arial, sans-serif; margin: 0; padding: 20px; font-size: 11px; line-height: 1.3; }
+                .header { text-align: center; font-weight: bold; font-size: 18px; margin-bottom: 25px; color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+                .section { margin-bottom: 20px; page-break-inside: avoid; clear: both; }
+                .section-title { font-weight: bold; font-size: 13px; color: white; margin-bottom: 10px; background-color: #3498db; padding: 8px 12px; text-transform: uppercase; }
+                .info-table { width: 100%; border-collapse: collapse; margin-bottom: 15px; border: 1px solid #bdc3c7; }
+                .info-table td { padding: 8px 12px; border: 1px solid #ecf0f1; font-size: 10px; vertical-align: top; }
+                .label { font-weight: bold; background-color: #ecf0f1; width: 140px; color: #2c3e50; }
+                .qr-container { float: left; width: 220px; margin: 15px 20px 15px 0; text-align: left; }
+                .qr-container h4 { font-size: 12px; color: #2c3e50; margin-bottom: 10px; font-weight: bold; }
+                .timbre-info { margin-left: 240px; margin-top: 15px; }
+                .sello { font-size: 8px; word-wrap: break-word; font-family: "Courier New", monospace; background-color: #f8f9fa; padding: 10px; border-left: 4px solid #3498db; line-height: 1.4; }
+                .conceptos-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+                .conceptos-table th { background-color: #34495e; color: white; padding: 8px; border: 1px solid #2c3e50; font-size: 10px; font-weight: bold; text-align: center; }
+                .conceptos-table td { padding: 6px; border: 1px solid #ecf0f1; font-size: 9px; }
+                .conceptos-table tr:nth-child(even) td { background-color: #f8f9fa; }
+                .totales { text-align: right; margin-top: 15px; }
+                .totales table { margin-left: auto; border: 2px solid #3498db; width: 350px; }
+                .total-row { background-color: #27ae60; color: white; font-weight: bold; font-size: 12px; }
+                .empresa-info { background-color: #f8f9fa; padding: 15px; margin-bottom: 20px; border-left: 5px solid #3498db; }
+                .clear { clear: both; }
+            </style>
+        </head>
+        <body>
+            <div class="header">COMPROBANTE FISCAL DIGITAL POR INTERNET (CFDI)</div>
+            
+            <div class="section">
+                <div class="section-title">Información del Comprobante</div>
+                <table class="info-table">
+                    <tr>
+                        <td class="label">Versión CFDI:</td>
+                        <td>4.0</td>
+                        <td class="label">Folio Fiscal (UUID):</td>
+                        <td style="font-size: 8px;">D4D9B579-9B25-4D90-B041-292411E90D8A</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Serie:</td>
+                        <td></td>
+                        <td class="label">Folio:</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Fecha y Hora de Emisión:</td>
+                        <td>2025-08-29T10:55:27</td>
+                        <td class="label">Lugar de Expedición:</td>
+                        <td>06600</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Tipo de Comprobante:</td>
+                        <td>P</td>
+                        <td class="label">Método de Pago:</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Forma de Pago:</td>
+                        <td></td>
+                        <td class="label">Moneda:</td>
+                        <td>XXX</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="section empresa-info">
+                <div class="section-title">Datos del Emisor</div>
+                <table class="info-table">
+                    <tr>
+                        <td class="label">RFC:</td>
+                        <td>BFM170822P38</td>
+                        <td class="label">Régimen Fiscal:</td>
+                        <td>601</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Nombre / Razón Social:</td>
+                        <td colspan="3"><strong>BOT FINANCE MEXICO</strong></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="section empresa-info">
+                <div class="section-title">Datos del Receptor</div>
+                <table class="info-table">
+                    <tr>
+                        <td class="label">RFC:</td>
+                        <td>RME1210096M2</td>
+                        <td class="label">Uso CFDI:</td>
+                        <td>CP01</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Nombre / Razón Social:</td>
+                        <td colspan="3"><strong>ROKI MEXICO</strong></td>
+                    </tr>
+                </table>
+            </div><div class="section">
+                    <div class="section-title">Conceptos</div>
+                    <table class="conceptos-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 8%;">Cantidad</th>
+                                <th style="width: 10%;">Clave Unidad</th>
+                                <th style="width: 8%;">Unidad</th>
+                                <th style="width: 44%;">Descripción</th>
+                                <th style="width: 15%;">Valor Unitario</th>
+                                <th style="width: 15%;">Importe</th>
+                            </tr>
+                        </thead>
+                        <tbody><tr>
+                        <td style="text-align: center;">1.00</td>
+                        <td style="text-align: center;">ACT</td>
+                        <td style="text-align: center;"></td>
+                        <td>Pago</td>
+                        <td style="text-align: right;">$0.0000</td>
+                        <td style="text-align: right;">$0.00</td>
+                      </tr></tbody></table></div><div class="totales">
+                <table class="info-table">
+                    <tr>
+                        <td class="label">SubTotal:</td>
+                        <td style="text-align: right; font-weight: bold;">$0.00</td>
+                    </tr><tr class="total-row">
+                <td class="label">TOTAL:</td>
+                <td style="text-align: right; font-weight: bold; font-size: 14px;">$0.00</td>
+              </tr>
+              </table>
+              </div><div class="qr-container">
+                <h4>CÓDIGO QR DE VERIFICACIÓN SAT</h4>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fverificacfdi.facturaelectronica.sat.gob.mx%2Fdefault.aspx%3F%26id%3DD4D9B579-9B25-4D90-B041-292411E90D8A%26re%3DBFM170822P38%26rr%3DRME1210096M2%26tt%3D0.000000%26fe%3Dbd1e49cc" alt="Código QR" style="width: 180px; height: 180px; border: 2px solid #3498db; border-radius: 8px;">
+                <div style="margin-top: 10px; font-size: 9px; color: #7f8c8d;">
+                    <strong>Para verificar este CFDI:</strong><br>
+                    Escanee el código QR o visite:<br>
+                    verificacfdi.facturaelectronica.sat.gob.mx
+                </div>
+              </div>
+              
+              <div class="timbre-info">
+                <div class="section-title">Timbre Fiscal Digital</div>
+                <table class="info-table">
+                    <tr>
+                        <td class="label">Fecha de Timbrado:</td>
+                        <td>2025-09-01T09:55:37</td>
+                    </tr>
+                    <tr>
+                        <td class="label">RFC Proveedor Certificación:</td>
+                        <td>SAT970701NN3</td>
+                    </tr>
+                    <tr>
+                        <td class="label">No. de Serie del Certificado SAT:</td>
+                        <td>00001000000705250068</td>
+                    </tr>
+                    <tr>
+                        <td class="label">No. de Serie del CSD:</td>
+                        <td>00001000000514824895</td>
+                    </tr>
+                </table>
+              </div>
+              <div class="clear"></div><div class="section">
+                <div class="section-title">Sello Digital del CFDI</div>
+                <div class="sello">A+n+M6YujuF5p3N/wHkaQk0uWuWqJROY60K60kglTL2GI0HzZ0YK8CAbth+JrgxsRn2TCcsp9hG8PB9xwBRmnfdv+CB87G5lIFtd/yL6gJgkz9TS858EOyBJhiGxRIVToMYRwaW8mRLrUnfF2HmJiF6qt+jZDlMdY9KvH2eo7swEZNSbTlaNQZ18doCEJMJZ0puV2lsEuZxrIJi/AFDofxpMkpaUC/457glP4eSeJFfmp1grct74QPSfjecqWW72H7cikuvu0QEN3uMXPGVROT8id6fm2LxFA5WNaFv6PHscxCrXficCkG5mQgS+1LnRdEcNfMbNlDmfPvicLLI3/w==</div>
+              </div><div class="section">
+                <div class="section-title">Sello Digital del SAT</div>
+                <div class="sello">W5Yw/M3GjEyZ9cFpsiJz7lyXqWA5UvDy7nXQ0x4Qqx1Erei/XY5thDMJSbkZi61hMvDjd9/UpvAJAIRsJbmLmdBjm6tdl6svQZXtU0eMdgZsJqXdkeyl0oIQOmYYqWPRtJcVp/FkJuYv70XpzhS4mAh2IsZ8r9DbPV6cmH6QuiFHBDwivEH4owUatstrlMBX3xri407lB/iLll2jaOxLnh8NHcCD9X8rpDoUMk2mNSq15HQtvnY/1aOZ5Sm6K6bEDUShqfEoRlT83W4vjnxI79UWIuac3R675oaZRpMn5Lh8b+8+/meBW5pND/7Ksp+QMgM4XuJ7M6+h2amnOB4U9A==</div>
+              </div><div style="text-align: center; margin-top: 30px; padding: 15px; background-color: #ecf0f1; border-radius: 8px; font-size: 10px; color: #7f8c8d;">
+                <strong>Este documento es una representación impresa de un CFDI</strong><br>
+                Documento generado automáticamente por el Sistema de Administración Contable (SAC)<br>
+                Fecha de generación: 2025-09-02 18:55:37
+              </div></body></html><script>
+                window.onload = function() {
+                    // Intentar imprimir automáticamente o mostrar diálogo de impresión
+                    setTimeout(function() {
+                        window.print();
+                    }, 1000);
+                };
+            </script>

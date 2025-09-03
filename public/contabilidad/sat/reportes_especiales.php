@@ -449,9 +449,6 @@ checkAuth(['admin', 'contabilidad']);
                         <button class="btn btn-success" onclick="exportarExcel()">
                             <i class="fas fa-file-excel"></i> Exportar Excel
                         </button>
-                        <button class="btn btn-info" onclick="exportarPDF()">
-                            <i class="fas fa-file-pdf"></i> Exportar PDF
-                        </button>
                         <button class="btn btn-warning" onclick="limpiarFiltros()">
                             <i class="fas fa-refresh"></i> Limpiar
                         </button>
@@ -498,17 +495,6 @@ checkAuth(['admin', 'contabilidad']);
 
                 <!-- Resultados -->
                 <div class="results-container" id="resultsContainer" style="display: none;">
-                    <div class="export-options">
-                        <button class="btn btn-sm btn-success" onclick="exportarResultados('excel')">
-                            <i class="fas fa-file-excel"></i> Excel
-                        </button>
-                        <button class="btn btn-sm btn-info" onclick="exportarResultados('pdf')">
-                            <i class="fas fa-file-pdf"></i> PDF
-                        </button>
-                        <button class="btn btn-sm btn-warning" onclick="exportarResultados('csv')">
-                            <i class="fas fa-file-csv"></i> CSV
-                        </button>
-                    </div>
 
                     <table id="resultsTable" class="display" style="width:100%">
                         <thead>
@@ -1137,7 +1123,8 @@ checkAuth(['admin', 'contabilidad']);
         }
 
         function generarPDF(uuid) {
-            window.open(`api/generar_pdf_cfdi.php?uuid=${uuid}`, '_blank');
+            // Descargar PDF real directamente
+            window.location.href = `api/generar_pdf_cfdi.php?uuid=${uuid}`;
         }
     </script>
 </body>
