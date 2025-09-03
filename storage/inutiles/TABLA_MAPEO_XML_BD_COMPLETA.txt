@@ -1,0 +1,183 @@
+TABLA DE MAPEO COMPLETO XML → BASE DE DATOS
+================================================
+
+1. TABLA: cfdi
+================================================
+XML ELEMENT/ATTRIBUTE                    → BD FIELD                  | CFDI TYPES | NOTES
+──────────────────────────────────────────────────────────────────────────────────────────
+@Version                                → version                   | I,E,P,N,T  | 3.3 o 4.0
+@Serie                                  → serie                     | I,E,P,N,T  | 
+@Folio                                  → folio                     | I,E,P,N,T  | 
+@Fecha                                  → fecha                     | I,E,P,N,T  | 
+@Sello                                  → sello                     | I,E,P,N,T  | 
+@NoCertificado                          → no_certificado            | I,E,P,N,T  | 
+@Certificado                            → certificado               | I,E,P,N,T  | 
+@CondicionesDePago                      → condiciones_de_pago       | I,E,P,N,T  | 
+@SubTotal                               → subtotal                  | I,E,P,N,T  | 
+@Moneda                                 → moneda                    | I,E,P,N,T  | 
+@TipoCambio                             → tipo_cambio               | I,E,P,N,T  | 
+@Total                                  → total                     | I,E,P,N,T  | 
+@TipoDeComprobante                      → tipo                      | I,E,P,N,T  | I=Ingreso, E=Egreso, P=Pago, etc.
+@MetodoPago                             → metodo_pago               | I,E,N,T    | Solo tipos con pago
+@FormaPago                              → forma_pago                | I,E,N,T    | Solo tipos con pago
+@LugarExpedicion                        → lugar_expedicion          | I,E,P,N,T  | 
+@Confirmacion                           → confirmacion              | I,E,P,N,T  | 
+Emisor/@Rfc                             → emisor_rfc                | I,E,P,N,T  | 
+Emisor/@Nombre                          → emisor_nombre             | I,E,P,N,T  | 
+Emisor/@RegimenFiscal                   → emisor_regimen_fiscal     | I,E,P,N,T  | 
+Receptor/@Rfc                           → receptor_rfc              | I,E,P,N,T  | 
+Receptor/@Nombre                        → receptor_nombre           | I,E,P,N,T  | 
+Receptor/@UsoCFDI                       → receptor_uso_cfdi         | I,E,P,N,T  | 
+TimbreFiscalDigital/@UUID               → uuid                      | I,E,P,N,T  | 
+[archivo procesado]                     → archivo_xml               | I,E,P,N,T  | Ruta del archivo
+Complemento[tipo detectado]             → complemento_tipo          | I,E,P,N,T  | Pagos, Nomina, etc.
+Complemento[JSON serializado]           → complemento_json          | I,E,P,N,T  | Datos del complemento
+TimbreFiscalDigital/@SelloCFD           → sello_cfd                 | I,E,P,N,T  | 
+TimbreFiscalDigital/@SelloSAT           → sello_sat                 | I,E,P,N,T  | 
+TimbreFiscalDigital/@NoCertificadoSAT   → no_certificado_sat        | I,E,P,N,T  | 
+TimbreFiscalDigital/@RfcProvCertif      → rfc_prov_certif           | I,E,P,N,T  | 
+CfdiRelacionados                        → cfdi_relacionados         | I,E,P,N,T  | JSON de CFDIs relacionados
+
+2. TABLA: cfdi_conceptos
+================================================
+XML ELEMENT/ATTRIBUTE                    → BD FIELD                  | CFDI TYPES | NOTES
+──────────────────────────────────────────────────────────────────────────────────────────
+[ID del CFDI padre]                     → cfdi_id                   | I,E,N,T    | FK
+Conceptos/Concepto/@ClaveProdServ       → clave_prodserv            | I,E,N,T    | 
+Conceptos/Concepto/@NoIdentificacion    → no_identificacion         | I,E,N,T    | 
+Conceptos/Concepto/@Cantidad            → cantidad                  | I,E,N,T    | 
+Conceptos/Concepto/@ClaveUnidad         → clave_unidad              | I,E,N,T    | 
+Conceptos/Concepto/@Unidad              → unidad                    | I,E,N,T    | 
+Conceptos/Concepto/@Descripcion         → descripcion               | I,E,N,T    | 
+Conceptos/Concepto/@ValorUnitario       → valor_unitario            | I,E,N,T    | 
+Conceptos/Concepto/@Importe             → importe                   | I,E,N,T    | 
+Conceptos/Concepto/@Descuento           → descuento                 | I,E,N,T    | 
+Conceptos/Concepto/@ObjetoImp           → objeto_imp                | I,E,N,T    | Solo CFDI 4.0
+Conceptos/Concepto/@CuentaPredial       → cuenta_predial            | I,E,N,T    | 
+
+3. TABLA: cfdi_impuestos
+================================================
+XML ELEMENT/ATTRIBUTE                    → BD FIELD                  | CFDI TYPES | NOTES
+──────────────────────────────────────────────────────────────────────────────────────────
+[ID del CFDI padre]                     → cfdi_id                   | I,E,N,T    | FK
+[ID del concepto padre]                 → concepto_id               | I,E,N,T    | FK
+[traslado|retencion]                    → tipo                      | I,E,N,T    | Tipo de impuesto
+Traslado/@Impuesto                      → impuesto                  | I,E,N,T    | IVA, ISR, IEPS
+Traslado/@TipoFactor                    → tipo_factor               | I,E,N,T    | Tasa, Cuota, Exento
+Traslado/@TasaOCuota                    → tasa_cuota                | I,E,N,T    | 
+Traslado/@Base                          → base                      | I,E,N,T    | 
+Traslado/@Importe                       → importe                   | I,E,N,T    | 
+Retencion/@Impuesto                     → impuesto                  | I,E,N,T    | IVA, ISR, IEPS
+Retencion/@TipoFactor                   → tipo_factor               | I,E,N,T    | Tasa, Cuota, Exento
+Retencion/@TasaOCuota                   → tasa_cuota                | I,E,N,T    | 
+Retencion/@Base                         → base                      | I,E,N,T    | 
+Retencion/@Importe                      → importe                   | I,E,N,T    | 
+
+4. TABLA: cfdi_timbre_fiscal
+================================================
+XML ELEMENT/ATTRIBUTE                    → BD FIELD                  | CFDI TYPES | NOTES
+──────────────────────────────────────────────────────────────────────────────────────────
+[ID del CFDI padre]                     → cfdi_id                   | I,E,P,N,T  | FK
+TimbreFiscalDigital/@UUID               → uuid                      | I,E,P,N,T  | 
+TimbreFiscalDigital/@FechaTimbrado      → fecha_timbrado            | I,E,P,N,T  | 
+TimbreFiscalDigital/@SelloCFD           → sello_cfd                 | I,E,P,N,T  | 
+TimbreFiscalDigital/@SelloSAT           → sello_sat                 | I,E,P,N,T  | 
+TimbreFiscalDigital/@NoCertificadoSAT   → no_certificado_sat        | I,E,P,N,T  | 
+TimbreFiscalDigital/@RfcProvCertif      → rfc_prov_certif           | I,E,P,N,T  | 
+TimbreFiscalDigital/@Version            → version                   | I,E,P,N,T  | 
+
+5. TABLA: cfdi_pagos (Solo para CFDI Tipo P)
+================================================
+XML ELEMENT/ATTRIBUTE                    → BD FIELD                  | CFDI TYPES | NOTES
+──────────────────────────────────────────────────────────────────────────────────────────
+[ID del CFDI padre]                     → cfdi_id                   | P          | FK
+[namespace detectado]                   → version                   | P          | 1.0 o 2.0
+pago:Pago/@FechaPago                    → fecha_pago                | P          | 
+pago:Pago/@FormaDePagoP                 → forma_pago                | P          | 
+pago:Pago/@MonedaP                      → moneda                    | P          | 
+pago:Pago/@TipoCambioP                  → tipo_cambio               | P          | 
+pago:Pago/@Monto                        → monto                     | P          | 
+pago:Pago/@NumOperacion                 → num_operacion             | P          | 
+pago:Pago/@RfcEmisorCtaOrd              → rfc_emisor_cuenta_ordenante | P        | 
+pago:Pago/@NomBancoOrdExt               → nombre_banco_extranjero   | P          | 
+pago:Pago/@CtaOrdenante                 → cuenta_ordenante          | P          | 
+pago:Pago/@RfcEmisorCtaBen              → rfc_emisor_cuenta_beneficiario | P     | 
+pago:Pago/@CtaBeneficiario              → cuenta_beneficiario       | P          | 
+pago:Pago/@TipoCadPago                  → tipo_cadena_pago          | P          | 
+pago:Pago/@CertPago                     → certificado_pago          | P          | 
+pago:Pago/@CadPago                      → cadena_pago               | P          | 
+pago:Pago/@SelloPago                    → sello_pago                | P          | 
+
+6. TABLA: cfdi_pago_documentos_relacionados (Solo para CFDI Tipo P)
+================================================
+XML ELEMENT/ATTRIBUTE                    → BD FIELD                  | CFDI TYPES | NOTES
+──────────────────────────────────────────────────────────────────────────────────────────
+[ID del pago padre]                     → pago_id                   | P          | FK
+DoctoRelacionado/@IdDocumento           → uuid_documento            | P          | 
+DoctoRelacionado/@Serie                 → serie                     | P          | 
+DoctoRelacionado/@Folio                 → folio                     | P          | 
+DoctoRelacionado/@MonedaDR              → moneda_dr                 | P          | 
+DoctoRelacionado/@EquivalenciaDR        → equivalencia_dr           | P          | 
+DoctoRelacionado/@NumParcialidad        → num_parcialidad           | P          | 
+DoctoRelacionado/@ImpSaldoAnt           → imp_saldo_ant             | P          | 
+DoctoRelacionado/@ImpPagado             → imp_pagado                | P          | 
+DoctoRelacionado/@ImpSaldoInsoluto      → imp_saldo_insoluto        | P          | 
+DoctoRelacionado/@ObjetoImpDR           → objeto_imp_dr             | P          | Solo CFDI 4.0
+
+7. TABLA: cfdi_pago_impuestos_dr (Solo para CFDI Tipo P)
+================================================
+XML ELEMENT/ATTRIBUTE                    → BD FIELD                  | CFDI TYPES | NOTES
+──────────────────────────────────────────────────────────────────────────────────────────
+[ID del documento relacionado]          → documento_relacionado_id  | P          | FK
+TrasladoDR/@BaseDR                      → base_dr                   | P          | 
+TrasladoDR/@ImpuestoDR                  → impuesto_dr               | P          | 
+TrasladoDR/@TipoFactorDR                → tipo_factor_dr            | P          | 
+TrasladoDR/@TasaOCuotaDR                → tasa_o_cuota_dr           | P          | 
+TrasladoDR/@ImporteDR                   → importe_dr                | P          | 
+NOW()                                   → created_at                | P          | Timestamp
+RetencionDR/@BaseDR                     → base_dr                   | P          | 
+RetencionDR/@ImpuestoDR                 → impuesto_dr               | P          | 
+RetencionDR/@TipoFactorDR               → tipo_factor_dr            | P          | 
+RetencionDR/@TasaOCuotaDR               → tasa_o_cuota_dr           | P          | 
+RetencionDR/@ImporteDR                  → importe_dr                | P          | 
+
+8. TABLA: cfdi_pago_totales (Solo para CFDI Tipo P)
+================================================
+XML ELEMENT/ATTRIBUTE                    → BD FIELD                  | CFDI TYPES | NOTES
+──────────────────────────────────────────────────────────────────────────────────────────
+[ID del pago padre]                     → pago_id                   | P          | FK
+Totales/@TotalRetencionesIVA            → total_retenciones_iva     | P          | 
+Totales/@TotalRetencionesISR            → total_retenciones_isr     | P          | 
+Totales/@TotalRetencionesIEPS           → total_retenciones_ieps    | P          | 
+Totales/@TotalTrasladosBaseIVA16        → total_traslados_base_iva16 | P         | 
+Totales/@TotalTrasladosImpuestoIVA16    → total_traslados_impuesto_iva16 | P     | 
+Totales/@TotalTrasladosBaseIVA0         → total_traslados_base_iva0 | P          | 
+Totales/@TotalTrasladosBaseIVAExento    → total_traslados_base_iva_exento | P    | 
+Totales/@MontoTotalPagos                → monto_total_pagos         | P          | 
+NOW()                                   → created_at                | P          | Timestamp
+
+9. TABLA: cfdi_complementos
+================================================
+XML ELEMENT/ATTRIBUTE                    → BD FIELD                  | CFDI TYPES | NOTES
+──────────────────────────────────────────────────────────────────────────────────────────
+[ID del CFDI padre]                     → cfdi_id                   | I,E,P,N,T  | FK
+[Namespace URI detectado]               → tipo                      | I,E,P,N,T  | Pagos, Nomina, CartaPorte, etc.
+[JSON con namespace + contenido XML]    → datos_json                | I,E,P,N,T  | Datos serializados del complemento
+
+LEYENDA DE TIPOS DE CFDI:
+=========================
+I = Ingreso (Facturas)
+E = Egreso (Notas de crédito)
+P = Pago (Complementos de pago)
+N = Nómina
+T = Traslado
+
+NAMESPACES DETECTADOS:
+=====================
+http://www.sat.gob.mx/Pagos → Pagos (v1.0)
+http://www.sat.gob.mx/Pagos20 → Pagos20 (v2.0)
+http://www.sat.gob.mx/nomina12 → Nomina
+http://www.sat.gob.mx/CartaPorte20 → CartaPorte
+http://www.sat.gob.mx/iedu → InstitucionesEducativas
+http://www.sat.gob.mx/donat → Donatarias
+http://www.sat.gob.mx/implocal → ImpuestosLocales

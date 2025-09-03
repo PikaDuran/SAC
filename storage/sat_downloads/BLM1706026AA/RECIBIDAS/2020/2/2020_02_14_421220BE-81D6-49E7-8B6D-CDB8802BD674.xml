@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:implocal="http://www.sat.gob.mx/implocal" xmlns:terceros="http://www.sat.gob.mx/terceros" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Fecha="2020-02-14T04:57:16" Folio="102634" FormaPago="04" LugarExpedicion="20280" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000408525420" Sello="i/cDWUHQYcbO9I/xJ8q6plZ2uEgI0BZg9K6vgBC2GEZWF3fgBqYsIC9G36jRLz6cUiMQ2RbW/F7eoghyBj5vra7EZbwXHax/nKfu4IEZrAtbGLc5cTW4SKTNZ98F4LbJggH+wF7j2XdjMyDoKi3Ok0GVqeZxfpLrNrZusOzyhN6I7diPEs7Gg5KYoDLMraxBy/gZMhc2M+h9kZ5KHcDKqD/TccWIviqMUjqLXUNJq+qFgGN/fx1RDZ4QGgTBj4ThC+SRa3X3eCaJ4PbXL4wnX5+xHKpKL/euknQsTSmcpox27TDiip055aPCW+4458jElfEtmr2qv11qYZ4qx8KbIg==" Serie="CAGU" SubTotal="1049.00" TipoCambio="1" TipoDeComprobante="I" Total="1248.31" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd  http://www.sat.gob.mx/implocal http://www.sat.gob.mx/sitio_internet/cfd/implocal/implocal.xsd http://www.sat.gob.mx/terceros http://www.sat.gob.mx/sitio_internet/cfd/terceros/terceros11.xsd">
+  <cfdi:Emisor Nombre="Servicios Centrales de Cobranza Hotelera SA de CV" RegimenFiscal="601" Rfc="SCC171019SQ7" />
+  <cfdi:Receptor Nombre="BOT LEASE MEXICO SA DE CV" Rfc="BLM1706026AA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="90111500" ClaveUnidad="E48" Descripcion="RENTA HABITACION" Importe="1049.00" NoIdentificacion="HAB" Unidad="NA" ValorUnitario="1049.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1049.00" Importe="167.84" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:ComplementoConcepto>
+        <terceros:PorCuentadeTerceros nombre="IMPULSORA PLAZA JUAREZ SA DE CV" rfc="IPJ030829QDA" version="1.1" xmlns:terceros="http://www.sat.gob.mx/terceros">
+          <terceros:InformacionFiscalTercero calle="BLVD JOSE MA CHAVEZ" codigoPostal="20280" colonia="SAN PEDRO" estado=" AGUASCALIENTES" localidad="." municipio="AGUASCALIENTES" noExterior="1919" noInterior="." pais="MEXICO" />
+          <terceros:Parte cantidad="1.00" descripcion="RENTA HABITACION" noIdentificacion="HAB" unidad="NA" />
+          <terceros:Impuestos>
+            <terceros:Traslados>
+              <terceros:Traslado importe="167.84" impuesto="IVA" tasa="0.16" />
+            </terceros:Traslados>
+          </terceros:Impuestos>
+        </terceros:PorCuentadeTerceros>
+      </cfdi:ComplementoConcepto>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="167.84">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="167.84" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <implocal:ImpuestosLocales TotaldeRetenciones="0.00" TotaldeTraslados="31.47" version="1.0" xmlns:implocal="http://www.sat.gob.mx/implocal">
+      <implocal:TrasladosLocales ImpLocTrasladado="ISH" Importe="31.47" TasadeTraslado="3.00" />
+    </implocal:ImpuestosLocales>
+  <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2020-02-14T04:57:30" NoCertificadoSAT="00001000000405148267" RfcProvCertif="SEF100616AD2" SelloCFD="i/cDWUHQYcbO9I/xJ8q6plZ2uEgI0BZg9K6vgBC2GEZWF3fgBqYsIC9G36jRLz6cUiMQ2RbW/F7eoghyBj5vra7EZbwXHax/nKfu4IEZrAtbGLc5cTW4SKTNZ98F4LbJggH+wF7j2XdjMyDoKi3Ok0GVqeZxfpLrNrZusOzyhN6I7diPEs7Gg5KYoDLMraxBy/gZMhc2M+h9kZ5KHcDKqD/TccWIviqMUjqLXUNJq+qFgGN/fx1RDZ4QGgTBj4ThC+SRa3X3eCaJ4PbXL4wnX5+xHKpKL/euknQsTSmcpox27TDiip055aPCW+4458jElfEtmr2qv11qYZ4qx8KbIg==" SelloSAT="Wd0/QauvPfMDe+COA7QEJUZOs/lB45lVJf0rOVYnhZnah//hMMXH0VuEyxuEDjQFeDUT2Avdvu69ND2OIkobdKIff6fHxNmbV5GK32+KYT4A9Cu2KPKp4xfu2xgmnUNuxA5MjB3hd5JWeijLGr2ngOwBubjIt1B9XjygARCrjIpv3/GgmeNFy2kopMsgGwrWK5VdpDR5UsvmWVA8UpLN/CYOAa0jjhsQx7PhSU8FSZinELiej0/XdNC4Ui7MAfOhfAAxaIgcvfWXwrFoLOyYNV4brrfZXHPUEcfvOX0nQ8HHSLcfnWHtZ457L9eYo70Gr9KBk6qh9+hVvZ1b0IXGZw==" UUID="421220BE-81D6-49E7-8B6D-CDB8802BD674" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" /></cfdi:Complemento>
+</cfdi:Comprobante>

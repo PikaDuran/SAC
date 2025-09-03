@@ -1,0 +1,55 @@
+
+================================================================================
+              REPORTE COMPLETO DE IMPORTACIÓN DE CFDIs
+================================================================================
+🕐 Tiempo total de procesamiento: 196.72 segundos
+📊 Promedio por archivo: 0.0062 seg/archivo
+
+📁 ARCHIVOS PROCESADOS:
+   • Total encontrados: 31573
+   • Procesados exitosos: 31195
+   • Con errores: 378
+   • Porcentaje de éxito: 98.8%
+
+📋 VERSIONES DE CFDI:
+   • CFDI 3.3: 14044
+   • CFDI 4.0: 17151
+
+🏷️ COMPLEMENTOS PROCESADOS:
+   • Timbres Fiscales: 31195
+   • Complementos de Pago: 5711
+   • Complementos de Nómina: 930
+   • Otros Complementos: 561
+
+❌ ERRORES ENCONTRADOS:
+   • 2020_10_12_ECE52AD2-DB29-40AB-A924-BDE2474CC069.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ECE52AD2-DB29-40AB-A924-BDE2474CC069' for key 'uuid'
+   • 2020_12_17_8602E5CA-C2D8-48E7-BEFF-DDF4A3FCE54F.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8602E5CA-C2D8-48E7-BEFF-DDF4A3FCE54F' for key 'uuid'
+   • 2020_04_07_7889EF83-604F-4136-BEB6-00F942090A70.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7889EF83-604F-4136-BEB6-00F942090A70' for key 'uuid'
+   • 2020_06_30_8BC49D43-1959-4B85-B12F-7C9279D44E74.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8BC49D43-1959-4B85-B12F-7C9279D44E74' for key 'uuid'
+   • 2020_08_03_B61037E9-38CC-4F6F-9B23-D53B8846258D.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'B61037E9-38CC-4F6F-9B23-D53B8846258D' for key 'uuid'
+   • 2020_09_29_4D52B4B2-0FA1-47CF-BD47-CCF262F85456.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4D52B4B2-0FA1-47CF-BD47-CCF262F85456' for key 'uuid'
+   • 2021_12_30_02619565-6749-4164-8EF8-E89C0042452D.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '02619565-6749-4164-8EF8-E89C0042452D' for key 'uuid'
+   • 2021_12_30_832744DA-672E-45E1-8384-3234353956FF.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '832744DA-672E-45E1-8384-3234353956FF' for key 'uuid'
+   • 2021_12_31_1BFA5E2C-90AC-43AD-8840-F21CEF545638.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1BFA5E2C-90AC-43AD-8840-F21CEF545638' for key 'uuid'
+   • 2021_12_31_29F96CBB-5B71-4C5C-A30B-4C665A1E6BA8.xml: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '29F96CBB-5B71-4C5C-A30B-4C665A1E6BA8' for key 'uuid'
+   • ... y 368 errores más
+
+🗄️ ESTADÍSTICAS DE BASE DE DATOS:
+   • CFDIs principales: 31195
+   • Emisores: 31195
+   • Receptores: 31195
+   • Conceptos/líneas: 53062
+   • Impuestos trasladados: 44763
+   • Impuestos retenidos: 570
+   • Timbres fiscales: 31195
+   • Pagos v1.0: 2908
+   • Pagos v2.0: 2984
+   • Nóminas: 930
+   • Otros complementos: 440
+   • Addendas: 6
+
+================================================================================
+✅ IMPORTACIÓN COMPLETADA EXITOSAMENTE
+🗄️ Base de datos: sac_db actualizada
+📅 Fecha: 2025-08-27 01:17:57
+================================================================================

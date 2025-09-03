@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Certificado="MIIG7DCCBNSgAwIBAgIUMDAwMDEwMDAwMDA0MDM5NDMzMzAwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTYxMDEyMjMzNjQ3WhcNMjAxMDEyMjMzNjQ3WjCCAYsxSTBHBgNVBAMTQEJBTkNPIFNBTlRBTkRFUiAoTUVYSUNPKSBTLkEuLCBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRSwgR1IxaDBmBgNVBCkTX0JBTkNPIFNBTlRBTkRFUiAoTUVYSUNPKSBTLkEuLCBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRSwgR1JVUE8gRklOQU5DSUVSTyBTQU5UQU5ERVIgTUVYSUNPMUkwRwYDVQQKE0BCQU5DTyBTQU5UQU5ERVIgKE1FWElDTykgUy5BLiwgSU5TVElUVUNJT04gREUgQkFOQ0EgTVVMVElQTEUsIEdSMSUwIwYDVQQtExxCU005NzA1MTlEVTggLyBSVUFSNTgwNzAzUkgxMR4wHAYDVQQFExUgLyBSVUFSNTgwNzAzTURGWkNTMDkxQjBABgNVBAsTOUJBTkNPIFNBTlRBTkRFUiAoTUVYSUNPKSBTQSBJTlNUSVRVQ0lPTiBERSBCQU5DQSBNVUxUSVBMRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIV+N9DLg4ALwSR2Rumr2fd4pPieh7G1LJyfXAH8nypJ36NcCOi06ia4GBSSWmYFq0PEt2qUkGLpPhZHAOVV/BTQGCW6WcLWMHSJOCvLQWwmtjnuSXJ8acaUElT9rAL0CAk9+YhfqcBT+UuxVdHBjEmOMRsa6xyz/EE/yftWZQYvPgTyymrpj6/WFMj0UWvFQx+upskktxx6FGc2XEjtQ8R2dfptVpQnLmz6XZ8mdGNDAv2SFAY2rg3PS6q+Alb8SgijUhNjixsu7+GjJnJpGpoHA7OSLzXa4k27KlpSoQEZf/yoL8AoLL5HJDQvqw7dSCvZacNAq4zHu1g/O0iNKZMCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAK/7iivmAfPiCwhCVybNQTVOsxdTnXY9pW55oCriY26cX93EKJzvz5RUgQOenfW7Uf1W+aHi9W9SEJEdBUeTrXXTq4DXZiRktPzkmjfP7m+RT+oqwyYVWZWMYYGWl4vWTjKhA/bS8CM51/JATj5ux68R7suooGCpaij7rxb1FHPGk6B2LUu0+JgiZFLHi9p5aG7D0oIaTlU9lGgwLy1gP8Duyp+tas3ZKuWLXavGJv3T5yY6sKN8bAM40Ut2XfMcKhbKv+BfJxiZIduSqffCzRx3RWIywUzTyzNH4aDTPCVKnAIZZNHM/GGzrTJ2KC8xRf0K56Yf98Bli+7LPxon2q+RGeVJc/Mk8ns3ou0S7OKvDkTY9Gb0vCUrDrWr2K2xV85K9c5lpw3nF+huKufqYOjVGQ+ZsMzpAEdjzkOJKQ1YgFGh7TfBfJr+14VrRtDMFkIqP1k+wym2XVQk69y5IoJXu6FtW+5rko/3Zn9+ydaOAHR6V0DfeFZxww6arTSTUO/FFnARWoAGsO4jPyqdLD6+pQHJ7nEpZVSaJNCJ3sySyZrEPWZ2yqQaXspULI6xqgINfGKsLgOD1OPR1ljQpUTbUVizws2bfApeX5m6CQni7QCRUgQt6g8AOF4KlrchYoSVKq247vunFZeJ2M7ot0QrJhE7Wz8tNZANgskIDUkF" Fecha="2020-07-02T14:38:35" Folio="65506520352" FormaPago="03" LugarExpedicion="01219" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000403943330" Sello="O0I/Pus3auPgm0gKzPOGvyM0ByOSPbtrTR/v1j00q+NNReBLVLPmFFAqTPIcCmcwJpiuJv/vGIPIseh0hdDMEDhqMK/hk5+JihRHViH+UVQ+5WCugHGUVmsfVStkhkB6MB7UAzrFqQEMSCUaSo2UxsekQkzjaJ9vvMUlwrGhLV0zXUVMWzf2Y4IXyS2Sp4wExvSlEc94q/NZuSVz5vr0a4nppDbjU80VZXbb0whET2QugtOe1rAQzGi/05WSL3R56LPP537tXFpXxNiM2mkV9BgA4E332/a2VcKG9WsE9Ynd28204UpCK/mt1YxsVB0cJsJQYYWLav4NS0e94fk8mw==" Serie="MXN" SubTotal="888.00" TipoCambio="1" TipoDeComprobante="I" Total="1030.08" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor Nombre="BANCO SANTANDER MEXICO, SA INSTITUCION DE BANCA MULTIPLE, GRUPO FINANCIERO SANTANDER MEXICO" RegimenFiscal="601" Rfc="BSM970519DU8" />
+  <cfdi:Receptor Nombre="BOT LEASE MEXICO SA DE CV" Rfc="BLM1706026AA" UsoCFDI="P01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION SERVICIO COBRANZA" Importe="24.00" Unidad="SERVICIO" ValorUnitario="24.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="24.00" Importe="3.84" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION SERVICIO COBRANZA" Importe="12.00" Unidad="SERVICIO" ValorUnitario="12.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12.00" Importe="1.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION SERVICIO COBRANZA" Importe="12.00" Unidad="SERVICIO" ValorUnitario="12.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12.00" Importe="1.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION SERVICIO COBRANZA" Importe="72.00" Unidad="SERVICIO" ValorUnitario="72.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="72.00" Importe="11.52" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION SERVICIO COBRANZA" Importe="24.00" Unidad="SERVICIO" ValorUnitario="24.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="24.00" Importe="3.84" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84121500" ClaveUnidad="E48" Descripcion="COMISION SERVICIO COBRANZA" Importe="744.00" Unidad="SERVICIO" ValorUnitario="744.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="744.00" Importe="119.04" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="142.08">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="142.08" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="04825C86-2C2A-495B-8B89-6D173AC48689" FechaTimbrado="2020-07-02T14:38:47" RfcProvCertif="INT020124V62" SelloCFD="O0I/Pus3auPgm0gKzPOGvyM0ByOSPbtrTR/v1j00q+NNReBLVLPmFFAqTPIcCmcwJpiuJv/vGIPIseh0hdDMEDhqMK/hk5+JihRHViH+UVQ+5WCugHGUVmsfVStkhkB6MB7UAzrFqQEMSCUaSo2UxsekQkzjaJ9vvMUlwrGhLV0zXUVMWzf2Y4IXyS2Sp4wExvSlEc94q/NZuSVz5vr0a4nppDbjU80VZXbb0whET2QugtOe1rAQzGi/05WSL3R56LPP537tXFpXxNiM2mkV9BgA4E332/a2VcKG9WsE9Ynd28204UpCK/mt1YxsVB0cJsJQYYWLav4NS0e94fk8mw==" NoCertificadoSAT="00001000000404598147" SelloSAT="b5qxrhfBiyK6uHvxIe6vb3cexJ2mYn/W+iF79//thbzsXVDkg8apclE1HjQs5DbRyekCZnU8XJDZ7ABdtc/2IIfsYsCFayASM4YNEhpJomYauUUekevOYUXPnD7ftTHQi3fqguVL+8E8BemJ8X1imkAnUQnlUb/I19CLoYZaU2YwiRliooeYiHy3fF5V1w+g5jFBzYOoRJzvNqhvy9i74ZP+uYNqT3N4ljaZYYkjF7MoYKAUrWhHWrKoWJr5dQDZ1KdEgLiN52n0qNjwjdDxU7q7ROpx8eXaCVL00QcvUBb/qDT0cS5PzwFddi5CNei7YwR60sRPUCigFRBfa28M0A==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

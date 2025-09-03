@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI" xmlns:ventavehiculos="http://www.sat.gob.mx/ventavehiculos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="Diferido o en parcialidades" Fecha="2020-02-29T09:52:13" Folio="5134" FormaPago="99" LugarExpedicion="45645" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000404390528" Sello="VidvGCv0xkfV5N/zlTozS5+jsGrLbYmhITRvVyIxtYmIlGugqwYpxM5rNCC82Q0gzSToNTCmTM6fcthaLF2gSi9KEvdSm4ftp4MlcgpUetmw4QBc/vA3p3k2QQokJn5x7zJpJAw/CrGeCA6LA+gnHHWP5SokRlI0ZNRPHxePNGvfh4FySSG8v8LYH16X3psod1d8LqfMwGbFg7zELTsL0Mt8JZpBxk4X4/pUOcTpm5LdZyRRdZXVFbicHYwLcZi0nJHzqwmegsyWL88FlHs5q3WH8EDv7hIfYMfBjjL8aUy/8ciVMqgUgisg9ug0jeMNDBC13B8IUFEYLAXOJ69EwA==" Serie="UNIDGDL" SubTotal="752643.45" TipoCambio="1" TipoDeComprobante="I" Total="873066.40" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/ventavehiculos http://www.sat.gob.mx/sitio_internet/cfd/ventavehiculos/ventavehiculos11.xsd">
+  <cfdi:Emisor Nombre="PLASENCIA CAMIONES DE GUADALAJARA, SA DE CV" RegimenFiscal="601" Rfc="PCG051215JB6" />
+  <cfdi:Receptor Nombre="BOT FINANCIE MEXICO S.A. DE C.V. SOFOM ENR" Rfc="BFM170822P38" UsoCFDI="I03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="25101611" ClaveUnidad="C62" Descripcion="Unidad ISUZU ELF300H Modelo:2020 No Motor:4G9522" Importe="752643.449208" NoIdentificacion="ELF300H" Unidad="Uno" ValorUnitario="752643.449208">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="752643.449208" Importe="120422.951873" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:ComplementoConcepto>
+        <ventavehiculos:VentaVehiculos ClaveVehicular="2600117" Niv="JAANMR855L7500818" version="1.1">
+          <ventavehiculos:InformacionAduanera aduana="LAZARO CARDENAS MICH" fecha="2019-12-19" numero="195137249004287" />
+        </ventavehiculos:VentaVehiculos>
+        <ventavehiculos:VentaVehiculos ClaveVehicular="2600117" Niv="JAANMR855L7500818" version="1.1">
+          <ventavehiculos:Parte cantidad="1" descripcion="MOTOR DE 4 CILINDROS" />
+          <ventavehiculos:Parte cantidad="1" descripcion="COMB 100 LTS" />
+          <ventavehiculos:Parte cantidad="1" descripcion="RODADO 205/75 R16" />
+          <ventavehiculos:Parte cantidad="1" descripcion="P.B.V. 5200 KG" />
+          <ventavehiculos:Parte cantidad="1" descripcion="TRANS MANUAL 5 VEL" />
+          <ventavehiculos:Parte cantidad="1" descripcion="CAJA SECA ELF300 CON MEDIDAS DE 4.50 LARGO, 2.44 ANCHO Y 2.35 ALTO" />
+        </ventavehiculos:VentaVehiculos>
+      </cfdi:ComplementoConcepto>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="120422.95">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="120422.95" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2020-02-29T09:53:03" NoCertificadoSAT="00001000000412961981" RfcProvCertif="FCG840618N51" SelloCFD="VidvGCv0xkfV5N/zlTozS5+jsGrLbYmhITRvVyIxtYmIlGugqwYpxM5rNCC82Q0gzSToNTCmTM6fcthaLF2gSi9KEvdSm4ftp4MlcgpUetmw4QBc/vA3p3k2QQokJn5x7zJpJAw/CrGeCA6LA+gnHHWP5SokRlI0ZNRPHxePNGvfh4FySSG8v8LYH16X3psod1d8LqfMwGbFg7zELTsL0Mt8JZpBxk4X4/pUOcTpm5LdZyRRdZXVFbicHYwLcZi0nJHzqwmegsyWL88FlHs5q3WH8EDv7hIfYMfBjjL8aUy/8ciVMqgUgisg9ug0jeMNDBC13B8IUFEYLAXOJ69EwA==" SelloSAT="H0adRm0OYbdAKMd7BJublMHRecu5NJWsQff8UcLHA5HZ6s11FaUO2Bmn6pNhynF3fbz524Lh2Hxm7arIF5TFz+UwdlLFQedPusVszF5g+49DBsyBghHxmq3END8ExdYcCnUV+RxilsfJWhjtLtlOAUs6/10AL/Wr8dKw5GMFphEhm3I3mLihZmPHF3npiogjqMFYsJoC20KPtb6IeeckQl82QbiXsOeAx+amZKza1NMATW38Qjg5KxD1A03PJzmKska+3eE7TH4SkP45HsDh9ftJjYSaP64wlf3ZvI1iCQhK14wDB2o6slHObWhHSCeU205QA7Xx3tswjU1qh51SCg==" UUID="B7F10397-04FD-4B7D-9F85-BF3E23DEEACD" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="30" Descuento="0.00" Fecha="2021-03-12T13:37:05" Folio="17936" FormaPago="03" LugarExpedicion="54760" MetodoPago="PUE" Moneda="USD" NoCertificado="00001000000406841563" Sello="JLWmVxaxBKv8SIdPZYyOwIEZnm/cH9tpAg2Zl18sqgN6R1B2RE8WAHKJ2ilozBvOL5WdRYAn3gryt2Jinyo4KcKzZQpTUei0SuTU4q1KQh33ip+b2RjYVde627ReetqmSWw8auEPTWha+VEmnS9lZ9I6ZJm0mv/b2Mh88HrOfw00CkNluSE33lYCrVWoI4QGueMZjBwDuPLKO+lyJMC836m+S3M3xyb1CvSruM6yJfQLyv7BfUmE1miNHwMURz8kQc+HZiK9lgCZRPfl30VvY7FlXnNdq7Aw9qcWORbQj/FD+F76jZMenXBFnpkfn+W1bqT+Roex9w2YX75IX5hM8A==" Serie="FV" SubTotal="33063.92" TipoCambio="20.99" TipoDeComprobante="I" Total="38354.15" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:Emisor Nombre="Toyota Tsusho Corporation de México, S.A. de C.V." RegimenFiscal="601" Rfc="TTC920120683" />
+  <cfdi:Receptor Nombre="BOT FINANCE MEXICO SA DE CV SOFOM ENR" Rfc="BFM170822P38" UsoCFDI="I08" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="24101602" ClaveUnidad="EA" Descripcion="MONTACARGAS ELECTRICO NUEVO MARCA TOYOTAMODELO: 8FB25, NUMERO DE SERIE: 26808,AÑO DE FABRICACION 2021,CAPACIDAD 5,000 LBS, MASTIL: TRIPLEX DE ALTA VISIBILIDAD,ELEVACION MAXIMA DE HORQUILLAS 4,700 MM,LONGITUD DE HORQUILLAS 42&quot;, POWER TYPE: 48V,LLANTAS SEMISOLIDAS, EL EQUIPO INCLUYE: EQUIPO DE SEGURIDAD (LUCES,TORRETA, ALARMA DE REVERSA, FARO DE SEGURIDAD BLUE SPOT,LIGHT RED ZONE LINE IZQUIERDO Y DERECHO, ESPEJOS Y EXTINTOR),DESPLAZADOR LATERAL DE HORQUILLAS.,ADUANA MANZANILLO 160, FECHA DE PEDIMENTO: 22/02/21.," Descuento="0.00" Importe="25514.51" NoIdentificacion="8FB25" Unidad="PZA" ValorUnitario="25514.51">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="25514.51" Importe="4082.32" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="21  16  3574  1000852" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="24101629" ClaveUnidad="EA" Descripcion="BATERIA NUEVA MARCA GNBMODELO: M2602406017P33, NUMERO DE SERIE: GAA0675," Descuento="0.00" Importe="5792.94" NoIdentificacion="M2602406017P33" Unidad="PZA" ValorUnitario="5792.94">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5792.94" Importe="926.87" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="24101629" ClaveUnidad="EA" Descripcion="CARGADOR NUEVO MARCA GNBMODELO: EHY48M080N, NUMERO DE SERIE: 448708," Descuento="0.00" Importe="1756.47" NoIdentificacion="EHY48M080N" Unidad="PZA" ValorUnitario="1756.47">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1756.47" Importe="281.04" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="5290.23">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="5290.23" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="C27584B3-8890-4732-A75E-020EB28659D2" FechaTimbrado="2021-03-12T15:45:53" SelloCFD="JLWmVxaxBKv8SIdPZYyOwIEZnm/cH9tpAg2Zl18sqgN6R1B2RE8WAHKJ2ilozBvOL5WdRYAn3gryt2Jinyo4KcKzZQpTUei0SuTU4q1KQh33ip+b2RjYVde627ReetqmSWw8auEPTWha+VEmnS9lZ9I6ZJm0mv/b2Mh88HrOfw00CkNluSE33lYCrVWoI4QGueMZjBwDuPLKO+lyJMC836m+S3M3xyb1CvSruM6yJfQLyv7BfUmE1miNHwMURz8kQc+HZiK9lgCZRPfl30VvY7FlXnNdq7Aw9qcWORbQj/FD+F76jZMenXBFnpkfn+W1bqT+Roex9w2YX75IX5hM8A==" NoCertificadoSAT="00001000000505600468" SelloSAT="DpHcy2Po4srTkAIptQur1MwMoXXp4YGHuHq/d738WHmu3BHHtLBvN2fjMXHzLpH+QZb7g4pOq0yWoZv+Iu9yM3AMnGdEh58x7d9JzTsVLmwWBOA6o99+zny2ItiXuZ6BAGCVJNhJMAsXx+d++fsJRVQqkSiy0/n5fDCGu5phrsVF5Ecp0ZHa4TDKUOsYdFb8dzAwITKXNvUo2JYuCw3xy/aurG9CJ4HXs9o561HhosTAUDFX8knTGJrnZHf/pq7Y0XDpK/uZvl0nRFQeCwQ/dwiSrF5L7v1T3Zq6nykCW2CRb+iBAELUEwIput/Al3GhE8iC8of+jb7pAeTh5CzvOQ==" RfcProvCertif="EME000602QR9" /></cfdi:Complemento></cfdi:Comprobante>

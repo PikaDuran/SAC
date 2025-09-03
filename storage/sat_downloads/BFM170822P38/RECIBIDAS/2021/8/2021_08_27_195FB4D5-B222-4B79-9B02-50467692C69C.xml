@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="Transferencia" Fecha="2021-08-27T14:47:59" Folio="29471" FormaPago="03" LugarExpedicion="38150" MetodoPago="PUE" Moneda="USD" NoCertificado="00001000000407718651" Sello="EE62XIZSiszO04LBfHD5dpIk0kfLlJ+fow8SIDGmpTqxkTGVUb0TXehG7Z7ItDRLhsYZBGIyZUoDHh88SFlOONfCMUYS5k/L5mfUUavILHMezDDScmqRt1tztVyReskFVt31X5nkTvqXwGaX+xUwmaHDfZAaAv+83dIiPvHf63CkXQFYBY+3FB5Qk4YjKFqzffMflsmqGh4Em+DAJYI3UqY7+gOtqpCxIgBgbIaPsYDjPH033oUA4YRASSiwholK0jBRxsroPgaixbAQNZ9+oHWuQ1BmYF5+HiA6Duzbp3QfAKhijhaZVMSvDg+5nSzKAvqo8dAy7ZX9FnS4zCSBHg==" Serie="F" SubTotal="1211469.00" TipoCambio="19.111900" TipoDeComprobante="I" Total="1405304.04" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:CfdiRelacionados TipoRelacion="04">
+        <cfdi:CfdiRelacionado UUID="B37D76CC-D76D-410C-B24E-487DFB87B641" />
+    </cfdi:CfdiRelacionados>
+    <cfdi:Emisor Nombre="SANKO GOSEI MEXICO S.A. de C.V." RegimenFiscal="601" Rfc="SGM120703Q44" />
+    <cfdi:Receptor Nombre="BOT Finance México, S.A. de C.V. SOFOM ENR" Rfc="BFM170822P38" UsoCFDI="I08" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="23151500" ClaveUnidad="H87" Descripcion="23151500 F7375 SE350FV-A-HD INYECCION C2200 SERIE MO: AT0485 SE350EV A-HD C2200 63 W/C MAQUINA DE MOLDEO POR INYECCION ELECTRICA 350 T SERIE M0AT0485" Importe="218001.00" NoIdentificacion="23151500" Unidad="pzas" ValorUnitario="218001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="218001.0000" Importe="34880.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="23151500" ClaveUnidad="H87" Descripcion="23151500 F8048 A EXPENSE" Importe="924.00" NoIdentificacion="23151500" Unidad="pzas" ValorUnitario="924.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="924.0000" Importe="147.84" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="23153200" ClaveUnidad="H87" Descripcion="23153200 F7471 520350 ROBOT SERIE GW08VI-3761 ROBOT DE DESCARGA (MANIPULACION CON SUS PARTES Y ACCESORIOS ) MODELO GXW-800SVI, NO. DE SERIE GW08VI-3761, MARCA STAR SEIKI" Importe="96001.00" NoIdentificacion="23153200" Unidad="pzas" ValorUnitario="96001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="96001.0000" Importe="15360.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="23153200" ClaveUnidad="H87" Descripcion="23153200 F7472 FA-8754 SEIKI MÁQUINA DE ALIMENTACIÓN ( VIBRADOR ELECTROMAGNETICO ) CON SUS PARTES Y ACCESORIOS, NO. DE SERIE FA8754, MARCA STAR SEIKI" Importe="182001.00" NoIdentificacion="23153200" Unidad="pzas" ValorUnitario="182001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="182001.0000" Importe="29120.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="41112200" ClaveUnidad="H87" Descripcion="41112200 F7436 MATSUI 067555 SECADOR DESHUMIDIFICADOR MODELO : MJ3-150A SERIE 7606755500018 EQUIPOS MATSUI PARA SHI 350T" Importe="11201.00" NoIdentificacion="41112200" Unidad="pzas" ValorUnitario="11201.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="11201.0000" Importe="1792.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="32151700" ClaveUnidad="H87" Descripcion="32151700 F7436 CHILLER #19 SERIE 76-073056-00001 #18 SERIE: 7607305600002 MODELO DE CONTROLADOR : MC5-G1-100HH160 MARCA MATSUI" Importe="15801.00" NoIdentificacion="32151700" Unidad="pzas" ValorUnitario="15801.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="15801.0000" Importe="2528.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="40101700" ClaveUnidad="H87" Descripcion="40101700 F7409 CHILLER # 17 SERIE 01-030086-00003 ENFRIADOR MODELO:MCX2-G3-03 SERIE 00003" Importe="9001.00" NoIdentificacion="40101700" Unidad="pzas" ValorUnitario="9001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="9001.0000" Importe="1440.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="40142000" ClaveUnidad="H87" Descripcion="40142000 F7435 AC 200 MANGUERAS MANGUERA DE TEFLON" Importe="4401.00" NoIdentificacion="40142000" Unidad="pzas" ValorUnitario="4401.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="4401.0000" Importe="704.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="78141500" ClaveUnidad="H87" Descripcion="78141500 F7479 TRANSPORTE" Importe="79941.00" NoIdentificacion="78141500" Unidad="pzas" ValorUnitario="79941.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="79941.0000" Importe="12790.56" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="23281700" ClaveUnidad="H87" Descripcion="23281700 F1990 JP 6452615 Y KR 10-18473	NEW MA BLASTER/SG4GTJ-RK-304K, JIGS, SK NOZZLE, AIR BLOW BOX, MADIA FNM-800S, TRANSPORTATION" Importe="149001.00" NoIdentificacion="23281700" Unidad="pzas" ValorUnitario="149001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="149001.0000" Importe="23840.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="41103512" ClaveUnidad="H87" Descripcion="41103512 F22-007041 ADITIONAL COST FOR NEWMA BLASTER/EQUIMENT OF STATIC ELIMINATION BLOW" Importe="8681.00" NoIdentificacion="41103512" Unidad="pzas" ValorUnitario="8681.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="8681.0000" Importe="1388.96" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="23151500" ClaveUnidad="H87" Descripcion="23151500 F22-007090 PERLAS AZULES  FNM-8005 10 KG 16-2001013,16-2006006 Y 16-200902	FUJI NYLON MEDIA FNM-600S , FNM-1000S Y COST FOR EXCHANGE OF MEDIA" Importe="961.00" NoIdentificacion="23151500" Unidad="pzas" ValorUnitario="961.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="961.0000" Importe="153.76" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="81141600" ClaveUnidad="H87" Descripcion="81141600 F22-007043 SECOND WITNESS FEE WITH DENSO Y STORAGE FEE SAMPLES" Importe="2496.00" NoIdentificacion="81141600" Unidad="pzas" ValorUnitario="2496.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2496.0000" Importe="399.36" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="81141600" ClaveUnidad="H87" Descripcion="81141600 F22-007044 RE ASSEMBLY , SHIPPING PREPARATION FEE , THIRD WITNESS FEE , STORAGE FEE , FUJI NYLO MEDIA FNM-600S Y COST FO EXCHANGUE OF MEDIA SAMPLES" Importe="5522.00" NoIdentificacion="81141600" Unidad="pzas" ValorUnitario="5522.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="5522.0000" Importe="883.52" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="32151700" ClaveUnidad="H87" Descripcion="32151700 F827 2102000020 WMC4VP4JJ101	WMC CONTROLADOR WMC4VP4JJ DWG" Importe="12371.00" NoIdentificacion="32151700" Unidad="pzas" ValorUnitario="12371.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="12371.0000" Importe="1979.36" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="72154500" ClaveUnidad="H87" Descripcion="72154500 F7480 Unloading, transport &amp; installation fee for zeiss measument equiment  EXPENSES" Importe="3801.00" NoIdentificacion="72154500" Unidad="pzas" ValorUnitario="3801.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3801.0000" Importe="608.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="41111900" ClaveUnidad="H87" Descripcion="41111900 F7481 8581578489-C 228033	Carl Zeiss Coordinate Measuring Machine - MODEL CMM SPECTRUM PLUS MAQUINA CMM Y COMPUTADORA MODEL CMM SPECTRUM PLUS 10/12/6 RDS" Importe="133001.00" NoIdentificacion="41111900" Unidad="pzas" ValorUnitario="133001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="133001.0000" Importe="21280.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="40101500" ClaveUnidad="H87" Descripcion="40101500 F7384 OSP-22VAN2 MFG U1260200	HITACHI OIL FLOODED SCREW AIR COMPRESSOR MODEL : OSP -22VAN 2  MAQUINARIA E INSTALACION" Importe="38861.00" NoIdentificacion="40101500" Unidad="pzas" ValorUnitario="38861.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="38861.0000" Importe="6217.76" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="23153100" ClaveUnidad="H87" Descripcion="23153100 F7434  SERIE 18001086 FA 30009638	COMONEO CONNECTION FOR 8 PRESSURE SENSORS AN 8 TEMPERATURE SENSORS, CONNECTOR LAYOUT 1X8 AND 1X8T" Importe="15498.00" NoIdentificacion="23153100" Unidad="pzas" ValorUnitario="15498.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="15498.0000" Importe="2479.68" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="72101500" ClaveUnidad="H87" Descripcion="72101500 F6560 NEW QC ROOM" Importe="34001.00" NoIdentificacion="72101500" Unidad="pzas" ValorUnitario="34001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="34001.0000" Importe="5440.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="72101500" ClaveUnidad="H87" Descripcion="72101500 F6534 ELECTRICAL WORKS FOR INJECTION MACHINE 350T (50% PAYMENT)" Importe="57001.00" NoIdentificacion="72101500" Unidad="pzas" ValorUnitario="57001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="57001.0000" Importe="9120.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="72101500" ClaveUnidad="H87" Descripcion="72101500 F6578 ELECTRICAL WORKS FOR INJECTION MACHINE 350T (100% PAYMENT)" Importe="57001.00" NoIdentificacion="72101500" Unidad="pzas" ValorUnitario="57001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="57001.0000" Importe="9120.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1.00" ClaveProdServ="72101500" ClaveUnidad="H87" Descripcion="72101500 F6561 MECHANICAL HOOK UPS FOR INJECTION &amp; SANDBLAST MACHINE" Importe="76001.00" NoIdentificacion="72101500" Unidad="pzas" ValorUnitario="76001.0000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="76001.0000" Importe="12160.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="193835.04">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="193835.04" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2021-08-27T15:05:43" NoCertificadoSAT="00001000000505430144" RfcProvCertif="SEF100616AD2" SelloCFD="EE62XIZSiszO04LBfHD5dpIk0kfLlJ+fow8SIDGmpTqxkTGVUb0TXehG7Z7ItDRLhsYZBGIyZUoDHh88SFlOONfCMUYS5k/L5mfUUavILHMezDDScmqRt1tztVyReskFVt31X5nkTvqXwGaX+xUwmaHDfZAaAv+83dIiPvHf63CkXQFYBY+3FB5Qk4YjKFqzffMflsmqGh4Em+DAJYI3UqY7+gOtqpCxIgBgbIaPsYDjPH033oUA4YRASSiwholK0jBRxsroPgaixbAQNZ9+oHWuQ1BmYF5+HiA6Duzbp3QfAKhijhaZVMSvDg+5nSzKAvqo8dAy7ZX9FnS4zCSBHg==" SelloSAT="DhNymAilJhI/7LPa0my1nkqJajesrwm4oHAAScZp1U6MaIv/twDhGDwqKHas/oC4a4S7Mj8F98D7OndtTljXB6wn5YWWsN8vdU94ybBQVcyu0hOyDTejV5yVflYXMD2QNjNO0yyJjEprE+qVJFBuArHdKClOmt6bOo5FOZpdjarqP7RrmVIgSQy4FLlhQCXR14oxn+pJQLlD7GYFkxAAZrtV4JR3rbAEu9XpSAfxFQZFUWT8PqQg2ctBWgjq8janS7k5WS+4+HYNIvXdfRhQxee+o7cGzYiv5NtAXYK7gTFMH9HffjDhOKXiu656nFQujX2SPvhfvDOgvuRPor9XVQ==" UUID="195FB4D5-B222-4B79-9B02-50467692C69C" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" /></cfdi:Complemento></cfdi:Comprobante>

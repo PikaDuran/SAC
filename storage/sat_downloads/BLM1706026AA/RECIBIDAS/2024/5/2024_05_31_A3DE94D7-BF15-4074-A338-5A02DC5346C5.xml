@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?><cfdi:Comprobante xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecc12="http://www.sat.gob.mx/EstadoDeCuentaCombustible12" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/EstadoDeCuentaCombustible12 http://www.sat.gob.mx/sitio_internet/cfd/EstadoDeCuentaCombustible/ecc12.xsd" Version="4.0" Serie="ECL" Folio="1703196" Fecha="2024-05-31T23:59:59" FormaPago="05" Moneda="MXN" SubTotal="1.00" Descuento="1.00" CondicionesDePago="CONTADO" MetodoPago="PUE" Total="0.00" TipoDeComprobante="I" NoCertificado="00001000000702443562" Certificado="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" LugarExpedicion="06140" Exportacion="01" Sello="IfaIsbyqqKMvwamwZhlllFk6OztdAWN4TTpx0RaYoSbBx+e6xLwGsSYoTc1n+ZwmCXVON0VZ8wHmAl3VbvfaZwRDLl6ZtRmlHj9LGiJowZve9HACDy3w6g0+NhFHg/U3OOWAq3b9/g5yZljWIXM6i5uWawWZ1d5S/ZVa7boVORAyDyaakCA1J3//0mD3K+1XDXmZMS7pK0BydG7ug4GY15g3BpDd/pghCgOlJRDZLTh4qYkjjMoavB0eAlHawvgF3gjBdyBiqY0PjSYvNlAUwltofH98635W0jB6ZZ9VNa3UJ9GwqPlDjSoyhGtDtNK4AfIMRJXPco+nCFJUZQaTgQ==">
+  <cfdi:Emisor Rfc="EFE8908015L3" Nombre="EFECTIVALE" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="BLM1706026AA" Nombre="BOT LEASE MEXICO" UsoCFDI="G03" DomicilioFiscalReceptor="06600" RegimenFiscalReceptor="601" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84141602" NoIdentificacion="CADM" Cantidad="1.0000" ClaveUnidad="E48" Unidad="U" Descripcion="CARGO ADMINISTRATIVO" ValorUnitario="1.000000" Importe="1.00" Descuento="1.00" ObjetoImp="01" />
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+        <ecc12:EstadoDeCuentaCombustible Version="1.2" TipoOperacion="Tarjeta" NumeroDeCuenta="66688-0" SubTotal="12048.02" Total="13917.42">
+      <ecc12:Conceptos>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718367" Fecha="2024-05-29T22:12:53" Rfc="SCO870529RB8" ClaveEstacion="2728" Cantidad="47.990" TipoCombustible="1" Unidad="LTS" NombreCombustible="Magna" FolioOperacion="4609" ValorUnitario="24.190" Importe="1004.37">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="156.51" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-03T19:24:05" Rfc="HMS920414EL9" ClaveEstacion="4011" Cantidad="60.510" TipoCombustible="2" Unidad="LTS" NombreCombustible="Premium" FolioOperacion="3842" ValorUnitario="24.790" Importe="1298.71">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="201.35" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-07T08:56:22" Rfc="MGA110810CC3" ClaveEstacion="41301" Cantidad="33.850" TipoCombustible="2" Unidad="LTS" NombreCombustible="Premium" FolioOperacion="1311" ValorUnitario="26.390" Importe="773.19">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="120.11" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-07T18:20:10" Rfc="HMS920414EL9" ClaveEstacion="4011" Cantidad="25.830" TipoCombustible="1" Unidad="LTS" NombreCombustible="Magna" FolioOperacion="3874" ValorUnitario="22.930" Importe="512.60">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="79.76" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-08T18:10:45" Rfc="GSG130129M65" ClaveEstacion="12478" Cantidad="57.450" TipoCombustible="2" Unidad="LTS" NombreCombustible="Premium" FolioOperacion="64" ValorUnitario="26.120" Importe="1298.98">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="201.72" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-13T20:03:00" Rfc="HMS920414EL9" ClaveEstacion="4011" Cantidad="60.560" TipoCombustible="2" Unidad="LTS" NombreCombustible="Premium" FolioOperacion="3932" ValorUnitario="24.770" Importe="1298.68">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="201.34" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-20T09:11:56" Rfc="HMS920414EL9" ClaveEstacion="4011" Cantidad="53.020" TipoCombustible="2" Unidad="LTS" NombreCombustible="Premium" FolioOperacion="3993" ValorUnitario="24.430" Importe="1121.56">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="173.81" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-22T14:14:02" Rfc="HMS920414EL9" ClaveEstacion="4011" Cantidad="47.240" TipoCombustible="2" Unidad="LTS" NombreCombustible="Premium" FolioOperacion="4020" ValorUnitario="24.430" Importe="999.22">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="154.85" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-26T18:44:27" Rfc="HMS920414EL9" ClaveEstacion="4011" Cantidad="49.710" TipoCombustible="2" Unidad="LTS" NombreCombustible="Premium" FolioOperacion="4064" ValorUnitario="24.390" Importe="1049.72">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="162.66" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-28T19:10:30" Rfc="HMS920414EL9" ClaveEstacion="4011" Cantidad="41.690" TipoCombustible="2" Unidad="LTS" NombreCombustible="Premium" FolioOperacion="4089" ValorUnitario="23.990" Importe="866.12">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="134.14" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718368" Fecha="2024-05-31T19:41:15" Rfc="HMS920414EL9" ClaveEstacion="4011" Cantidad="58.370" TipoCombustible="2" Unidad="LTS" NombreCombustible="Premium" FolioOperacion="4121" ValorUnitario="23.990" Importe="1212.53">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="187.79" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718369" Fecha="2024-05-23T13:32:47" Rfc="USC010813GH5" ClaveEstacion="6867" Cantidad="20.000" TipoCombustible="1" Unidad="LTS" NombreCombustible="Magna" FolioOperacion="1847" ValorUnitario="23.590" Importe="408.23">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="63.57" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+        <ecc12:ConceptoEstadoDeCuentaCombustible Identificador="718369" Fecha="2024-05-31T07:46:09" Rfc="USC010813GH5" ClaveEstacion="6867" Cantidad="10.000" TipoCombustible="1" Unidad="LTS" NombreCombustible="Magna" FolioOperacion="1863" ValorUnitario="23.590" Importe="204.11">
+          <ecc12:Traslados>
+            <ecc12:Traslado Impuesto="IVA" TasaOCuota="0.160000" Importe="31.79" />
+          </ecc12:Traslados>
+        </ecc12:ConceptoEstadoDeCuentaCombustible>
+      </ecc12:Conceptos>
+    </ecc12:EstadoDeCuentaCombustible><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="a3de94d7-bf15-4074-a338-5a02dc5346c5" RfcProvCertif="SNF171020F3A" FechaTimbrado="2024-06-01T23:44:51" SelloCFD="IfaIsbyqqKMvwamwZhlllFk6OztdAWN4TTpx0RaYoSbBx+e6xLwGsSYoTc1n+ZwmCXVON0VZ8wHmAl3VbvfaZwRDLl6ZtRmlHj9LGiJowZve9HACDy3w6g0+NhFHg/U3OOWAq3b9/g5yZljWIXM6i5uWawWZ1d5S/ZVa7boVORAyDyaakCA1J3//0mD3K+1XDXmZMS7pK0BydG7ug4GY15g3BpDd/pghCgOlJRDZLTh4qYkjjMoavB0eAlHawvgF3gjBdyBiqY0PjSYvNlAUwltofH98635W0jB6ZZ9VNa3UJ9GwqPlDjSoyhGtDtNK4AfIMRJXPco+nCFJUZQaTgQ==" NoCertificadoSAT="00001000000518812364" SelloSAT="hpdl3SbKGruaG42Ma9g0P7cKhtUNbopDE6WzeHUWhVEc7nl2K52uOluFFRJcN0Y9Y+9eifTBdpA/aQKyj8w1pvobEjZ0yWllLC+pUdRttVSLrox9v/e+DSNUhhvB73eUeGu8SOO04KHfhiRvGK+kVAze4xdL6b28scR69HCzcLGL+VMZc1MxgevV2BUNKQBt9AF8tJeoTbb+ts1CRhvjq5q+eX+hYXAWyMj8qtD9uynL/hi/ETlzkLSauCscgLUgwv3/2Ly+9iMUn7f/1n2bm5Rfu+O2B9VNyb52D/L6tLuSMna6DQRot0ZpbeBwNbN1Fhs6UDIpnGAVNETcK0T5dQ==" />
+    </cfdi:Complemento>
+</cfdi:Comprobante>

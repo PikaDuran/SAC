@@ -91,8 +91,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && !empty($_GET) && !isset($_GET['expor
         }
     }
 }
+require_once '../../vendor/autoload.php';
 session_start();
+require_once '../../vendor/autoload.php';
 require_once '../../src/config/database.php';
+
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Style\Fill;
+use PhpOffice\PhpSpreadsheet\Style\Alignment;
+use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
 // Mantener menú y header para coherencia visual
 include '../../src/views/sidebar.php';
 include '../../src/views/header.php';
@@ -393,12 +401,30 @@ include '../../src/views/header.php';
                 let ws = XLSX.utils.aoa_to_sheet([headers, ...rows]);
                 // Formato: encabezados fondo azul y letras blancas
                 headers.forEach((h, idx) => {
-                    const cell = XLSX.utils.encode_cell({c: idx, r: 0});
-                    if (!ws[cell]) ws[cell] = {t:'s', v:h};
+                    const cell = XLSX.utils.encode_cell({
+                        c: idx,
+                        r: 0
+                    });
+                    if (!ws[cell]) ws[cell] = {
+                        t: 's',
+                        v: h
+                    };
                     ws[cell].s = {
-                        fill: { fgColor: { rgb: '217346' } }, // azul
-                        font: { color: { rgb: 'FFFFFF' }, bold: true }, // blanco y negrita
-                        alignment: { horizontal: 'center', vertical: 'center' }
+                        fill: {
+                            fgColor: {
+                                rgb: '217346'
+                            }
+                        }, // azul
+                        font: {
+                            color: {
+                                rgb: 'FFFFFF'
+                            },
+                            bold: true
+                        }, // blanco y negrita
+                        alignment: {
+                            horizontal: 'center',
+                            vertical: 'center'
+                        }
                     };
                 });
                 XLSX.utils.book_append_sheet(wb, ws, 'Reporte CFDI');
@@ -518,6 +544,92 @@ include '../../src/views/header.php';
     </main>
     <?php
     // --- BACKEND ---
+    if (isset($_GET['export_excel'])) {
+        require_once '../../vendor/autoload.php';
+        require_once '../../src/config/database.php';
+        $rfc = isset($_GET['rfc']) ? $_GET['rfc'] : '';
+        $fecha_inicial = isset($_GET['fecha_inicial']) ? $_GET['fecha_inicial'] : '';
+        $fecha_final = isset($_GET['fecha_final']) ? $_GET['fecha_final'] : '';
+        if ($fecha_inicial) {
+            $fecha_inicial = date('Y-m-d', strtotime($fecha_inicial)) . ' 00:00:00';
+        }
+        if ($fecha_final) {
+            $fecha_final = date('Y-m-d', strtotime($fecha_final)) . ' 23:59:59';
+        }
+        $tipo = isset($_GET['tipo']) ? $_GET['tipo'] : '';
+        $tipo_comprobante = isset($_GET['tipo_comprobante']) ? $_GET['tipo_comprobante'] : '';
+        $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+        $sql = "SELECT * FROM cfdi WHERE 1=1";
+        $params = [];
+        if ($rfc) {
+            if ($tipo === 'emitidas') {
+                $sql .= " AND rfc_emisor = ?";
+                $params[] = $rfc;
+            } elseif ($tipo === 'recibidas') {
+                $sql .= " AND rfc_emisor != ?";
+                $params[] = $rfc;
+            }
+        }
+        if ($fecha_inicial) {
+            $sql .= " AND fecha >= ?";
+            $params[] = $fecha_inicial;
+        }
+        if ($fecha_final) {
+            $sql .= " AND fecha <= ?";
+            $params[] = $fecha_final;
+        }
+        if ($tipo_comprobante) {
+            $sql .= " AND tipo = ?";
+            $params[] = $tipo_comprobante;
+        }
+        $stmt = $conn->prepare($sql);
+        if ($params) {
+            $types = str_repeat('s', count($params));
+            $stmt->bind_param($types, ...$params);
+        }
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $rows = [];
+        $headers = [];
+        while ($row = $result->fetch_assoc()) {
+            unset($row['id']); // Eliminar columna ID
+            $rows[] = $row;
+        }
+        if (count($rows) > 0) {
+            $headers = array_keys($rows[0]);
+        }
+        $spreadsheet = new Spreadsheet();
+        $sheet = $spreadsheet->getActiveSheet();
+        // Encabezados y formato celda por celda
+        // Encabezados y formato
+        $headers = array_keys($rows[0] ?? []);
+        $colStart = 'A';
+        $colEnd = Coordinate::stringFromColumnIndex(count($headers));
+        foreach ($headers as $i => $header) {
+            $col = Coordinate::stringFromColumnIndex($i + 1);
+            $sheet->setCellValue($col . '1', $header);
+        }
+        $headerRange = "{$colStart}1:{$colEnd}1";
+        $sheet->getStyle($headerRange)->getFont()->setBold(true)->getColor()->setARGB('FFFFFFFF');
+        $sheet->getStyle($headerRange)->getFill()->setFillType(Fill::FILL_SOLID)->getStartColor()->setARGB('FF217346');
+        $sheet->getStyle($headerRange)->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
+        $sheet->getStyle($headerRange)->getAlignment()->setVertical(Alignment::VERTICAL_CENTER);
+        $sheet->getRowDimension(1)->setRowHeight(28);
+        // Datos
+        foreach ($rows as $r => $row) {
+            foreach ($headers as $c => $header) {
+                $col = Coordinate::stringFromColumnIndex($c + 1);
+                $sheet->setCellValue($col . ($r + 2), $row[$header]);
+            }
+        }
+        $now = date('YmdHi');
+        $filename = "Reporte_CFDI_{$now}.xlsx";
+        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        header("Content-Disposition: attachment; filename={$filename}");
+        $writer = new Xlsx($spreadsheet);
+        $writer->save('php://output');
+        exit;
+    }
     if (isset($_GET['export'])) {
         // Exportar CSV
         require_once '../../src/config/database.php';

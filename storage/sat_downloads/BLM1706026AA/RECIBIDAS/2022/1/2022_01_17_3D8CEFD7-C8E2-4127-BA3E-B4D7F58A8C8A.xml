@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?><cfdi:Comprobante Sello="osbpwnqLn6oK09P0JYE2niFmo8oC3iVx8miA3oaql6Fo7f4Am9nMK0Ygbx/EbrNtzCqBjws5Xa/p82RbQ4EARAVz3wcLUZpD6B7rDvBzJz6rDVdBEOpJd/81MKzQeImGr6r9Ms29pm91hWFDe+6ke9P5H+jKKeCAFkuzHpdkQFGM1xkpgVEUeXNID+xct4/d27kEVyqSG63TraQqcFzVLVJzsQX/yabriUm9TGqmm1SrBVguyYV2W6pSRDGs/a1QRhNaFFn11Aokt8EK+97lpQW2fMobsak1yDmXwLEvArDIqp6z26W0yKXqZyjifeQwrCZQ5IPM531Pt9KNwWA2PA==" Fecha="2022-01-17T00:00:00" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Certificado="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" NoCertificado="00001000000504708017" CondicionesDePago="15 días" Descuento="175.97" Folio="002938159" FormaPago="99" LugarExpedicion="15700" MetodoPago="PPD" Moneda="MXN" Serie="MEXR" SubTotal="2358.19" TipoDeComprobante="I" Total="2531.40" Version="3.3" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <cfdi:Emisor Nombre="DHL EXPRESS MEXICO, S.A. DE C.V." RegimenFiscal="601" Rfc="DEM8801152E9" />
+   <cfdi:Receptor Nombre="BOT LEASE MEXICO SA DE CV" Rfc="BLM1706026AA" UsoCFDI="G03" />
+   <cfdi:Conceptos>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="Cityline" Descuento="23.550000" Importe="235.540000" NoIdentificacion="1667125681" Unidad="SERVICIO" ValorUnitario="235.540000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="211.99" Importe="33.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="Cityline" Descuento="1.990000" Importe="27.160000" NoIdentificacion="1667125681" Unidad="SERVICIO" ValorUnitario="27.160000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="25.17" Importe="4.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="Cityline" Importe="86.240000" NoIdentificacion="1667125681" Unidad="SERVICIO" ValorUnitario="86.240000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="86.24" Importe="13.80" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC" Descuento="22.260000" Importe="222.620000" NoIdentificacion="4630051462" Unidad="SERVICIO" ValorUnitario="222.620000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="200.36" Importe="32.06" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC" Descuento="1.880000" Importe="18.790000" NoIdentificacion="4630051462" Unidad="SERVICIO" ValorUnitario="18.790000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="16.91" Importe="2.71" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC" Descuento="22.260000" Importe="222.620000" NoIdentificacion="4630054973" Unidad="SERVICIO" ValorUnitario="222.620000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="200.36" Importe="32.06" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC" Descuento="1.880000" Importe="18.790000" NoIdentificacion="4630054973" Unidad="SERVICIO" ValorUnitario="18.790000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="16.91" Importe="2.71" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC 9:00 doc" Descuento="23.550000" Importe="235.540000" NoIdentificacion="7394518832" Unidad="SERVICIO" ValorUnitario="235.540000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="211.99" Importe="33.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC 9:00 doc" Descuento="1.980000" Importe="46.750000" NoIdentificacion="7394518832" Unidad="SERVICIO" ValorUnitario="46.750000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="44.77" Importe="7.16" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC 9:00 doc" Importe="318.420000" NoIdentificacion="7394518832" Unidad="SERVICIO" ValorUnitario="318.420000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="318.42" Importe="50.95" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC" Descuento="23.550000" Importe="235.540000" NoIdentificacion="7776001472" Unidad="SERVICIO" ValorUnitario="235.540000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="211.99" Importe="33.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC" Descuento="1.990000" Importe="19.880000" NoIdentificacion="7776001472" Unidad="SERVICIO" ValorUnitario="19.880000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="17.89" Importe="2.86" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC 12:00" Descuento="23.550000" Importe="235.540000" NoIdentificacion="7890318413" Unidad="SERVICIO" ValorUnitario="235.540000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="211.99" Importe="33.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC 12:00" Descuento="1.990000" Importe="25.010000" NoIdentificacion="7890318413" Unidad="SERVICIO" ValorUnitario="25.010000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="23.02" Importe="3.68" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="EXPRESS DOMESTIC 12:00" Importe="60.810000" NoIdentificacion="7890318413" Unidad="SERVICIO" ValorUnitario="60.810000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="60.81" Importe="9.73" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="Cityline" Descuento="23.550000" Importe="235.540000" NoIdentificacion="8012232760" Unidad="SERVICIO" ValorUnitario="235.540000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="211.99" Importe="33.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="Cityline" Descuento="1.990000" Importe="27.160000" NoIdentificacion="8012232760" Unidad="SERVICIO" ValorUnitario="27.160000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="25.17" Importe="4.03" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+      <cfdi:Concepto Cantidad="1.000000" ClaveProdServ="78102205" ClaveUnidad="E48" Descripcion="Cityline" Importe="86.240000" NoIdentificacion="8012232760" Unidad="SERVICIO" ValorUnitario="86.240000"><cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="86.24" Importe="13.80" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos></cfdi:Concepto>
+   </cfdi:Conceptos>
+   <cfdi:Impuestos TotalImpuestosTrasladados="349.18">
+      <cfdi:Traslados>
+         <cfdi:Traslado Importe="349.18" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+      </cfdi:Traslados>
+   </cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="3D8CEFD7-C8E2-4127-BA3E-B4D7F58A8C8A" FechaTimbrado="2022-01-18T05:23:52" RfcProvCertif="SST060807KU0" SelloCFD="osbpwnqLn6oK09P0JYE2niFmo8oC3iVx8miA3oaql6Fo7f4Am9nMK0Ygbx/EbrNtzCqBjws5Xa/p82RbQ4EARAVz3wcLUZpD6B7rDvBzJz6rDVdBEOpJd/81MKzQeImGr6r9Ms29pm91hWFDe+6ke9P5H+jKKeCAFkuzHpdkQFGM1xkpgVEUeXNID+xct4/d27kEVyqSG63TraQqcFzVLVJzsQX/yabriUm9TGqmm1SrBVguyYV2W6pSRDGs/a1QRhNaFFn11Aokt8EK+97lpQW2fMobsak1yDmXwLEvArDIqp6z26W0yKXqZyjifeQwrCZQ5IPM531Pt9KNwWA2PA==" NoCertificadoSAT="00001000000506202789" SelloSAT="AAhJjAiBKm4B2Jq282VgdEdk5oqrDa7JjtvAPdj3NVITexWm2uTZyn/m6BCyOEOfBmrkVHL8ZNq0o0XYpNmAflRxT04HyafbXf3w/rFS+DST6StxZ9a4i6sXmFxrIkfDcQhBzx7RFBnSqLQ5NPCDMuk5k+8iNheTV2AYVZBHH8wfebvtGkcxaBWk8kiwpsnlgL/HN40S3RAIKszSx9tHR1U8D0Xmw/NdXxGELsNPRN/7oyyh/hCRCCRnXdKkTe70c+LyZKJRFck3aCmoL97T7r40vwVM8/BNRTXFnbLb92pBc2cEvPbfukqaa/b3mAuhFLH0OyogDyWVo3YDeX/JuA==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" /></cfdi:Complemento>
+   
+</cfdi:Comprobante>

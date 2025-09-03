@@ -1,5 +1,0 @@
--- Archivo maestro de estructura de base de datos SAC
--- Generado el 07/08/2025
--- Elimina y crea todas las tablas según la estructura real
--- ...estructura real obtenida de la base de datos...
--- (Pega aquí el contenido de master_schema.sql)

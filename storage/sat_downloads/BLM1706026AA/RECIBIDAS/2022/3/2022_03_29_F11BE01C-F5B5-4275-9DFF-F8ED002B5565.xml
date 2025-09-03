@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:implocal="http://www.sat.gob.mx/implocal" xmlns:terceros="http://www.sat.gob.mx/terceros" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Fecha="2022-03-29T03:24:21" Folio="87277" FormaPago="04" LugarExpedicion="06600" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000509727848" Sello="gj0ylMu53k+MPlJxhZPgo1KnvKV5+b/4s5Z0ayMU7M7dPjiPAaeAFcIrRnpMR8Y5ZsyYjOUNa4JWkW0N7XeIGXdp3vmpZqAJWihXwZ+Zg0cJi+Y8JM6bCeY/n05vYzqx5S+IXS1GAei1zDjnPgX011oLdQeFUhD8/CYbiiAJ6pcj4duX3IE40vmTw3Xet/zPK+/5wv7mVZLQy7RsiSDnPph9UEBuTQrqHeEi45zWAySwFpKFhUVMHAiW1azo7KV4yOMGG2bT7Qv8dtiKJOjlgYw3WAv+4l83FmVF3/g4msT5yEJ/sFB0aM57iMdLmOltLcMsHs6Ajulu93B0Tv3F4Q==" Serie="CEBC" SubTotal="2400.00" TipoCambio="1" TipoDeComprobante="I" Total="2868.00" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd  http://www.sat.gob.mx/implocal http://www.sat.gob.mx/sitio_internet/cfd/implocal/implocal.xsd http://www.sat.gob.mx/terceros http://www.sat.gob.mx/sitio_internet/cfd/terceros/terceros11.xsd">
+  <cfdi:Emisor Nombre="Servicios Centrales de Cobranza Hotelera SA de CV" RegimenFiscal="601" Rfc="SCC171019SQ7" />
+  <cfdi:Receptor Nombre="BOT LEASE MEXICO SA DE CV" Rfc="BLM1706026AA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="90111500" ClaveUnidad="E48" Descripcion="RENTA HABITACION" Importe="1200.00" NoIdentificacion="HAB" Unidad="NA" ValorUnitario="1200.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1200.00" Importe="192.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:ComplementoConcepto>
+        <terceros:PorCuentadeTerceros nombre="IMPULSORA PLAZA CELAYA S.A. DE C.V." rfc="IPC060309D42" version="1.1" xmlns:terceros="http://www.sat.gob.mx/terceros">
+          <terceros:InformacionFiscalTercero calle="Havre" codigoPostal="06600" colonia="Juarez" estado=" CIUDAD DE MEXICO" localidad="México" municipio="Cuauhtemoc" noExterior="21" pais="MEXICO" />
+          <terceros:Parte cantidad="1.00" descripcion="RENTA HABITACION" noIdentificacion="HAB" unidad="NA" />
+          <terceros:Impuestos>
+            <terceros:Traslados>
+              <terceros:Traslado importe="192.00" impuesto="IVA" tasa="0.16" />
+            </terceros:Traslados>
+          </terceros:Impuestos>
+        </terceros:PorCuentadeTerceros>
+      </cfdi:ComplementoConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="90111500" ClaveUnidad="E48" Descripcion="RENTA HABITACION" Importe="1200.00" NoIdentificacion="HAB" Unidad="NA" ValorUnitario="1200.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1200.00" Importe="192.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:ComplementoConcepto>
+        <terceros:PorCuentadeTerceros nombre="IMPULSORA PLAZA CELAYA S.A. DE C.V." rfc="IPC060309D42" version="1.1" xmlns:terceros="http://www.sat.gob.mx/terceros">
+          <terceros:InformacionFiscalTercero calle="Havre" codigoPostal="06600" colonia="Juarez" estado=" CIUDAD DE MEXICO" localidad="México" municipio="Cuauhtemoc" noExterior="21" pais="MEXICO" />
+          <terceros:Parte cantidad="1.00" descripcion="RENTA HABITACION" noIdentificacion="HAB" unidad="NA" />
+          <terceros:Impuestos>
+            <terceros:Traslados>
+              <terceros:Traslado importe="192.00" impuesto="IVA" tasa="0.16" />
+            </terceros:Traslados>
+          </terceros:Impuestos>
+        </terceros:PorCuentadeTerceros>
+      </cfdi:ComplementoConcepto>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="384.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="384.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <implocal:ImpuestosLocales TotaldeRetenciones="0.00" TotaldeTraslados="84.00" version="1.0" xmlns:implocal="http://www.sat.gob.mx/implocal">
+      <implocal:TrasladosLocales ImpLocTrasladado="ISH" Importe="84.00" TasadeTraslado="3.50" />
+    </implocal:ImpuestosLocales>
+  <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2022-03-29T06:24:22" NoCertificadoSAT="00001000000505430144" RfcProvCertif="SEF100616AD2" SelloCFD="gj0ylMu53k+MPlJxhZPgo1KnvKV5+b/4s5Z0ayMU7M7dPjiPAaeAFcIrRnpMR8Y5ZsyYjOUNa4JWkW0N7XeIGXdp3vmpZqAJWihXwZ+Zg0cJi+Y8JM6bCeY/n05vYzqx5S+IXS1GAei1zDjnPgX011oLdQeFUhD8/CYbiiAJ6pcj4duX3IE40vmTw3Xet/zPK+/5wv7mVZLQy7RsiSDnPph9UEBuTQrqHeEi45zWAySwFpKFhUVMHAiW1azo7KV4yOMGG2bT7Qv8dtiKJOjlgYw3WAv+4l83FmVF3/g4msT5yEJ/sFB0aM57iMdLmOltLcMsHs6Ajulu93B0Tv3F4Q==" SelloSAT="KuyPBq8RYTb6xRB5baXgUK74WKTIZ0qMQ/fZX9IwE5/P0Uquk55qY5IAvT0cn2kU+5vge4kg5+APox3FV1oJ6j++owF3/LFzuoqUbmdsl4qv7fha7dE8/S4dqbudepmByf2jjAUzazUTYutJfnvqY8wgpHMFpwSVnDJu8ZSwWRAj+jnWy3KDkbwA9mXJ2VEcBJPPRyEA5fIdj8hmKUbAFXgo5Sch1TXw3HdStchzR09r8E0l3AKFqpeCrXlk7d/nYzft9R+BBTQx9H/OJJF1YzvZeTDT4f5AqLIUgNVfZj2xYGBVL7GRw1PKjORz9flmDqzPgARNti+7Zwcv2Z+5kQ==" UUID="F11BE01C-F5B5-4275-9DFF-F8ED002B5565" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" /></cfdi:Complemento>
+</cfdi:Comprobante>

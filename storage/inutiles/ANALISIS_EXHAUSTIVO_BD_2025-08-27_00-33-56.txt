@@ -1,0 +1,671 @@
+ANÁLISIS EXHAUSTIVO DE XMLs CFDI PARA DISEÑO DE BASE DE DATOS
+Generado: 2025-08-27 00:33:56
+====================================================================================================
+
+ESTADÍSTICAS DE PROCESAMIENTO:
+--------------------------------------------------
+CFDI 33 EMITIDOS    :  21273 procesados /  21273 total (     0 errores)
+CFDI 33 RECIBIDOS   :  10300 procesados /  10300 total (     0 errores)
+CFDI 40 EMITIDOS    :      0 procesados /      0 total (     0 errores)
+CFDI 40 RECIBIDOS   :      0 procesados /      0 total (     0 errores)
+
+
+RESUMEN DE CAMPOS IDENTIFICADOS:
+--------------------------------------------------
+Total de campos únicos: 387
+
+
+TABLA COMPARATIVA COMPLETA DE CAMPOS:
+====================================================================================================
+
+CAMPO                                                        | CFDI33_EMIT  | CFDI33_RECIB | CFDI40_EMIT  | CFDI40_RECIB
+------------------------------------------------------------------------------------------------------------------------
+CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_CFD_ag | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_CFD_ce | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_CFD_po | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_CFD_re | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_EXPEDI | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_EXPEDI | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_RECEPT | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:ADDENDA_TOKIOMARINE_BUZONFISCAL_TIPODO | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CFDIRELACIONADOS_CFDI:CFDIRELACIONADO_ | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CFDIRELACIONADOS_CFDI:CFDIRELACIONADO_ | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CFDIRELACIONADOS_TipoRelacion          | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_AEROLINEAS:AEROLINEAS_AERO | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_AEROLINEAS:AEROLINEAS_AERO | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_AEROLINEAS:AEROLINEAS_AERO | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_AEROLINEAS:AEROLINEAS_AERO | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_AEROLINEAS:AEROLINEAS_TUA  | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_AEROLINEAS:AEROLINEAS_Vers | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_To | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_Tr | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_CARTAPORTE20:CARTAPORTE_Ve | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_DIVISAS:DIVISAS_tipoOperac | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_DIVISAS:DIVISAS_version    | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_ECC12:ESTADODECUENTACOMBUS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_ | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_ | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_ | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_ | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_ | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_ | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_ | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_LEYENDASFISC:LEYENDASFISCA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_LEYENDASFISC:LEYENDASFISCA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_LEYENDASFISC:LEYENDASFISCA | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_FechaFinal | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_FechaInici | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_FechaPago  | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:D | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:D | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:D | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:D | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:D | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:D | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:D | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:E | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:E | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:O | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:O | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:O | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:O | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:O | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:O | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:P | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:R | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_NumDiasPag | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_TipoNomina | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_TotalDeduc | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_TotalOtros | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_TotalPerce | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_NOMINA12:NOMINA_Version    | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_C | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_C | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_C | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_C | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_F | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_F | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_M | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_M | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_N | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_N | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_R | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_R | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_S | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_T | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_T | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGO_T | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_Version       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO10:PAGOS_schemaLocatio | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_C | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_C | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_C | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_C | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_F | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_F | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_M | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_M | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_N | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_N | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_P | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_R | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_R | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_S | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_T | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_T | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGO_T | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_PAGO20:TOTALE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_Version       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_PAGO20:PAGOS_schemaLocatio | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_REGISTROFISCAL:CFDIREGISTR | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_REGISTROFISCAL:CFDIREGISTR | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_REGISTROFISCAL:CFDIREGISTR | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Fe | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Le | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_No | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Rf | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Se | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Se | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_UU | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_Ve | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_sc | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:COMPLEMENTO_VALESDEDESPENSA:VALESDEDES | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:ACUENTATE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:ACUENTATE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:ACUENTATE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:ACUENTATE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:COMPLEMEN | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:CUENTAPRE | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:IMPUESTOS | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:INFORMACI | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:INFORMACI | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Can | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Cla | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Des | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Imp | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_NoI | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_TOT | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Uni | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_CFDI:PARTE_Val | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Cantidad       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_ClaveProdServ  | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_ClaveUnidad    | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Descripcion    | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Descuento      | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Importe        | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_NoIdentificaci | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_ObjetoImp      | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_TOTAL          | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_Unidad         | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:CONCEPTOS_CFDI:CONCEPTO_ValorUnitario  | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:EMISOR_Nombre                          | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:EMISOR_RegimenFiscal                   | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:EMISOR_Rfc                             | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:RETENCIONES_CFDI:RETENC | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:RETENCIONES_CFDI:RETENC | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:RETENCIONES_CFDI:RETENC | ❌          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:TRASLADOS_CFDI:TRASLADO | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:TRASLADOS_CFDI:TRASLADO | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:TRASLADOS_CFDI:TRASLADO | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:TRASLADOS_CFDI:TRASLADO | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:TRASLADOS_CFDI:TRASLADO | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_CFDI:TRASLADOS_CFDI:TRASLADO | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_TotalImpuestosRetenidos      | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:IMPUESTOS_TotalImpuestosTrasladados    | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:INFORMACIONGLOBAL_Año                 | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:INFORMACIONGLOBAL_Meses                | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:INFORMACIONGLOBAL_Periodicidad         | ✅          | ❌          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:RECEPTOR_DomicilioFiscalReceptor       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:RECEPTOR_Nombre                        | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:RECEPTOR_RegimenFiscalReceptor         | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:RECEPTOR_Rfc                           | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CFDI:RECEPTOR_UsoCFDI                       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Certificado                                 | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_CondicionesDePago                           | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Descuento                                   | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Exportacion                                 | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Fecha                                       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Folio                                       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_FormaPago                                   | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_LugarExpedicion                             | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_MetodoPago                                  | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Moneda                                      | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_NoCertificado                               | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Sello                                       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Serie                                       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_SubTotal                                    | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_TipoCambio                                  | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_TipoDeComprobante                           | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Total                                       | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_Version                                     | ✅          | ✅          | ❌          | ❌         
+CFDI:COMPROBANTE_schemaLocation                              | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Certificado                                      | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_CondicionesDePago                                | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Descuento                                        | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Exportacion                                      | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Fecha                                            | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Folio                                            | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_FormaPago                                        | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_LugarExpedicion                                  | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_MetodoPago                                       | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Moneda                                           | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_NoCertificado                                    | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Sello                                            | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Serie                                            | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_SubTotal                                         | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_TipoCambio                                       | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_TipoDeComprobante                                | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Total                                            | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_Version                                          | ✅          | ✅          | ❌          | ❌         
+COMPROBANTE_schemaLocation                                   | ✅          | ✅          | ❌          | ❌         
+
+
+DETALLES DE COMPLEMENTOS ENCONTRADOS:
+====================================================================================================
+
+📦 COMPLEMENTO: tfd:TimbreFiscalDigital_v1.1
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ✅
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (9):
+      - COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_TFD:TIMBREFISCALDIGITAL_schemaLocation
+      - COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_TFD:TIMBREFISCALDIGITAL_Version
+      - COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_TFD:TIMBREFISCALDIGITAL_UUID
+      - COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_TFD:TIMBREFISCALDIGITAL_FechaTimbrado
+      - COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_TFD:TIMBREFISCALDIGITAL_RfcProvCertif
+      - COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_TFD:TIMBREFISCALDIGITAL_SelloCFD
+      - COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_TFD:TIMBREFISCALDIGITAL_NoCertificadoSAT
+      - COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_TFD:TIMBREFISCALDIGITAL_SelloSAT
+      - COMPLEMENTO_TFD:TIMBREFISCALDIGITAL_TFD:TIMBREFISCALDIGITAL_Leyenda
+
+📦 COMPLEMENTO: pago10:Pagos_v1.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ✅
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (29):
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_Version
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_PAGO10:PAGO_FechaPago
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_PAGO10:PAGO_FormaDePagoP
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_PAGO10:PAGO_MonedaP
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_PAGO10:PAGO_Monto
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_PAGO10:PAGO_PAGO10:DOCTORELACIONADO_IdDocumento
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_PAGO10:PAGO_PAGO10:DOCTORELACIONADO_Serie
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_PAGO10:PAGO_PAGO10:DOCTORELACIONADO_Folio
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_PAGO10:PAGO_PAGO10:DOCTORELACIONADO_MonedaDR
+      - COMPLEMENTO_PAGO10:PAGOS_PAGO10:PAGOS_PAGO10:PAGO_PAGO10:DOCTORELACIONADO_MetodoDePagoDR
+      ... y 19 campos más
+
+📦 COMPLEMENTO: nomina12:Nomina_v1.2
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ✅
+      CFDI 33 RECIBIDOS: ❌
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (56):
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_Version
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_TipoNomina
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_FechaPago
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_FechaInicialPago
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_FechaFinalPago
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_NumDiasPagados
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_TotalPercepciones
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_TotalDeducciones
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_TotalOtrosPagos
+      - COMPLEMENTO_NOMINA12:NOMINA_NOMINA12:NOMINA_NOMINA12:EMISOR_RegistroPatronal
+      ... y 46 campos más
+
+📦 COMPLEMENTO: pago20:Pagos_v2.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ✅
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (61):
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_Version
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:TOTALES_TotalTrasladosBaseIVA16
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:TOTALES_TotalTrasladosImpuestoIVA16
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:TOTALES_MontoTotalPagos
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_FechaPago
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_FormaDePagoP
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_MonedaP
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_TipoCambioP
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_Monto
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_PAGO20:DOCTORELACIONADO_IdDocumento
+      ... y 51 campos más
+
+📦 COMPLEMENTO: leyendasFisc:LeyendasFiscales_v1.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ❌
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (3):
+      - COMPLEMENTO_LEYENDASFISC:LEYENDASFISCALES_LEYENDASFISC:LEYENDASFISCALES_version
+      - COMPLEMENTO_LEYENDASFISC:LEYENDASFISCALES_LEYENDASFISC:LEYENDASFISCALES_LEYENDASFISC:LEYENDA_disposicionFiscal
+      - COMPLEMENTO_LEYENDASFISC:LEYENDASFISCALES_LEYENDASFISC:LEYENDASFISCALES_LEYENDASFISC:LEYENDA_textoLeyenda
+
+📦 COMPLEMENTO: divisas:Divisas_v1.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ❌
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (2):
+      - COMPLEMENTO_DIVISAS:DIVISAS_DIVISAS:DIVISAS_tipoOperacion
+      - COMPLEMENTO_DIVISAS:DIVISAS_DIVISAS:DIVISAS_version
+
+📦 COMPLEMENTO: registrofiscal:CFDIRegistroFiscal_v1.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ❌
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (3):
+      - COMPLEMENTO_REGISTROFISCAL:CFDIREGISTROFISCAL_REGISTROFISCAL:CFDIREGISTROFISCAL_schemaLocation
+      - COMPLEMENTO_REGISTROFISCAL:CFDIREGISTROFISCAL_REGISTROFISCAL:CFDIREGISTROFISCAL_Version
+      - COMPLEMENTO_REGISTROFISCAL:CFDIREGISTROFISCAL_REGISTROFISCAL:CFDIREGISTROFISCAL_Folio
+
+📦 COMPLEMENTO: implocal:ImpuestosLocales_v1.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ❌
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (7):
+      - COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:IMPUESTOSLOCALES_version
+      - COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:IMPUESTOSLOCALES_TotaldeRetenciones
+      - COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:IMPUESTOSLOCALES_TotaldeTraslados
+      - COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:TRASLADOSLOCALES_ImpLocTrasladado
+      - COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:TRASLADOSLOCALES_TasadeTraslado
+      - COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:TRASLADOSLOCALES_Importe
+      - COMPLEMENTO_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:IMPUESTOSLOCALES_IMPLOCAL:TRASLADOSLOCALES_TOTAL
+
+📦 COMPLEMENTO: aerolineas:Aerolineas_v1.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ❌
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (6):
+      - COMPLEMENTO_AEROLINEAS:AEROLINEAS_AEROLINEAS:AEROLINEAS_Version
+      - COMPLEMENTO_AEROLINEAS:AEROLINEAS_AEROLINEAS:AEROLINEAS_TUA
+      - COMPLEMENTO_AEROLINEAS:AEROLINEAS_AEROLINEAS:AEROLINEAS_AEROLINEAS:OTROSCARGOS_TotalCargos
+      - COMPLEMENTO_AEROLINEAS:AEROLINEAS_AEROLINEAS:AEROLINEAS_AEROLINEAS:OTROSCARGOS_AEROLINEAS:CARGO_TOTAL
+      - COMPLEMENTO_AEROLINEAS:AEROLINEAS_AEROLINEAS:AEROLINEAS_AEROLINEAS:OTROSCARGOS_AEROLINEAS:CARGO_CodigoCargo
+      - COMPLEMENTO_AEROLINEAS:AEROLINEAS_AEROLINEAS:AEROLINEAS_AEROLINEAS:OTROSCARGOS_AEROLINEAS:CARGO_Importe
+
+📦 COMPLEMENTO: valesdedespensa:ValesDeDespensa_v1.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ❌
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (12):
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_version
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_tipoOperacion
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_numeroDeCuenta
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_total
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:CONCEPTOS_VALESDEDESPENSA:CONCEPTO_TOTAL
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:CONCEPTOS_VALESDEDESPENSA:CONCEPTO_identificador
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:CONCEPTOS_VALESDEDESPENSA:CONCEPTO_fecha
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:CONCEPTOS_VALESDEDESPENSA:CONCEPTO_rfc
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:CONCEPTOS_VALESDEDESPENSA:CONCEPTO_curp
+      - COMPLEMENTO_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:VALESDEDESPENSA_VALESDEDESPENSA:CONCEPTOS_VALESDEDESPENSA:CONCEPTO_nombre
+      ... y 2 campos más
+
+📦 COMPLEMENTO: ecc12:EstadoDeCuentaCombustible_v1.2
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ❌
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (20):
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_Version
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_TipoOperacion
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_NumeroDeCuenta
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_SubTotal
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_Total
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:CONCEPTOS_ECC12:CONCEPTOESTADODECUENTACOMBUSTIBLE_TOTAL
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:CONCEPTOS_ECC12:CONCEPTOESTADODECUENTACOMBUSTIBLE_Identificador
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:CONCEPTOS_ECC12:CONCEPTOESTADODECUENTACOMBUSTIBLE_Fecha
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:CONCEPTOS_ECC12:CONCEPTOESTADODECUENTACOMBUSTIBLE_Rfc
+      - COMPLEMENTO_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:ESTADODECUENTACOMBUSTIBLE_ECC12:CONCEPTOS_ECC12:CONCEPTOESTADODECUENTACOMBUSTIBLE_ClaveEstacion
+      ... y 10 campos más
+
+📦 COMPLEMENTO: cartaporte20:CartaPorte_v2.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ❌
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (32):
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_Version
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_TranspInternac
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_TotalDistRec
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:UBICACIONES_CARTAPORTE20:UBICACION_TOTAL
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:UBICACIONES_CARTAPORTE20:UBICACION_TipoUbicacion
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:UBICACIONES_CARTAPORTE20:UBICACION_RFCRemitenteDestinatario
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:UBICACIONES_CARTAPORTE20:UBICACION_NombreRemitenteDestinatario
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:UBICACIONES_CARTAPORTE20:UBICACION_FechaHoraSalidaLlegada
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:UBICACIONES_CARTAPORTE20:UBICACION_CARTAPORTE20:DOMICILIO_Calle
+      - COMPLEMENTO_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:CARTAPORTE_CARTAPORTE20:UBICACIONES_CARTAPORTE20:UBICACION_CARTAPORTE20:DOMICILIO_Estado
+      ... y 22 campos más
+
+📦 COMPLEMENTO: Pago20:Pagos_v2.0
+   Versión: No especificada
+   Presente en:
+      CFDI 33 EMITIDOS: ❌
+      CFDI 33 RECIBIDOS: ✅
+      CFDI 40 EMITIDOS: ❌
+      CFDI 40 RECIBIDOS: ❌
+   Campos (30):
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_Version
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_schemaLocation
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:TOTALES_MontoTotalPagos
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:TOTALES_TotalTrasladosBaseIVA16
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:TOTALES_TotalTrasladosImpuestoIVA16
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_FechaPago
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_FormaDePagoP
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_MonedaP
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_Monto
+      - COMPLEMENTO_PAGO20:PAGOS_PAGO20:PAGOS_PAGO20:PAGO_TipoCambioP
+      ... y 20 campos más
+
+
+
+RECOMENDACIONES PARA DISEÑO DE BASE DE DATOS:
+====================================================================================================
+
+🎯 CAMPOS COMUNES (presentes en 3+ categorías): 0
+⚠️  CAMPOS ESPECÍFICOS (presentes en 1-2 categorías): 387
+
+📋 TABLAS RECOMENDADAS:
+
+1. TABLA PRINCIPAL 'cfdi'
+   - Campos comunes a todas las versiones
+   - 0 campos identificados
+
+2. TABLAS POR COMPLEMENTO:
+   - cfdi_complemento_tfd:timbrefiscaldigital_v1_1 (9 campos)
+   - cfdi_complemento_pago10:pagos_v1_0 (29 campos)
+   - cfdi_complemento_nomina12:nomina_v1_2 (56 campos)
+   - cfdi_complemento_pago20:pagos_v2_0 (61 campos)
+   - cfdi_complemento_leyendasfisc:leyendasfiscales_v1_0 (3 campos)
+   - cfdi_complemento_divisas:divisas_v1_0 (2 campos)
+   - cfdi_complemento_registrofiscal:cfdiregistrofiscal_v1_0 (3 campos)
+   - cfdi_complemento_implocal:impuestoslocales_v1_0 (7 campos)
+   - cfdi_complemento_aerolineas:aerolineas_v1_0 (6 campos)
+   - cfdi_complemento_valesdedespensa:valesdedespensa_v1_0 (12 campos)
+   - cfdi_complemento_ecc12:estadodecuentacombustible_v1_2 (20 campos)
+   - cfdi_complemento_cartaporte20:cartaporte_v2_0 (32 campos)
+   - cfdi_complemento_pago20:pagos_v2_0 (30 campos)
+
+3. CAMPOS ESPECÍFICOS POR VERSIÓN:
+   - Considerar campos adicionales en tabla principal con valores NULL permitidos
+   - Total campos específicos: 387
+

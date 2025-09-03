@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:terceros="http://www.sat.gob.mx/terceros" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="FO" Folio="12688" Fecha="2020-12-18T18:59:29" Sello="CiauufK9FdyHBBbtACg26O5VrJ/DJ0zII7wy+vCM+e0vVa4Moqlj5OxYvNIByg68ZleV7c8x6t1yJpNKN/ynO/+uEfEtXrZbRrw0BE/scySD8tCv6FTy8LqhFpYxsPNqrcl8SRbLShixWGTCgoKn7B/wfQiHMPlY0oqPF3GbQyKlRipk+YxZpwS+KuJD9IClew877bvvqHXLv87I2SxYFnYuOjYpCq/bvdP/C06WjnJpooyRDpkKE/t1DRpXxkLN7lhEhPAZ0BlGvXDNSLGaTxIi4PI20XnLjLsIRMsXex0eMLmKYXNpaylTz14zcT5likAspBcURPnXF6hGK4uDTA==" FormaPago="99" NoCertificado="00001000000505118841" Certificado="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" CondicionesDePago="Credito" SubTotal="6034.48" Moneda="MXN" TipoCambio="1" Total="6999.99" TipoDeComprobante="I" MetodoPago="PPD" LugarExpedicion="76125">
+  <cfdi:Emisor Nombre="AUTOS GALIA QUERETARO SA DE CV" Rfc="AGQ9303268S1" RegimenFiscal="601" />
+  <cfdi:Receptor UsoCFDI="G03" Nombre="BOT LEASE MEXICO S.A. DE C.V." Rfc="BLM1706026AA" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveUnidad="H87" Unidad="Pieza" NoIdentificacion="ACCDIV" Cantidad="1.000000" Importe="0.010000" ValorUnitario="0.010000" Descripcion="ACCESORIOS DIVERSOS" ClaveProdServ="01010101">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado TasaOCuota="0.160000" Base="0.010000" Importe="0.000000" Impuesto="002" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveUnidad="H87" Unidad="Pieza" NoIdentificacion="7711733865" Cantidad="1.000000" Importe="1599.130000" ValorUnitario="1599.130000" Descripcion="CAMARA DE REVERSA MEDI" ClaveProdServ="25172605">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado TasaOCuota="0.160000" Base="1599.130000" Importe="255.860000" Impuesto="002" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveUnidad="H87" Unidad="Pieza" NoIdentificacion="7711639097" Cantidad="1.000000" Importe="4435.340000" ValorUnitario="4435.340000" Descripcion="SEGUPACK CLARO" ClaveProdServ="25172603">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado TasaOCuota="0.160000" Base="4435.340000" Importe="709.650000" Impuesto="002" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="965.51">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="965.51" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="B84A7F8B-51A4-49A8-973B-16E0898C1017" FechaTimbrado="2020-12-18T18:59:54" SelloCFD="CiauufK9FdyHBBbtACg26O5VrJ/DJ0zII7wy+vCM+e0vVa4Moqlj5OxYvNIByg68ZleV7c8x6t1yJpNKN/ynO/+uEfEtXrZbRrw0BE/scySD8tCv6FTy8LqhFpYxsPNqrcl8SRbLShixWGTCgoKn7B/wfQiHMPlY0oqPF3GbQyKlRipk+YxZpwS+KuJD9IClew877bvvqHXLv87I2SxYFnYuOjYpCq/bvdP/C06WjnJpooyRDpkKE/t1DRpXxkLN7lhEhPAZ0BlGvXDNSLGaTxIi4PI20XnLjLsIRMsXex0eMLmKYXNpaylTz14zcT5likAspBcURPnXF6hGK4uDTA==" NoCertificadoSAT="00001000000505600468" SelloSAT="bve/sm5nuxr0NOzp9RLc/jPBGBN482BNone7PRwH6OaWlBdgiL9Irc2iDDkfQSV0OuQhra6ji8y7BSN6uXVIgEyoqqaI5UIJ63KYEsbt5q3GiYQHL5HwP+mkZMqLhV0rtlwah8vwGfpNeno+cm5v3wVVuT33BdgnqyGlqZ3vWLjNWsE3DQaZ9l3QCsjIGsB+pleFq6BulZUOayfWnmKsEwA2AwaLG2M6FTYm+rZoF23IS8rCqtLEeRjwTV/f8mkxzJhTvwFgp0+jGNtOX+UB6aXub+iVxtclZ60JBm6Gsq+MB39jn5rbya9SwDIG6yaP2sacnfpDITPNIt/BrTazIg==" RfcProvCertif="EME000602QR9" /></cfdi:Complemento></cfdi:Comprobante>

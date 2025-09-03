@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:implocal="http://www.sat.gob.mx/implocal" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/implocal http://www.sat.gob.mx/sitio_internet/cfd/implocal/implocal.xsd" Version="3.3" Folio="SR2O001412" Fecha="2022-06-07T20:38:28" Sello="SYzs5JIJtyYbtM51CF/hlMB69oWimc9sVOYOSidmri9VeBbAF8UeqERhubsmvayJYcCswFZFqkrOX02C4c+SykExKQw0C1V7oLDni6xbyVT/4mqKJPDSu/UPzn4kOtm8/qLlgIKT95GO4tPCbjCNu8uhUB9ZOryU6iDp/UU0pZsYSTIVxx/mmmKBeDTyO2cU6fp1quZP7VorV3OLjf43+PzOhpf9yXtgqHgK3FH9iEdOE5c/6fXS7wdbhR2gHl1Odfsc3P0n4WXuUPap++Q2lcXeXeH5SyRb+kXrrGVzSXQg9heqMcq9jkjehejqBoMAEy/CHd1e9vqGFwvM79rUKg==" FormaPago="03" NoCertificado="00001000000509677885" Certificado="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" CondicionesDePago="BBVA BANCOMER" SubTotal="6969.38" Moneda="MXN" LugarExpedicion="06500" TipoCambio="1" Total="8292.80" TipoDeComprobante="I" MetodoPago="PUE">
+  <cfdi:Emisor Rfc="OHM060629T6A" Nombre="EXE SUITES REFORMA" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="BLM1706026AA" Nombre="BOT LEASE MEXICO SA DE CV" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111503" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="134.956897" Importe="134.956897">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="134.956897" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="21.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111800" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="1086.209205" Importe="1086.209205">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1086.209205" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="173.80" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111501" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Propinas desayuno comisionable" ValorUnitario="12.320000" Importe="12.320000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12.320000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111503" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="134.956897" Importe="134.956897">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="134.956897" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="21.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111800" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="1282.610879" Importe="1282.610879">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1282.610879" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="205.22" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111501" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Propinas desayuno comisionable" ValorUnitario="12.320000" Importe="12.320000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12.320000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111503" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="134.956897" Importe="134.956897">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="134.956897" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="21.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111800" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="1282.610879" Importe="1282.610879">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1282.610879" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="205.22" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111501" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Propinas desayuno comisionable" ValorUnitario="12.320000" Importe="12.320000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12.320000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111503" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="134.956897" Importe="134.956897">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="134.956897" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="21.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111800" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="1413.540000" Importe="1413.540000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1413.540000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="226.17" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111501" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Propinas desayuno comisionable" ValorUnitario="12.320000" Importe="12.320000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12.320000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111503" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="134.940000" Importe="134.940000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="134.940000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="21.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111800" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Alojamiento y desayuno" ValorUnitario="1168.041841" Importe="1168.041841">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1168.041841" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="186.89" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto NoIdentificacion="0014045456" ClaveUnidad="E48" ClaveProdServ="90111501" Cantidad="1" Unidad="Unidad de servicio" Descripcion="Propinas desayuno comisionable" ValorUnitario="12.320000" Importe="12.320000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12.320000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="1105.26">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1105.26" />
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <implocal:ImpuestosLocales version="1.0" TotaldeRetenciones="0" TotaldeTraslados="218.16">
+      <implocal:TrasladosLocales ImpLocTrasladado="ISH" TasadeTraslado="3.500" Importe="218.16" />
+    </implocal:ImpuestosLocales>
+  <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="4CFD18CB-742E-42FF-9DA9-26044629744D" FechaTimbrado="2022-06-07T20:38:29" RfcProvCertif="SFE0807172W8" SelloCFD="SYzs5JIJtyYbtM51CF/hlMB69oWimc9sVOYOSidmri9VeBbAF8UeqERhubsmvayJYcCswFZFqkrOX02C4c+SykExKQw0C1V7oLDni6xbyVT/4mqKJPDSu/UPzn4kOtm8/qLlgIKT95GO4tPCbjCNu8uhUB9ZOryU6iDp/UU0pZsYSTIVxx/mmmKBeDTyO2cU6fp1quZP7VorV3OLjf43+PzOhpf9yXtgqHgK3FH9iEdOE5c/6fXS7wdbhR2gHl1Odfsc3P0n4WXuUPap++Q2lcXeXeH5SyRb+kXrrGVzSXQg9heqMcq9jkjehejqBoMAEy/CHd1e9vqGFwvM79rUKg==" NoCertificadoSAT="00001000000505619865" SelloSAT="ZfaUU5UFssyWB5RojnRouG+dlIzLNAfN0+x5vU8tcrIe3OZvEPLId0qTnCZFs4sAK68upwKDbu+pmCGWgp01VMdudK+jAZNyFNzOmTdZ5Uy4rUAsWB/WSkVgoRtE4a2ha0KZiAN6XakIYzSOJxc0tFn3Scy+UUOGjUXE3ziIzTmt4VUVwd7Rlfw4Rlabvkkh74RhF/4DK46nTCddxAgrTnzPNbHsvyFJVFDMLhIeUMN+vWOYgnNcwwcMRLRyissXw0bGMvJNPewBADeXvBruxkNaDAhCJ4r+unYtLMz8CN7VXZFTNAGtN8S077UKyq/QBGpIhpknTJLuL6pAJ7/9pw==" /></cfdi:Complemento>
+</cfdi:Comprobante>

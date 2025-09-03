@@ -65,19 +65,18 @@ function initFormulario() {
 async function handleSolicitudDescarga(e) {
     e.preventDefault();
 
-    const formData = new FormData(e.target);
-    const rfcSelected = document.getElementById('rfc_selected');
-
-    if (!rfcSelected.value) {
-        mostrarError('Debe seleccionar un RFC');
-        return;
-    }
-
-    // Validar fechas
+    // Validar fechas primero
     if (!validarFechas()) {
         return;
     }
 
+    // Validar selecciones y confirmar (ahora es async)
+    const confirmado = await validarSelecciones();
+    if (!confirmado) {
+        return;
+    }
+
+    const formData = new FormData(e.target);
     const submitBtn = e.target.querySelector('button[type="submit"]');
     const originalText = submitBtn.textContent;
 
@@ -85,7 +84,6 @@ async function handleSolicitudDescarga(e) {
         submitBtn.disabled = true;
         submitBtn.textContent = '⏳ Procesando...';
 
-        // Primero intentar sin contraseña
         let response = await fetch('api/solicitar-descarga.php', {
             method: 'POST',
             body: formData
@@ -95,10 +93,11 @@ async function handleSolicitudDescarga(e) {
 
         // Si necesita contraseña, solicitarla
         if (!result.success && result.needs_password) {
-            const password = await solicitarPasswordCertificado(rfcSelected.value);
+            const rfcSelected = document.getElementById('rfc_selected').value;
+            const password = await solicitarPasswordCertificado(rfcSelected);
             if (password) {
                 // Agregar contraseña y reintentar
-                formData.append('password_' + rfcSelected.value, password);
+                formData.append('password_certificado', password);
 
                 response = await fetch('api/solicitar-descarga.php', {
                     method: 'POST',
@@ -113,15 +112,25 @@ async function handleSolicitudDescarga(e) {
         }
 
         if (result.success) {
-            mostrarExito(`
-                ✅ Solicitud enviada exitosamente al SAT<br>
-                <strong>ID de Solicitud:</strong> ${result.data.request_id}<br>
-                <strong>RFC:</strong> ${result.data.rfc}<br>
-                <strong>Tipo:</strong> ${result.data.tipo}<br>
-                <strong>Estado SAT:</strong> ${result.data.mensaje_sat}
-            `);
+            let mensaje = '✅ Solicitudes enviadas exitosamente al SAT<br><br>';
+            
+            if (Array.isArray(result.data)) {
+                // Múltiples solicitudes
+                mensaje += '<strong>Solicitudes creadas:</strong><br>';
+                result.data.forEach((solicitud, index) => {
+                    mensaje += `${index + 1}. RFC: ${solicitud.rfc} | Tipo: ${solicitud.tipo}<br>`;
+                    mensaje += `   Request ID: ${solicitud.request_id}<br>`;
+                });
+            } else {
+                // Solicitud única
+                mensaje += `<strong>RFC:</strong> ${result.data.rfc}<br>`;
+                mensaje += `<strong>Tipo:</strong> ${result.data.tipo}<br>`;
+                mensaje += `<strong>Request ID:</strong> ${result.data.request_id}<br>`;
+            }
+            
+            mostrarExito(mensaje);
             limpiarFormulario();
-            cargarSolicitudes(); // Recargar tabla después de crear solicitud
+            cargarSolicitudes(); // Recargar tabla después de crear solicitud(es)
         } else {
             mostrarError(result.message || 'Error al procesar solicitud');
         }
@@ -299,7 +308,7 @@ async function verificarSolicitud(solicitudId) {
     mostrarLoaderSAT();
     try {
         // Enviar el id (autoincremental) como parámetro al endpoint
-        const response = await fetch(`/SAC/public/api/verificar_solicitud.php?id=${solicitudId}`);
+        const response = await fetch(`../../api/verificar_solicitud.php?id=${solicitudId}`);
         let result = null;
         let errorText = '';
         try {
@@ -395,12 +404,101 @@ function validarFechas() {
     const fechaDesde = document.getElementById('fecha_desde').value;
     const fechaHasta = document.getElementById('fecha_hasta').value;
 
-    if (fechaDesde && fechaHasta && fechaDesde > fechaHasta) {
-        mostrarError('La fecha inicial no puede ser mayor que la fecha final');
+    if (!fechaDesde || !fechaHasta) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Fechas Requeridas',
+            text: 'Ambas fechas son requeridas'
+        });
+        return false;
+    }
+
+    const desde = new Date(fechaDesde);
+    const hasta = new Date(fechaHasta);
+
+    if (desde > hasta) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Fechas Inválidas',
+            text: 'La fecha inicial no puede ser mayor que la fecha final'
+        });
+        return false;
+    }
+
+    // Validación SAT: máximo 31 días
+    const diffTime = Math.abs(hasta - desde);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    
+    if (diffDays > 31) {
+        Swal.fire({
+            icon: 'error',
+            title: 'Rango de Fechas Excedido',
+            html: `El rango de fechas no puede ser mayor a 31 días.<br><strong>Rango actual:</strong> ${diffDays} días`,
+            confirmButtonColor: '#d33'
+        });
         return false;
     }
 
     return true;
+}
+
+async function validarSelecciones() {
+    const rfcSelected = document.getElementById('rfc_selected').value;
+    const tipoDoc = document.getElementById('tipo_documento').value;
+    
+    if (!rfcSelected) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'RFC Requerido',
+            text: 'Debe seleccionar un RFC'
+        });
+        return false;
+    }
+
+    // Mostrar información sobre las solicitudes que se crearán
+    let htmlContent = '<div class="swal-solicitudes-info">';
+    
+    if (rfcSelected === 'TODOS') {
+        htmlContent += '<p><i class="fa fa-building"></i> <strong>RFCs:</strong> BFM170822P38 y BLM1706026AA</p>';
+    } else {
+        const selectRfc = document.getElementById('rfc_selected');
+        const selectedOption = selectRfc.options[selectRfc.selectedIndex];
+        const rfcText = selectedOption.getAttribute('data-rfc');
+        htmlContent += `<p><i class="fa fa-building"></i> <strong>RFC:</strong> ${rfcText}</p>`;
+    }
+    
+    if (tipoDoc === 'Ambos') {
+        htmlContent += '<p><i class="fa fa-file-alt"></i> <strong>Tipos:</strong> Emitidas + Recibidas (2 solicitudes por RFC)</p>';
+    } else {
+        htmlContent += `<p><i class="fa fa-file-alt"></i> <strong>Tipo:</strong> ${tipoDoc}</p>`;
+    }
+    
+    // Calcular total de solicitudes
+    const numRfcs = rfcSelected === 'TODOS' ? 2 : 1;
+    const numTipos = tipoDoc === 'Ambos' ? 2 : 1;
+    const totalSolicitudes = numRfcs * numTipos;
+    
+    htmlContent += `<div class="total-solicitudes">
+        <i class="fa fa-bolt"></i> <strong>Total de solicitudes SAT: ${totalSolicitudes}</strong>
+    </div></div>`;
+    
+    const result = await Swal.fire({
+        title: 'Confirmar Solicitudes SAT',
+        html: htmlContent,
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonColor: '#007cba',
+        cancelButtonColor: '#6c757d',
+        confirmButtonText: '✅ Continuar',
+        cancelButtonText: '❌ Cancelar',
+        reverseButtons: true,
+        customClass: {
+            popup: 'swal-wide',
+            htmlContainer: 'swal-html-container'
+        }
+    });
+    
+    return result.isConfirmed;
 }
 
 function limpiarFormulario() {
@@ -457,13 +555,23 @@ function getPaquetesInfo(paquetes) {
 }
 
 function mostrarError(mensaje) {
-    // Crear notificación elegante de error
-    showNotification(mensaje, 'error');
+    Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        html: mensaje,
+        confirmButtonColor: '#d33'
+    });
 }
 
 function mostrarExito(mensaje) {
-    // Crear notificación elegante de éxito
-    showNotification(mensaje, 'success');
+    Swal.fire({
+        icon: 'success',
+        title: '¡Éxito!',
+        html: mensaje,
+        confirmButtonColor: '#28a745',
+        timer: 4000,
+        timerProgressBar: true
+    });
 }
 
 function showNotification(message, type) {

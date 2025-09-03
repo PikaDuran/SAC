@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:pago20="http://www.sat.gob.mx/Pagos20" xmlns:ventavehiculos="http://www.sat.gob.mx/ventavehiculos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Exportacion="01" Fecha="2024-11-28T13:41:59" Folio="192259" LugarExpedicion="78399" Moneda="XXX" NoCertificado="00001000000707471477" Sello="hlpY6zKx188XCsLO57uLN8hE2Vbq8m6FaTPMiAaCqX3vMhiccRhkguv/EcZ3YayGhpTBI+uvx/A9xwMKImERYmKfJjyg8YwVM8jNO7qWhwFShiHqe25a6APBfk670DJGHUS4VmbYk/FdDFHhABsmTto8bkXAxQ0jQwp9QuYcpz++b0BjvS1wEUvocdRV91HpN9scduPskxj7ESOrb6MgQ9SJDHgelXSCaHfj8VyKCZ2vXC9YCB2swV051Cl9kNZGJsZQnf2u3MCjLo4SAwQqzJpRxQo/B/ZBPKN2OEHAi3qKE06Ri7H5tVhkf0/atqh8/lwOeDU+KmLtmwbtreQPTg==" Serie="Z" SubTotal="0" TipoDeComprobante="P" Total="0" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/ventavehiculos http://www.sat.gob.mx/sitio_internet/cfd/ventavehiculos/ventavehiculos11.xsd http://www.sat.gob.mx/Pagos20 http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos20.xsd">
+  <cfdi:Emisor Nombre="DALTON MOTORS S.L.P." RegimenFiscal="601" Rfc="DMS970909C33" />
+  <cfdi:Receptor DomicilioFiscalReceptor="06600" Nombre="BOT LEASE MEXICO" RegimenFiscalReceptor="601" Rfc="BLM1706026AA" UsoCFDI="CP01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="84111506" ClaveUnidad="ACT" Descripcion="Pago" Importe="0" ObjetoImp="01" ValorUnitario="0" />
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <pago20:Pagos Version="2.0">
+      <pago20:Totales MontoTotalPagos="590900.00" TotalTrasladosBaseIVA16="509396.55" TotalTrasladosImpuestoIVA16="81503.45" />
+      <pago20:Pago FechaPago="2024-11-28T12:00:00" FormaDePagoP="03" MonedaP="MXN" Monto="590900.00" TipoCambioP="1">
+        <pago20:DoctoRelacionado EquivalenciaDR="1" Folio="20059" IdDocumento="2121781C-C3FA-4B8A-9BC1-6CAE8B1D16DA" ImpPagado="590900.00" ImpSaldoAnt="590900.00" ImpSaldoInsoluto="0.00" MonedaDR="MXN" NumParcialidad="1" ObjetoImpDR="02" Serie="FN">
+          <pago20:ImpuestosDR>
+            <pago20:TrasladosDR>
+              <pago20:TrasladoDR BaseDR="509396.55" ImporteDR="81503.45" ImpuestoDR="002" TasaOCuotaDR="0.160000" TipoFactorDR="Tasa" />
+            </pago20:TrasladosDR>
+          </pago20:ImpuestosDR>
+        </pago20:DoctoRelacionado>
+        <pago20:ImpuestosP>
+          <pago20:TrasladosP>
+            <pago20:TrasladoP BaseP="509396.55" ImporteP="81503.45" ImpuestoP="002" TasaOCuotaP="0.160000" TipoFactorP="Tasa" />
+          </pago20:TrasladosP>
+        </pago20:ImpuestosP>
+      </pago20:Pago>
+    </pago20:Pagos>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2024-11-28T13:41:59" NoCertificadoSAT="00001000000516053874" RfcProvCertif="FCG840618N51" SelloCFD="hlpY6zKx188XCsLO57uLN8hE2Vbq8m6FaTPMiAaCqX3vMhiccRhkguv/EcZ3YayGhpTBI+uvx/A9xwMKImERYmKfJjyg8YwVM8jNO7qWhwFShiHqe25a6APBfk670DJGHUS4VmbYk/FdDFHhABsmTto8bkXAxQ0jQwp9QuYcpz++b0BjvS1wEUvocdRV91HpN9scduPskxj7ESOrb6MgQ9SJDHgelXSCaHfj8VyKCZ2vXC9YCB2swV051Cl9kNZGJsZQnf2u3MCjLo4SAwQqzJpRxQo/B/ZBPKN2OEHAi3qKE06Ri7H5tVhkf0/atqh8/lwOeDU+KmLtmwbtreQPTg==" SelloSAT="X6Lv6WlC90c7u6njbksT4dDSqVmGQj5EWOB6bIBnNYaoj3fTGRnaBArBhqY3cjRRcKSiL3TKSpcuhx6WTTxsTffH7ld+9QZSy1wElJFEj3481WNIDIlU9j4i3IyGLbVdtX7qh25v8z4ViY9dwVjpevlthozzAjUB3DrDNMkj0UlpJJVngseQ1qOwHx3eN0oj3KMw/5UbWHjSxqGYMTD4MGIGAlJ8D5WyFgEt0XVYCDS1SR1zgcPZD/FpYZdfIc98oSKUYU4y1BoahDKuLwaKjf6FWGsFRGuJgWJDL10Uz3gq/qQ/APR/Z+W9ZJHtConDV8LK6kJPwBU7vAPaAf0XcQ==" UUID="F31596D2-8365-42CD-B46C-D6E031589381" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

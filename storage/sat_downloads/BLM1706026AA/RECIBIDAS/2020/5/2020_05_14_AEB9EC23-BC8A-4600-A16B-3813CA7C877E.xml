@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11" xmlns:implocal="http://www.sat.gob.mx/implocal" xmlns:pago10="http://www.sat.gob.mx/Pagos" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGQjCCBCqgAwIBAgIUMDAwMDEwMDAwMDA0MTE2MjcwOTYwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTgwNzI1MTUwODAwWhcNMjIwNzI1MTUwODAwWjCB4jEsMCoGA1UEAxMjQ09NRVJDSUFMIENJVFkgRlJFU0tPIFMgREUgUkwgREUgQ1YxLDAqBgNVBCkTI0NPTUVSQ0lBTCBDSVRZIEZSRVNLTyBTIERFIFJMIERFIENWMSwwKgYDVQQKEyNDT01FUkNJQUwgQ0lUWSBGUkVTS08gUyBERSBSTCBERSBDVjElMCMGA1UELRMcQ0NGMTIxMTAxS1E0IC8gTUFQRTcyMDIyOFZEMjEeMBwGA1UEBRMVIC8gTUFQRTcyMDIyOEhERlJSTDA4MQ8wDQYDVQQLEwZGSVNDQUwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCRn6lP85o0As54sJ7yFdNBgCg9v3AYp+scKYxa4LOdGvrE4yMaY4OzmcmDI/zGLpvPXuyRzbI3KEWlrn4h1AltExoulEismGSFXizZ2AoGCsTOom8sR+h79FZF/OVcskgptDGs/5nMyAJk7p91v3R/Z2EBNrxo+sSs6Z1vSNbAvXwgYprk8W1GRcrpPyQe1CRpBIYGrX2ESBIj49QdhiUpIcA+DcICUuQUPZ1+T3UVjgvA+KTChnC/shHG/svP8TLWtfzqDyqyMmBciR6CCTDJRiUbgf1lmjo6fxyB+l+1aeCBLZSoxnNmrblDWwIDK5NOXHNrvz4E2vwJCl3yHRcLAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBCwUAA4ICAQCZTl2r1ZANClic2PVMJ74qp7rwJpEPX3o4wLmDsWRhjbT/f2BTNOcwIZG1bPFWZfV3Jpdsdm/pBn5Ewze+ZijecBFI1grUzjwwgmui8jX/uulrEO+O/+M3tJ11XpKRiPFKRE4RG8dvIhBLlLzk7moEmiaOzsHwTZ4qBPM9bG1RDnzCwUS1aJyCTYkGfJfbc0dhXFPYB+CH0Dwd6KgQADFsr0ZvKmwRqBAc0CrsG00V/QakcrsrGazPqBD7kHYlS/YmWqoNKOSdbtZtC2RAW+0+TGrFl/5qdwsTN6DuNNELX/vu9LjoN8T8FMi1ZIaMEk/0SYCBPNWzLh/tANEvV1f//k3l7+J2eDL5vwLKf5LgCJif3qgGB47DGELCnWO/vJUK1OESJXgVOAlRDMrFvSr2UCe9MmQRHVmrwFRWkwdzgP437e6eIYpu5q67n4nSuV7fzS32biOJ+fNQHB6jRQjY/BlYR5I+pZg4P6mjYHUAq4OiTSzfr6YB+7kX4/jpKtH7DIzJxoRSTJH1wAgMS6uja0sDWzI0n7J2lYeiIroJwsj7GJqT2kYtrQ/JZB/y2QSRH1ja9RPsh5s7f0k0ETcwT/+wxtC5TSZvGy9p+ZOvLtkYVZ9XoVsSXtk1aoT9NBFM0VjvWie80hpd+vVGy/i6L9LeFv+b7ox3mObUTKmeUA==" Descuento="0.00" Fecha="2020-05-14T12:16:40" Folio="10395393" FormaPago="04" LugarExpedicion="06600" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000411627096" Sello="RpybqWdJxcYkAtm+Kraz9gVZWATf+44/N/bLmMuyYAY84O5Ovrk+Kx85bnc1/SQzsBnBL7t8ioT30pNCdDY1TUJv6PRT1CUGafhGIZhuavTZ/JxaF+G537WvT7fHBkPZ2VJb0dLsfJgF9wuvEqekvZsuh6ieX5/nPpYhYg9gxLE5g+km33xmfVe+PetRdrB2sc98nvyknOP3A2XAkfmjdVILK/yvyMRz9gMrmYuodZ0CGv81/MLCy6Dy5WAjwp0C9+noT6Hc2vlNxn/5Hj8/3lEldoOM2Cqj7agtK/L/5/xF728udGTo2hQWQ0iMjIyb47SVGxbhOzIOEBWwG9JeJg==" Serie="C" SubTotal="743.27" TipoCambio="1" TipoDeComprobante="I" Total="1085.30" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/implocal http://www.sat.gob.mx/sitio_internet/cfd/implocal/implocal.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd http://www.sat.gob.mx/Pagos http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos10.xsd http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd">
+<cfdi:Emisor Nombre="COMERCIAL CITY FRESKO S DE RL DE CV" RegimenFiscal="601" Rfc="CCF121101KQ4" />
+<cfdi:Receptor Nombre="BOT LEASE MEXICO" Rfc="BLM1706026AA" UsoCFDI="G03" />
+<cfdi:Conceptos>
+<cfdi:Concepto Cantidad="1" ClaveProdServ="50202203" ClaveUnidad="H87" Descripcion="VINO SANTO TOMAS 750 ML." Descuento="0.00" Importe="254.872564" NoIdentificacion="7501014900247" Unidad="pza" ValorUnitario="254.872564">
+<cfdi:Impuestos>
+<cfdi:Traslados>
+<cfdi:Traslado Base="254.872564" Importe="67.541229" Impuesto="003" TasaOCuota="0.265000" TipoFactor="Tasa" />
+<cfdi:Traslado Base="322.413793" Importe="51.586207" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+</cfdi:Concepto>
+<cfdi:Concepto Cantidad="1" ClaveProdServ="50202205" ClaveUnidad="H87" Descripcion="CARTA FREIXENET 1 PZA" Descuento="0.00" Importe="282.813139" NoIdentificacion="8410036002015" Unidad="pza" ValorUnitario="282.813139">
+<cfdi:Impuestos>
+<cfdi:Traslados>
+<cfdi:Traslado Base="282.813139" Importe="74.945482" Impuesto="003" TasaOCuota="0.265000" TipoFactor="Tasa" />
+<cfdi:Traslado Base="357.758621" Importe="57.241379" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+</cfdi:Concepto>
+<cfdi:Concepto Cantidad="1" ClaveProdServ="50202203" ClaveUnidad="H87" Descripcion="VINO CASILLERO DEL DIABLO" Descuento="0.00" Importe="188.087774" NoIdentificacion="7804320561431" Unidad="pza" ValorUnitario="188.087774">
+<cfdi:Impuestos>
+<cfdi:Traslados>
+<cfdi:Traslado Base="188.087774" Importe="49.84326" Impuesto="003" TasaOCuota="0.265000" TipoFactor="Tasa" />
+<cfdi:Traslado Base="237.931034" Importe="38.068966" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+</cfdi:Concepto>
+<cfdi:Concepto Cantidad="1" ClaveProdServ="52151504" ClaveUnidad="H87" Descripcion="VASO GOLDEN HILLS 50 PZA" Descuento="0.00" Importe="17.50" NoIdentificacion="7501010756589" Unidad="pza" ValorUnitario="17.50">
+<cfdi:Impuestos>
+<cfdi:Traslados>
+<cfdi:Traslado Base="17.50" Importe="2.80" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+</cfdi:Concepto>
+</cfdi:Conceptos>
+<cfdi:Impuestos TotalImpuestosTrasladados="342.03">
+<cfdi:Traslados>
+<cfdi:Traslado Importe="149.696552" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+<cfdi:Traslado Importe="192.329971" Impuesto="003" TasaOCuota="0.265000" TipoFactor="Tasa" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="AEB9EC23-BC8A-4600-A16B-3813CA7C877E" FechaTimbrado="2020-05-14T12:17:12" SelloCFD="RpybqWdJxcYkAtm+Kraz9gVZWATf+44/N/bLmMuyYAY84O5Ovrk+Kx85bnc1/SQzsBnBL7t8ioT30pNCdDY1TUJv6PRT1CUGafhGIZhuavTZ/JxaF+G537WvT7fHBkPZ2VJb0dLsfJgF9wuvEqekvZsuh6ieX5/nPpYhYg9gxLE5g+km33xmfVe+PetRdrB2sc98nvyknOP3A2XAkfmjdVILK/yvyMRz9gMrmYuodZ0CGv81/MLCy6Dy5WAjwp0C9+noT6Hc2vlNxn/5Hj8/3lEldoOM2Cqj7agtK/L/5/xF728udGTo2hQWQ0iMjIyb47SVGxbhOzIOEBWwG9JeJg==" NoCertificadoSAT="00001000000404477432" SelloSAT="H49kmXcAWXFswARSIOQclzjnf2iiAmhcgMv+D8zIGnLPLqOLDr4s8dnBUw23kAokZtrHFSFQ14iVJWq+vyG9kIdbg6OmJ0tW957/C1gJm1hiSoksR1CxPXshgiIHbAl3raP6BeUgUWtXLig0slMOeALjefCKZVxurcd6uPKTs51hU94DIKghZZrFVGtLIdU1Q7p+3ksHyIwHdk2ENqZlTp61+Uc3GBhxJ5cE6ZbkEmCMWW+/TPUbzt7aRWUCSCckSzi4bu4A4gEX/u2PByuM1Nkshn1BRunqepacmwe+Ovj1L71qoIkh4555F2PHcKh5zm2COlHPLgMpb9KitGivyw==" RfcProvCertif="EME000602QR9" /></cfdi:Complemento></cfdi:Comprobante>

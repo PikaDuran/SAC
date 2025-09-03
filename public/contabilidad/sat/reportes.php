@@ -42,7 +42,7 @@ checkAuth(['admin', 'contabilidad']);
                         <div class="card-icon"><span>📄</span></div>
                         <h2>Buscar por Folio Fiscal</h2>
                     </div>
-                    <div class="report-card">
+                    <div class="report-card" id="reportes-especiales-card">
                         <div class="card-icon"><span>✨</span></div>
                         <h2>Reportes especiales</h2>
                     </div>
@@ -96,6 +96,10 @@ checkAuth(['admin', 'contabilidad']);
     <script>
         document.getElementById('rfc-botl-card').addEventListener('click', function() {
             window.location.href = '/SAC/public/dashboard/reportes_rfc_bolt.php';
+        });
+
+        document.getElementById('reportes-especiales-card').addEventListener('click', function() {
+            window.location.href = 'reportes_especiales.php';
         });
     </script>
 </body>

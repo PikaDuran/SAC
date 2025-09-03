@@ -1,0 +1,333 @@
+{
+    "fecha_analisis": "2025-08-27 00:39:52",
+    "estadisticas": {
+        "total_campos": 387,
+        "total_xmls_procesados": 31573,
+        "cfdi_33_emitidos": 21273,
+        "cfdi_33_recibidos": 10300,
+        "cfdi_40_encontrados": 0
+    },
+    "estructura_bd": {
+        "tablas_principales": {
+            "TABLA_PRINCIPAL_CFDI": {
+                "descripcion": "Campos principales del comprobante CFDI",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "uuid": "VARCHAR(36) UNIQUE NOT NULL",
+                    "version": "VARCHAR(10) NOT NULL",
+                    "tipo_documento": "ENUM(\"EMITIDO\", \"RECIBIDO\") NOT NULL",
+                    "fecha": "DATETIME NOT NULL",
+                    "folio": "VARCHAR(20)",
+                    "serie": "VARCHAR(25)",
+                    "tipo_de_comprobante": "VARCHAR(1) NOT NULL",
+                    "lugar_expedicion": "VARCHAR(5) NOT NULL",
+                    "metodo_pago": "VARCHAR(3)",
+                    "forma_pago": "VARCHAR(2)",
+                    "moneda": "VARCHAR(3) DEFAULT \"MXN\"",
+                    "tipo_cambio": "DECIMAL(10,6)",
+                    "subtotal": "DECIMAL(18,6) NOT NULL",
+                    "descuento": "DECIMAL(18,6)",
+                    "total": "DECIMAL(18,6) NOT NULL",
+                    "no_certificado": "VARCHAR(20)",
+                    "certificado": "TEXT",
+                    "sello": "TEXT",
+                    "condiciones_de_pago": "TEXT",
+                    "exportacion": "VARCHAR(2)",
+                    "schema_location": "TEXT"
+                }
+            },
+            "TABLA_EMISOR": {
+                "descripcion": "Datos del emisor del CFDI",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "rfc": "VARCHAR(13) NOT NULL",
+                    "nombre": "VARCHAR(254)",
+                    "regimen_fiscal": "VARCHAR(3) NOT NULL"
+                }
+            },
+            "TABLA_RECEPTOR": {
+                "descripcion": "Datos del receptor del CFDI",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "rfc": "VARCHAR(13) NOT NULL",
+                    "nombre": "VARCHAR(254)",
+                    "domicilio_fiscal_receptor": "VARCHAR(5)",
+                    "regimen_fiscal_receptor": "VARCHAR(3)",
+                    "uso_cfdi": "VARCHAR(3) NOT NULL"
+                }
+            },
+            "TABLA_CONCEPTOS": {
+                "descripcion": "Conceptos\/productos del CFDI",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "numero_concepto": "INT NOT NULL",
+                    "cantidad": "DECIMAL(18,6) NOT NULL",
+                    "clave_unidad": "VARCHAR(3) NOT NULL",
+                    "unidad": "VARCHAR(20)",
+                    "clave_prod_serv": "VARCHAR(8) NOT NULL",
+                    "no_identificacion": "VARCHAR(100)",
+                    "descripcion": "TEXT NOT NULL",
+                    "valor_unitario": "DECIMAL(18,6) NOT NULL",
+                    "importe": "DECIMAL(18,6) NOT NULL",
+                    "descuento": "DECIMAL(18,6)",
+                    "objeto_imp": "VARCHAR(2)"
+                }
+            },
+            "TABLA_IMPUESTOS_TRASLADADOS": {
+                "descripcion": "Impuestos trasladados del CFDI",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "concepto_id": "INT",
+                    "base": "DECIMAL(18,6) NOT NULL",
+                    "impuesto": "VARCHAR(3) NOT NULL",
+                    "tipo_factor": "VARCHAR(8) NOT NULL",
+                    "tasa_o_cuota": "DECIMAL(8,6)",
+                    "importe": "DECIMAL(18,6)"
+                }
+            },
+            "TABLA_IMPUESTOS_RETENIDOS": {
+                "descripcion": "Impuestos retenidos del CFDI",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "concepto_id": "INT",
+                    "base": "DECIMAL(18,6) NOT NULL",
+                    "impuesto": "VARCHAR(3) NOT NULL",
+                    "tipo_factor": "VARCHAR(8) NOT NULL",
+                    "tasa_o_cuota": "DECIMAL(8,6)",
+                    "importe": "DECIMAL(18,6) NOT NULL"
+                }
+            },
+            "TABLA_CFDI_RELACIONADOS": {
+                "descripcion": "CFDIs relacionados",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "tipo_relacion": "VARCHAR(2) NOT NULL",
+                    "uuid_relacionado": "VARCHAR(36) NOT NULL"
+                }
+            },
+            "TABLA_ADDENDA": {
+                "descripcion": "Información adicional de addenda",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "tipo_addenda": "VARCHAR(50)",
+                    "contenido_xml": "LONGTEXT"
+                }
+            }
+        },
+        "complementos": {
+            "TIMBRE_FISCAL_DIGITAL": {
+                "tabla": "cfdi_timbre_fiscal_digital",
+                "descripcion": "Timbre Fiscal Digital - OBLIGATORIO en todos los CFDI",
+                "version": "1.1",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL UNIQUE",
+                    "version": "VARCHAR(5) NOT NULL",
+                    "uuid": "VARCHAR(36) NOT NULL UNIQUE",
+                    "fecha_timbrado": "DATETIME NOT NULL",
+                    "rfc_prov_certif": "VARCHAR(13) NOT NULL",
+                    "leyenda": "TEXT",
+                    "sello_cfd": "TEXT NOT NULL",
+                    "no_certificado_sat": "VARCHAR(20) NOT NULL",
+                    "sello_sat": "TEXT NOT NULL",
+                    "schema_location": "TEXT"
+                }
+            },
+            "COMPLEMENTO_PAGOS_V10": {
+                "tabla": "cfdi_complemento_pagos_v10",
+                "descripcion": "Complemento de Pagos versión 1.0 (CFDI 3.3)",
+                "version": "1.0",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "version": "VARCHAR(5) NOT NULL",
+                    "fecha_pago": "DATETIME NOT NULL",
+                    "forma_de_pago_p": "VARCHAR(2) NOT NULL",
+                    "moneda_p": "VARCHAR(3) NOT NULL",
+                    "monto": "DECIMAL(18,6) NOT NULL",
+                    "num_operacion": "VARCHAR(100)",
+                    "rfc_emisor_cta_ord": "VARCHAR(13)",
+                    "nom_banco_ord_ext": "VARCHAR(300)",
+                    "cta_ordenante": "VARCHAR(50)",
+                    "rfc_emisor_cta_ben": "VARCHAR(13)",
+                    "cta_beneficiario": "VARCHAR(50)",
+                    "tipo_cadena_pago": "VARCHAR(2)",
+                    "cert_pago": "TEXT",
+                    "cadena_pago": "TEXT",
+                    "sello_pago": "TEXT"
+                }
+            },
+            "COMPLEMENTO_PAGOS_V20": {
+                "tabla": "cfdi_complemento_pagos_v20",
+                "descripcion": "Complemento de Pagos versión 2.0 (CFDI 4.0)",
+                "version": "2.0",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "version": "VARCHAR(5) NOT NULL",
+                    "fecha_pago": "DATETIME NOT NULL",
+                    "forma_de_pago_p": "VARCHAR(2) NOT NULL",
+                    "moneda_p": "VARCHAR(3) NOT NULL",
+                    "tipo_cambio_p": "DECIMAL(10,6)",
+                    "monto": "DECIMAL(18,6) NOT NULL",
+                    "num_operacion": "VARCHAR(100)",
+                    "rfc_emisor_cta_ord": "VARCHAR(13)",
+                    "nom_banco_ord_ext": "VARCHAR(300)",
+                    "cta_ordenante": "VARCHAR(50)",
+                    "rfc_emisor_cta_ben": "VARCHAR(13)",
+                    "cta_beneficiario": "VARCHAR(50)",
+                    "monto_total_pagos": "DECIMAL(18,6)",
+                    "total_traslados_base_iva16": "DECIMAL(18,6)",
+                    "total_traslados_impuesto_iva16": "DECIMAL(18,6)"
+                }
+            },
+            "DOCUMENTOS_RELACIONADOS_PAGOS": {
+                "tabla": "cfdi_pagos_documentos_relacionados",
+                "descripcion": "Documentos relacionados en complemento de pagos",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "pago_id": "INT NOT NULL",
+                    "id_documento": "VARCHAR(36) NOT NULL",
+                    "serie": "VARCHAR(25)",
+                    "folio": "VARCHAR(40)",
+                    "moneda_dr": "VARCHAR(3) NOT NULL",
+                    "equivalencia_dr": "DECIMAL(10,6)",
+                    "num_parcialidad": "INT NOT NULL",
+                    "imp_saldo_ant": "DECIMAL(18,6) NOT NULL",
+                    "imp_pagado": "DECIMAL(18,6) NOT NULL",
+                    "imp_saldo_insoluto": "DECIMAL(18,6) NOT NULL",
+                    "objeto_imp_dr": "VARCHAR(2)"
+                }
+            },
+            "COMPLEMENTO_NOMINA": {
+                "tabla": "cfdi_complemento_nomina",
+                "descripcion": "Complemento de Nómina versión 1.2",
+                "version": "1.2",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "version": "VARCHAR(5) NOT NULL",
+                    "tipo_nomina": "VARCHAR(1) NOT NULL",
+                    "fecha_pago": "DATE NOT NULL",
+                    "fecha_inicial_pago": "DATE NOT NULL",
+                    "fecha_final_pago": "DATE NOT NULL",
+                    "num_dias_pagados": "DECIMAL(5,3) NOT NULL",
+                    "total_percepciones": "DECIMAL(18,6)",
+                    "total_deducciones": "DECIMAL(18,6)",
+                    "total_otros_pagos": "DECIMAL(18,6)",
+                    "registro_patronal": "VARCHAR(20)",
+                    "curp": "VARCHAR(18)",
+                    "num_seg_social": "VARCHAR(15)",
+                    "fecha_inicio_rel_laboral": "DATE",
+                    "antiguedad": "VARCHAR(5)",
+                    "tipo_contrato": "VARCHAR(2)",
+                    "sindicalizado": "VARCHAR(2)",
+                    "tipo_jornada": "VARCHAR(2)",
+                    "tipo_regimen": "VARCHAR(2)",
+                    "num_empleado": "VARCHAR(15)",
+                    "departamento": "VARCHAR(100)",
+                    "puesto": "VARCHAR(100)",
+                    "riesgo_puesto": "VARCHAR(1)",
+                    "periodicidad_pago": "VARCHAR(2)",
+                    "banco": "VARCHAR(3)",
+                    "cuenta_bancaria": "VARCHAR(50)",
+                    "salario_base_cot_apor": "DECIMAL(18,6)",
+                    "salario_diario_integrado": "DECIMAL(18,6)",
+                    "clave_ent_fed": "VARCHAR(3)"
+                }
+            },
+            "COMPLEMENTO_IMPUESTOS_LOCALES": {
+                "tabla": "cfdi_complemento_impuestos_locales",
+                "descripcion": "Complemento de Impuestos Locales",
+                "version": "1.0",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "version": "VARCHAR(5) NOT NULL",
+                    "total_de_retenciones": "DECIMAL(18,6)",
+                    "total_de_traslados": "DECIMAL(18,6)"
+                }
+            },
+            "COMPLEMENTO_CARTA_PORTE": {
+                "tabla": "cfdi_complemento_carta_porte",
+                "descripcion": "Complemento de Carta Porte versión 2.0",
+                "version": "2.0",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "version": "VARCHAR(5) NOT NULL",
+                    "transp_internac": "VARCHAR(2)",
+                    "total_dist_rec": "DECIMAL(12,3)"
+                }
+            },
+            "OTROS_COMPLEMENTOS": {
+                "tabla": "cfdi_otros_complementos",
+                "descripcion": "Otros complementos menos comunes",
+                "campos": {
+                    "id": "INT AUTO_INCREMENT PRIMARY KEY",
+                    "cfdi_id": "INT NOT NULL",
+                    "tipo_complemento": "VARCHAR(50) NOT NULL",
+                    "version": "VARCHAR(10)",
+                    "contenido_xml": "LONGTEXT NOT NULL"
+                }
+            }
+        },
+        "tipos_pago": {
+            "FORMAS_DE_PAGO": {
+                "01": "Efectivo",
+                "02": "Cheque nominativo",
+                "03": "Transferencia electrónica de fondos",
+                "04": "Tarjeta de crédito",
+                "05": "Monedero electrónico",
+                "06": "Dinero electrónico",
+                "08": "Vales de despensa",
+                "12": "Dación en pago",
+                "13": "Pago por subrogación",
+                "14": "Pago por consignación",
+                "15": "Condonación",
+                "17": "Compensación",
+                "23": "Novación",
+                "24": "Confusión",
+                "25": "Remisión de deuda",
+                "26": "Prescripción o caducidad",
+                "27": "A satisfacción del acreedor",
+                "28": "Tarjeta de débito",
+                "29": "Tarjeta de servicios",
+                "30": "Aplicación de anticipos",
+                "31": "Intermediario pagos",
+                "99": "Por definir"
+            },
+            "METODOS_DE_PAGO": {
+                "PUE": "Pago en una sola exhibición",
+                "PPD": "Pago en parcialidades o diferido"
+            },
+            "MONEDAS_ENCONTRADAS": {
+                "MXN": "Peso Mexicano",
+                "USD": "Dólar estadounidense",
+                "EUR": "Euro",
+                "XXX": "Los códigos de moneda no son aplicables"
+            }
+        }
+    },
+    "recomendaciones": {
+        "motor_bd": "InnoDB",
+        "charset": "utf8mb4",
+        "collation": "utf8mb4_unicode_ci",
+        "indices_recomendados": {
+            "idx_cfdi_uuid": "UNIQUE (uuid)",
+            "idx_cfdi_fecha": "(fecha)",
+            "idx_cfdi_rfc_emisor": "(emisor.rfc)",
+            "idx_cfdi_rfc_receptor": "(receptor.rfc)",
+            "idx_cfdi_tipo": "(tipo_documento, tipo_de_comprobante)",
+            "idx_timbre_uuid": "UNIQUE (timbre.uuid)",
+            "idx_pagos_fecha": "(pagos.fecha_pago)"
+        }
+    }
+}
